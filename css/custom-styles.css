@@ -1,77 +1,95 @@
-* {
-  margin: 0;
+/*------------------Global CSS started-------------------*/
+*,
+*::after,
+*::before {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
+:root {
+  --primary_background-clr: #fafafa;
+  --secondary_background-clr: #f1f1f1;
+  --linear_gradient: linear-gradient(
+    90deg,
+    #e900d7 0%,
+    #7234ec 50%,
+    #0166ff 100%
+  );
+  --primary_clr: #1d5aff;
+  --btn_box_shadow: 4px 4px 0px 0px #000;
+  --solid_white_clr: #ffffff;
+  --global_btn_clr: #ffc73c;
+  --yellow_clr: #ffc73c;
+  --heading_black_clr: #000000;
+  --secondary_black_clr: #222;
+  --light_gray_para_clr: #757575;
+  --medium_light_gray_para_clr: #545454;
+  --dark_light_gray_para_clr: #5b5b5b;
+  --blog-category-blue: #0166ff;
+}
+@font-face {
+  font-family: Nexa;
+  src: url("/Typography/nexa/Nexa\ Light.otf"),
+    url("/Typography/nexa/NexaRegular.otf"),
+    url("/Typography/nexa/Nexa\ Bold.otf"), url("/Typography/nexa/NexaBold.otf");
+}
+
 body {
-  background: #fafafa;
- 
+  font-family: Nexa;
 }
-header {
-  background: #fafafa;
+.flex_row {
   display: flex;
-  align-items: center;
-  justify-content: center;
-
 }
-/* .container {
-  max-width: 1680px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  margin-inline: 4rem;
-} */
-.container .navBar ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 5rem;
-  list-style: none;
-}
-.container .navBar li a {
-  color: #111;
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 400;
-}
-.container .navBar li a:hover {
-  color: blue;
-}
-
-.container .icons {
-  display: flex;
-  align-items: center;
-  gap: 17px;
-}
-.container .icons a {
-  color: #111;
-}
-.container .icons a:hover {
-  color: blue;
-}
-
-.container button {
-  height: 3.625rem;
-  width: 13.25rem;
-  border: none;
-  outline: none;
-  background: #ffc73c;
-  color: #000;
-  font-size: 1rem;
+h1 {
+  font-size: 4rem;
   font-weight: 700;
-  letter-spacing: 0.01em;
-  box-shadow: 4px 4px 0px 0px #000;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 0;
-  transition: all 0.3s ease-in-out;
-  border: 1px solid #000;
+  line-height: 4.84rem;
 }
-
-.container button:hover {
-  box-shadow: 0px 0px 0px 0px #000;
+h2{
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.93rem;
+}
+h3{
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+h4{
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.965rem;
+}
+p{
+  color: var(--light_gray_para_clr);
+}
+button {
+  height: 60px;
+  width: 250px;
+  border: 1px solid #000000;
+  box-shadow: var(--btn_box_shadow);
+  background-color: var(--yellow_clr);
+  border-radius: 5px;
+  font-family: Nexa;
+  line-height: 17.76px;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all .3s ease-in-out;
+}
+button:hover {
+  box-shadow: none;
   transform: translate(4px, 4px);
 }
+.card_border_style{
+  border-radius: 30px;
+  box-shadow: var(--btn_box_shadow);
+}
+.main-section {
+  min-height: 766.698px;
+}
+.container {
+  max-width: 1678px;
+  margin-inline: auto;
+  background-color: var(--primary_clr);
+}
+/*------------------Global CSS ended-------------------*/
