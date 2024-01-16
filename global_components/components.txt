@@ -1,0 +1,10 @@
+    
+    = Radial_Gradient Global Components
+    <div class="radial"></div>
+    
+    = Buttons Global Components
+    <button class="btn_yellow global_btn"></div>
+    <button class="btn_blue global_btn"></div>
+
+    = Card Global Components
+     <div class="card"></div>
