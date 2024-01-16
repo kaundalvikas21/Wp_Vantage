@@ -6,15 +6,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 :root {
   --primary_background-clr: #fafafa;
   --secondary_background-clr: #f1f1f1;
-  --linear_gradient: linear-gradient(
-    90deg,
-    #e900d7 0%,
-    #7234ec 50%,
-    #0166ff 100%
-  );
+  --linear_gradient: linear-gradient(90deg,
+      #e900d7 0%,
+      #7234ec 50%,
+      #0166ff 100%);
   --primary_clr: #1d5aff;
   --btn_box_shadow: 4px 4px 0px 0px #000;
   --solid_white_clr: #ffffff;
@@ -27,6 +26,7 @@
   --dark_light_gray_para_clr: #5b5b5b;
   --blog-category-blue: #0166ff;
 }
+
 @font-face {
   font-family: Nexa;
   src: url("/Typography/nexa/Nexa\ Light.otf"),
@@ -37,32 +37,43 @@
 body {
   font-family: Nexa;
 }
+
 .flex_row {
   display: flex;
 }
+
+.grid_row {
+  display: grid;
+}
+
 h1 {
   font-size: 4rem;
   font-weight: 700;
   line-height: 4.84rem;
 }
-h2{
+
+h2 {
   font-size: 3rem;
   font-weight: 700;
   line-height: 3.93rem;
 }
-h3{
+
+h3 {
   font-size: 2rem;
   line-height: 2rem;
   font-weight: 700;
 }
-h4{
+
+h4 {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.965rem;
 }
-p{
+
+p {
   color: var(--light_gray_para_clr);
 }
+
 button {
   height: 60px;
   width: 250px;
@@ -71,20 +82,461 @@ button {
   background-color: var(--primary_clr);
   border-radius: 10px;
 }
+
 button:hover {
   box-shadow: none;
   transform: translate(4px, 4px);
 }
-.card_border_style{
+
+.card_border_style {
   border-radius: 30px;
   box-shadow: var(--btn_box_shadow);
 }
+
 .main-section {
   min-height: 766.698px;
 }
+
 .container {
   max-width: 1678px;
   margin-inline: auto;
-  background-color: var(--primary_clr);
 }
+
 /*------------------Global CSS ended-------------------*/
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< OUR CUSTOM CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*------------------- Header CSS Start -------------------*/
+.header .container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+}
+
+.l-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 55%;
+}
+
+.r-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.header .container .l-container .logo {
+  width: 3.3125rem;
+  height: 1.625rem;
+}
+
+/*<<<<<<<<<< Start Custom CSS NavBar >>>>>>>>>>*/
+.header .container .l-container .navBar ul {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.75rem;
+  list-style: none;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03rem;
+  line-height: 1.11rem;
+}
+
+.header .container .l-container .navBar ul a {
+  text-decoration: none;
+  color: var(--heading_black_clr);
+  cursor: pointer;
+}
+
+.header .container .l-container .navBar ul li:hover a {
+  color: var(--primary_clr);
+}
+
+.header .container .l-container .navBar ul li>a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3125rem;
+}
+
+.header .container .l-container .navBar ul li {
+  padding: 2rem 0;
+  cursor: pointer;
+}
+
+.header .container .l-container .navBar ul li a>svg {
+  width: 0.6875rem;
+  height: 0.34375rem;
+  color: var(--heading_black_clr);
+}
+
+.header .container .l-container .navBar ul li:hover a>svg {
+  transform: rotate(180deg);
+}
+
+.header .container .l-container .navBar ul li:hover a>svg path {
+  stroke: var(--primary_clr);
+}
+
+/*<<<<<<<<<< End Custom CSS NavBar >>>>>>>>>>*/
+
+/*<<<<<<<<<< Start Custom CSS ICONS >>>>>>>>>>*/
+.header .container .r-container .icons {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.0625rem;
+}
+
+.header .container .r-container .icons svg {
+  color: var(--heading_black_clr);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.header .container .r-container .icons>.user:hover svg path {
+  fill: var(--primary_clr);
+}
+
+.header .container .r-container .icons>.cart:hover svg path {
+  stroke: var(--primary_clr);
+}
+
+/*<<<<<<<<<< End Custom CSS ICONS >>>>>>>>>>*/
+
+/*<<<<<<<<<< Start Button Custom CSS >>>>>>>>>>*/
+
+.header .container .r-container button {
+  width: 13.25rem;
+  height: 3.625rem;
+  background-color: var(--global_btn_clr);
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #000;
+  border-radius: 0.3125rem;
+}
+
+.header .container .r-container button span {
+  text-align: center;
+  font-size: 1rem;
+  font-family: Nexa;
+  font-weight: 700;
+}
+
+.header .container .r-container button svg {
+  width: 1.3rem;
+  height: 1.3rem;
+  position: absolute;
+  margin-left: 0.2rem;
+  text-align: center;
+}
+
+/*<<<<<<<<<<<<<End Button custom CSS >>>>>>>>>>>>>>*/
+
+/*<<<<<<<<<<<<<< Drop down custom css start (FOR Service nav menu) >>>>>>>>>>>*/
+.header .container .navBar ul li .drop_down_menu {
+  position: absolute;
+  width: 93%;
+  background: var(--solid_white_clr);
+  left: 4%;
+  top: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  border: 3px solid var(--primary_clr);
+  overflow: hidden;
+}
+
+.header .container .navBar ul li:hover .drop_down_menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.header .container .navBar ul li .drop_down_menu .menu_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 4rem;
+}
+
+.header .container .navBar ul li .drop_down_menu .menu_container .column:nth-of-type(1) {
+  flex: 0.5;
+}
+
+.header .container .navBar ul li .drop_down_menu .menu_container .column:nth-of-type(2) {
+  flex: 1;
+}
+
+.header .container .navBar ul li .drop_down_menu .menu_container .column:nth-of-type(2) .menu_links h3 {
+  color: var(--heading_black_clr);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.875rem;
+  margin-bottom: 1.8rem;
+  text-decoration-line: underline;
+  text-decoration-skip-ink: none;
+}
+
+.header .container .navBar ul li .drop_down_menu .menu_container .column:nth-of-type(2) .menu_links a {
+  color: var(--heading_black_clr);
+  font-size: 1.375rem;
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+  margin-bottom: 1.25rem;
+}
+
+.header .container .navBar ul li .drop_down_menu .menu_container .column:nth-of-type(2) .menu_links a:hover {
+  color: var(--primary_clr);
+}
+
+.header .container .navBar ul li .drop_down_menu .menu_container .column:nth-of-type(2) {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+/* star pattern positions */
+.header .container .drop_down_menu .menu_container .star_pattern {
+  position: absolute;
+}
+
+.header .container .drop_down_menu .menu_container .l_size_stars_1 {
+  top: -30px;
+  left: -20px;
+}
+
+.header .container .drop_down_menu .menu_container .l_size_stars_2 {
+  bottom: 48px;
+  right: 223px;
+}
+
+.header .container .drop_down_menu .menu_container .m_size_stars {
+  bottom: 60px;
+  left: 54px;
+}
+
+.header .container .drop_down_menu .menu_container .s_size_stars {
+  top: 57px;
+  right: 115px;
+}
+
+.header .container .drop_down_menu .menu_container .sun_shape {
+  top: 334px;
+  right: 390px;
+}
+
+/*<<<<<<<<<<<<<< Drop down custom css start >>>>>>>>>>>*/
+
+/*------------------- Header CSS End -------------------*/
+
+/* ----------------start TESTIMONIAL SECTION (Customer experience) ------------------ */
+
+.testimonial_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+/* changes height of container or testimonial b/w */
+.testimonial_container .testimonial {
+  width: 1350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+.upper-content{
+  display: flex;
+
+}
+
+.l-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+  align-items: center;
+  margin: 2rem;
+  padding-inline: 2rem;
+  position: relative;
+}
+/* star svg */
+.l-content .l-content-star{
+  position: absolute;
+    top: 267px;
+    left: 25px;
+}
+.testimonial_container h1 {
+  text-align: center;
+  display: flex;
+  gap: 0.5rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.93rem;
+  margin: 6.25rem;
+
+}
+
+.testimonial_container h1>span {
+  background-color: var(--primary_clr);
+  color: var(--solid_white_clr);
+  padding-inline: 4px;
+  transform: rotate(-0.45deg);
+
+}
+
+.testimonial_container .testimonial .l-content h3 {
+  color: var(--heading_black_clr);
+  text-align: center;
+  font-family: Nexa;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 131%;
+}
+
+.testimonial_container .testimonial .l-content h3>span {
+  background-color: var(--primary_clr);
+  color: var(--solid_white_clr);
+  padding-inline: 4px;
+  transform: rotate(-0.45deg);
+}
+
+.testimonial_container .testimonial .l-content p {
+  color: #545454;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.testimonial_container .testimonial .l-content span {
+  color: var(--heading_black_clr);
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Right content testimonial */
+.r-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+  align-items: center;
+  margin: 2rem;
+  padding-inline: 2rem;
+  position: relative;
+  
+}
+/* star svg */
+.r-content .r-content-star{
+  position: absolute;
+  top: 130px;
+  right: -138px;
+
+}
+
+.testimonial_container .testimonial .r-content h3 {
+  color: var(--heading_black_clr);
+  text-align: center;
+  font-family: Nexa;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 131%;
+}
+
+.testimonial_container .testimonial .r-content h3>span {
+  background-color: var(--primary_clr);
+  color: var(--solid_white_clr);
+  padding-inline: 4px;
+  transform: rotate(-0.45deg);
+}
+
+.testimonial_container .testimonial .r-content p {
+  color: #545454;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.testimonial_container .testimonial .r-content span {
+  color: var(--heading_black_clr);
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* Lower content CSS Start */
+.testimonial_container .lower_content{
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  padding-inline: 2rem;
+  position: relative;
+  
+}
+.lower_content .r-content-sun{
+  position: absolute;
+  top: -86px;
+  left: 643px;
+}
+.testimonial_container .lower_content h3{
+  color: var(--heading_black_clr);
+  text-align: center;
+  font-family: Nexa;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 131%;
+}
+.testimonial_container .lower_content h3 span{
+  background-color: var(--primary_clr);
+  color: var(--solid_white_clr);
+  padding-inline: 4px;
+  transform: rotate(-0.45deg);
+}
+
+.testimonial_container .lower_content p{
+  color: #545454;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.testimonial_container .lower_content span{
+  color: var(--heading_black_clr);
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+
+/* ----------------End TESTIMONIAL SECTION (Customer experience) ------------------ */
