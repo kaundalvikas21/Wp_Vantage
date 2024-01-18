@@ -14,6 +14,7 @@
       #e900d7 0%,
       #7234ec 50%,
       #0166ff 100%);
+  --radial_gradient: #7234ec, #e900d700;
   --primary_clr: #1d5aff;
   --btn_box_shadow: 4px 4px 0px 0px #000;
   --solid_white_clr: #ffffff;
@@ -27,8 +28,9 @@
   --blog-category-blue: #0166ff;
 }
 
+
 @font-face {
-  font-family: Nexa;
+  font-family: NexaBold;
   src: url("/Typography/nexa/Nexa\ Light.otf"),
     url("/Typography/nexa/NexaRegular.otf"),
     url("/Typography/nexa/Nexa\ Bold.otf"),
@@ -37,12 +39,28 @@
 
 
 body {
-  font-family: Nexa;
+  font-family: NexaBold;
+  overflow-x: hidden;
+  background-color: var(--primary_background-clr);
+}
+
+section {
+  margin-bottom: 9.375rem;
 }
 
 .flex_row {
   display: flex;
 }
+
+.grid_row {
+  display: grid;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
 h1 {
   font-size: 4rem;
   font-weight: 700;
@@ -65,37 +83,53 @@ h4 {
 }
 p {
   color: var(--light_gray_para_clr);
+  line-height: 111%;
 }
-
-button {
-  height: 60px;
-  width: 250px;
+ul{
+  list-style: none;
+}
+.btn_yellow {
+  background-color: var(--global_btn_clr);
+}
+.btn_blue {
+  background-color: var(--primary_clr);
+}
+.global_btn {
   border: 1px solid #fafafa;
   box-shadow: var(--btn_box_shadow);
   background-color: var(--primary_clr);
   border-radius: 5px;
-  cursor: pointer;
-  z-index: 999;
+  
 }
-
 button:hover {
   box-shadow: none;
   transform: translate(4px, 4px);
 }
-
-.card_border_style {
+.card{
   border-radius: 30px;
   box-shadow: var(--btn_box_shadow);
 }
-
 .main-section {
   min-height: 766.698px;
+  padding: 9.375rem 9.1875rem;
 }
-
 .container {
   max-width: 1678px;
   margin-inline: auto;
-  background-color: var(--primary_clr);
+}
+.radial {
+  width: 137.125rem;
+  height: 82.4375rem;
+  background: radial-gradient(101.92% 50% at 50% 50%,
+      rgba(114, 52, 236, 0.5) 0%,
+      rgba(233, 0, 215, 0) 51.73%);
+}
+input,
+textarea {
+  border-radius: 0.3125rem;
+  border: 1px solid #000;
+  box-shadow: var(--btn_box_shadow);
+  background-color: var(--solid_white_clr);
 }
 
 /*------------------Global CSS ended-------------------*/
