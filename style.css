@@ -3,23 +3,23 @@
     position: relative;
 }
 
-.homepage_footer .main_container .mini_container .mini_sub_container .star_box .upper_buttons .footerbutton .center_content {
+.homepage_footer .center_content {
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-.homepage_footer .main_container .upper_containers .white_container {
+.homepage_footer  .white_container {
     width: 100%;
     height: 341px;
     margin-top: 90px;
 }
 
-.homepage_footer .main_container .upper_containers .black_container .links_container .footer_description h3 {
+.homepage_footer  .footer_description h3 {
     line-height: 40px;
 }
 
-.homepage_footer .main_container .upper_containers .black_container {
+.homepage_footer  .black_container {
     width: 100%;
     height: 1009px;
     background-color: black;
@@ -29,7 +29,7 @@
     align-items: center;
 }
 
-.homepage_footer .main_container .content_container {
+.homepage_footer  .content_container {
     position: absolute;
     width: 100%;
     height: 600px;
@@ -37,7 +37,7 @@
     justify-content: center;
 }
 
-.homepage_footer .main_container .content_container .mini_container {
+.homepage_footer .mini_container {
     border-radius: 10px;
     width: 100%;
     background-color: #1D5AFF;
@@ -47,7 +47,7 @@
     align-items: center;
 }
 
-.homepage_footer .main_container .mini_container .mini_sub_container .star_box .upper_buttons .footerbutton {
+.homepage_footer  .footerbutton {
     width: 212px;
     height: 58px;
     background-color: var(--global_btn_clr);
@@ -65,7 +65,7 @@
 
 }
 
-.homepage_footer .main_container .mini_container .mini_sub_container .star_box .upper_buttons .getstarted_color {
+.homepage_footer  .getstarted_color {
     width: 212px;
     height: 58px;
     color: white;
@@ -83,12 +83,12 @@
 
 }
 
-.homepage_footer .main_container .mini_container .mini_sub_container .star_box .upper_buttons {
+.homepage_footer  .upper_buttons {
     margin-top: 30px;
 
 }
 
-.homepage_footer .main_container .content_container .mini_container .mini_sub_container {
+.homepage_footer  .mini_sub_container {
     padding: 0px;
     width: 1143px;
     justify-content: center;
@@ -96,47 +96,47 @@
     color: var(--solid_white_clr);
 }
 
-.homepage_footer .main_container .upper_containers .black_container .links_container {
+.homepage_footer  .links_container {
     width: 100%;
     justify-content: space-between;
     margin-top: 300px;
     align-items: center;
 }
 
-.homepage_footer .main_container .upper_containers .black_container .links_container li {
+.homepage_footer .links_container li {
     font-size: 22px;
 }
 
-.homepage_footer .main_container .upper_containers .black_container .links_container li:hover {
+.homepage_footer  .links_container li:hover {
     color: var(--primary_clr);
     cursor: pointer;
 }
 
-.homepage_footer .main_container .upper_containers .black_container .links_container ul {
+.homepage_footer  .links_container ul {
     gap: 10px;
 }
 
-.homepage_footer .main_container .content_container .mini_container .mini_sub_container h4 {
+.homepage_footer  .mini_sub_container h4 {
     font-size: 20px;
     text-align: center;
     font-weight: 400;
 }
 
-.homepage_footer .main_container .content_container .mini_container .mini_sub_container {
+.homepage_footer  .mini_sub_container {
     gap: 30px;
 }
 
-.homepage_footer .main_container .upper_containers .black_container .links_container .footer_description {
+.homepage_footer  .footer_description {
     width: 325px;
     gap: 30px;
     color: var(--solid_white_clr);
 }
 
-.homepage_footer .main_container .upper_containers .black_container .links_container .footer_description span {
+.homepage_footer  .footer_description span {
     font-size: 24px;
 }
 
-.homepage_footer .main_container .upper_containers .black_container .links_container .footer_description ul,
+.homepage_footer .footer_description ul,
 li span {
     margin-bottom: 20px;
     color: var(--global_btn_clr);
@@ -144,73 +144,73 @@ li span {
     font-size: 36px;
 }
 
-.homepage_footer .main_container .upper_containers .black_container .links_container .footer_description ul,
+.homepage_footer  .footer_description ul,
 li {
     color: var(--solid_white_clr);
     font-weight: 700;
     font-size: 36px;
 }
 
-.homepage_footer .main_container .upper_containers .black_container .copywrite_container {
+.homepage_footer  .copywrite_container {
     border-top: gray solid 2px;
     width: 100%;
     justify-content: space-between;
     padding-top: 33px;
 }
 
-.homepage_footer .main_container .upper_containers .black_container .copywrite_container .copywrite_links {
+.homepage_footer  .copywrite_links {
     gap: 70px;
 }
 
-.homepage_footer .main_container .upper_containers .black_container .copywrite_container .copywrite_links li {
+.homepage_footer  .copywrite_links li {
     font-size: 15px;
 }
 
-.homepage_footer .main_container .upper_containers .black_container .copywrite_container .copywrite_text {
+.homepage_footer  .copywrite_text {
     width: 500px;
     color: var(--solid_white_clr);
 
 }
 
-.homepage_footer .main_container .upper_containers .black_container .links_container .footer_description h3 {
+.homepage_footer  .footer_description h3 {
     font-size: 36px;
     font-weight: 700;
 }
 
-.homepage_footer .main_container .upper_containers .black_container .social_media {
+.homepage_footer  .social_media {
     width: 100%;
 }
 
-.homepage_footer .main_container .upper_containers .black_container .social_media {
+.homepage_footer  .social_media {
     justify-content: start;
     align-items: center;
     gap: 15px;
 }
 
-.homepage_footer .main_container .upper_containers .black_container .social_media svg:hover path {
+.homepage_footer  .social_media svg:hover path {
     fill: var(--primary_clr);
     cursor: pointer;
 }
 
-.homepage_footer .main_container .upper_containers .black_container .social_media svg path {
+.homepage_footer  .social_media svg path {
     fill: rgb(255, 255, 255);
     cursor: pointer;
 }
 
-.homepage_footer .main_container .content_container .mini_container .mini_sub_container .star_box {
+.homepage_footer  .mini_sub_container .star_box {
     width: 89%;
     height: 600px;
     position: absolute;
     top: 0;
 }
 
-.homepage_footer .main_container .content_container .mini_container .mini_sub_container .star_box .image_first {
+.homepage_footer  .star_box .image_first {
     position: relative;
     left: 100px;
     top: 50px;
 }
 
-.homepage_footer .main_container .content_container .mini_container .mini_sub_container .star_box .image_second {
+.homepage_footer  .star_box .image_second {
     position: relative;
     left: 1347px;
     top: 74px;
@@ -218,7 +218,7 @@ li {
     height: 88px;
 }
 
-.homepage_footer .main_container .content_container .mini_container .mini_sub_container .star_box .image_third {
+.homepage_footer  .star_box .image_third {
     position: relative;
     left: 1206px;
     top: 240px;
@@ -226,7 +226,7 @@ li {
     height: 40px;
 }
 
-.homepage_footer .main_container .content_container .mini_container .mini_sub_container .star_box .image_forth {
+.homepage_footer  .star_box .image_forth {
     position: relative;
     left: 130px;
     top: 360px;
@@ -234,7 +234,7 @@ li {
     height: 43px;
 }
 
-.homepage_footer .main_container .content_container .mini_container .mini_sub_container .styling_text {
+.homepage_footer  .styling_text {
     background: #ffffff;
     color: #1D5AFF;
     transform: rotate(-0.50deg);
@@ -243,13 +243,13 @@ li {
     padding: 0 15px;
 }
 
-.homepage_footer .main_container .content_container .mini_container .mini_sub_container .container_max {
+.homepage_footer  .container_max {
     width: 100%;
     justify-content: center;
     align-items: center;
 }
 
-.homepage_footer .main_container .content_container .mini_container .mini_sub_container .container_max .mini_box_text {
+.homepage_footer .mini_box_text {
     font-size: 50px;
     text-align: center;
     font-weight: 700;
@@ -257,14 +257,14 @@ li {
     justify-content: center;
 }
 
-.homepage_footer .main_container .upper_containers .black_container .links_container .footer_description h3 span {
+.homepage_footer  h3 span {
     font-size: 36px;
     background-color: #1D5AFF;
     width: fit-content;
     padding: 2px 5px;
 }
 
-.homepage_footer .main_container .content_container .mini_container .mini_sub_container .star_box .upper_buttons {
+.homepage_footer .upper_buttons {
     position: relative;
     gap: 40px;
     top: 360px;
@@ -275,7 +275,7 @@ li {
 
 /* --------------------------------------blog-section-starts section9 ------------------------- */
 
-.homepage_section_10 .blogs_section .container_Blogs .styling_text2 {
+.homepage_section_10  .styling_text2 {
     background: #1D5AFF;
     color: #ffffff;
     transform: rotate(-0.40deg);
@@ -293,14 +293,14 @@ li {
     align-items: center;
 }
 
-.homepage_section_10 .blogs_section .container_Blogs {
+.homepage_section_10 .container_Blogs {
     width: 100%;
     height: 100vh;
     align-items: center;
     justify-content: space-around;
 }
 
-.homepage_section_10 .blogs_section .container_Blogs button {
+.homepage_section_10 .container_Blogs button {
     width: 212px;
     height: 58px;
     background-color: var(--global_btn_clr);
@@ -317,18 +317,18 @@ li {
     /* ----------------fontsize is not  is not added----------- */
 }
 
-.homepage_section_10 .blogs_section .container_Blogs h2 {
+.homepage_section_10  .container_Blogs h2 {
     color: #000000;
     font-weight: 700;
     font-size: 64px;
 }
 
-.homepage_section_10 .blogs_section .container_Blogs .card_container .blog_card .blog_image .responsive_image {
+.homepage_section_10  .blog_image .responsive_image {
     width: 100%;
     height: auto;
 }
 
-.homepage_section_10 .blogs_section .container_Blogs .card_container .blog_card {
+.homepage_section_10  .blog_card {
     width: 100%;
     height: auto;
     border: solid 2px #1D5AFF;
@@ -338,34 +338,34 @@ li {
     box-shadow: 9px 9px black;
 }
 
-.homepage_section_10 .blogs_section .container_Blogs .card_container .blog_card .blog_image {
+.homepage_section_10  .blog_image {
     position: relative;
     width: 100%;
 
 }
 
-.homepage_section_10 .blogs_section .container_Blogs .card_container .blog_card .blog_image img {
+.homepage_section_10 .blog_image img {
     object-fit: cover;
 }
 
-.homepage_section_10 .blogs_section .container_Blogs .card_container .blog_card .card_details .card_content span {
+.homepage_section_10  .card_content span {
     color: #ffffff;
     background: #1D5AFF;
     padding: 5px;
     width: fit-content;
 }
 
-.homepage_section_10 .blogs_section .container_Blogs .card_container .blog_card .card_details .card_content h4 {
+.homepage_section_10  .card_content h4 {
     font-size: 24px;
     color: #000000;
 }
 
-.homepage_section_10 .blogs_section .container_Blogs .card_container .blog_card .card_details .card_content {
+.homepage_section_10  .card_content {
     gap: 20px;
     margin-top: 30px;
 }
 
-.homepage_section_10 .blogs_section .container_Blogs .card_container .blog_card .card_details .blog_author_details {
+.homepage_section_10  .blog_author_details {
     width: 100%;
     height: 50px;
     margin-top: 30px;
@@ -374,28 +374,28 @@ li {
     color: #000000;
 }
 
-.homepage_section_10 .blogs_section .container_Blogs .card_container .blog_card .card_details {
+.homepage_section_10  .card_details {
     padding: 0px 20px;
 }
 
-.homepage_section_10 .blogs_section .container_Blogs .card_container .blog_card .card_details .blog_author_details .container_author {
+.homepage_section_10  .container_author {
     gap: 10px;
 }
 
-.homepage_section_10 .blogs_section .container_Blogs .card_container .blog_card .card_details .blog_author_details .container_author p {
+.homepage_section_10  .container_author p {
     font-size: 13px;
 }
 
-.homepage_section_10 .blogs_section .container_Blogs .card_container .blog_card .card_details .blog_author_details .read_post {
+.homepage_section_10  .read_post {
     color: #1D5AFF;
     font-weight: 700;
 }
 
-.homepage_section_10 .blogs_section .container_Blogs .card_container {
+.homepage_section_10 .card_container {
     gap: 25px;
 }
 
-.homepage_section_10 .blogs_section .container_Blogs h2 {
+.homepage_section_10  .container_Blogs h2 {
     gap: 10px;
 }
 /* --------------------------------------blog-section-starts section9 ends ------------------------- */
@@ -411,33 +411,33 @@ li {
     align-items: center;
 }
 
-.homepage_section_09 .faq_section .faq_container {
+.homepage_section_09  .faq_container {
     gap: 60px;
     height: auto;
     position: sticky;
 }
 
-.homepage_section_09 .faq_section .faq_container .faq_headings {
+.homepage_section_09  .faq_headings {
     flex: 1;
     gap: 10px;
     position: relative;
 }
 
-.homepage_section_09 .faq_section .faq_container .faq_questions {
+.homepage_section_09  .faq_questions {
     flex: 1;
     gap: 20px;
 }
 
-.homepage_section_09 .faq_section .faq_container .faq_headings p {
+.homepage_section_09  .faq_headings p {
     font-size: 18px;
     line-height: 24px;
 }
 
-.homepage_section_09 .faq_section .faq_container .faq_headings h2 {
+.homepage_section_09  .faq_headings h2 {
     font-weight: 900;
 }
 
-.homepage_section_09 .faq_section .faq_container .faq_questions .faq_button button {
+.homepage_section_09 .faq_button button {
     width: 212px;
     height: 58px;
     background-color: var(--global_btn_clr);
@@ -454,7 +454,7 @@ li {
     /* ----------------fontsize is not  is not added----------- */
 }
 
-.homepage_section_09 .faq_section .faq_container .faq_questions .questions_container {
+.homepage_section_09  .questions_container {
     background: #ffffff;
     width: 1224px;
     height: 71px;
@@ -468,7 +468,7 @@ li {
 
 }
 
-.homepage_section_09 .faq_section .faq_container .faq_questions .questions_container div p {
+.homepage_section_09  .questions_container div p {
     width: 800px;
     font-size: 18px;
     line-height: 24px;
@@ -484,22 +484,22 @@ li {
     padding-bottom: 20px;
 }
 
-.homepage_section_09 .faq_section .faq_container .faq_questions .questions_container div {
+.homepage_section_09  .questions_container div {
     font-size: 24px;
     font-weight: 700;
 }
 
-.homepage_section_09 .faq_section .faq_container .faq_questions .questions_container svg {
+.homepage_section_09  .questions_container svg {
     cursor: pointer;
 }
 
-.homepage_section_09 .faq_section .faq_container .faq_headings .image_faq_star {
+.homepage_section_09  .image_faq_star {
     position: absolute;
     left: 300px;
     top: 49px;
 }
 
-.homepage_section_09 .faq_section .faq_container .faq_headings .image_faq_star svg {
+.homepage_section_09 .image_faq_star svg {
     opacity: 10%;
 }
 /* -----------------------------------------faq_section_09 ends-------------------- */
@@ -519,34 +519,34 @@ li {
     margin-top: 150px;
 }
 
-.homepage_section_08 .services_section .textbox_service p {
+.homepage_section_08  .textbox_service p {
     width: 1078px;
     font-size: 18px;
 }
 
-.homepage_section_08 .services_section .textbox_service {
+.homepage_section_08  .textbox_service {
     gap: 30px;
     position: relative;
 }
 
-.homepage_section_08 .services_section .services_slider {
+.homepage_section_08 .services_slider {
     width: 100%;
     height: 408px;
-    gap: 36px;
+    gap: 3%;
     margin-top: 40px;
     justify-content: center;
     align-items: center;
     padding: 10px;
 }
 
-.homepage_section_08 .services_section .services_slider .slider_container {
-    gap: 76px;
+.homepage_section_08 .slider_container {
+    gap: 4%;
     justify-content: center;
     align-items: center;
 }
 
-.homepage_section_08 .services_section .services_slider .slider_container .slider_content {
-    width: 363px;
+.homepage_section_08 .slider_content {
+    width: 40%;
     height: auto;
     background: #1D5AFF;
     border-radius: 10px;
@@ -556,7 +556,7 @@ li {
     border: 2px solid white;
 }
 
-.homepage_section_08 .services_section .services_slider .slider_container .slider_content .slider_count {
+.homepage_section_08  .slider_count {
     width: 42px;
     height: 42px;
     background: #000;
@@ -566,48 +566,48 @@ li {
     color: white;
 }
 
-.homepage_section_08 .services_section .services_slider .slider_container .slider_content  .slider_count h3 {
+.homepage_section_08   .slider_count h3 {
     color: #ffffff;
     font-size: 25px;
 }
 
-.homepage_section_08 .services_section .services_slider .slider_container .slider_content .slider_content_details {
+.homepage_section_08  .slider_content_details {
     text-align: start;
     gap: 30px;
 }
 
-.homepage_section_08 .services_section .services_slider .slider_container .slider_content .slider_content_details h3 {
+.homepage_section_08  .slider_content_details h3 {
     text-align: start;
     gap: 30px;
     color: var(--solid_white_clr);
 }
 
-.homepage_section_08 .services_section .services_slider .slider_container .slider_content .slider_content_details p {
+.homepage_section_08 .slider_content_details p {
     color: #ffffff;
     line-height: 20px;
 }
 
-.homepage_section_08 .services_section .services_slider .slider_container .slider_content .slider_content_details .slider-rate {
-    width: 100%;
+.homepage_section_08 .slider_rate {
+    width: 100%;    
     justify-content: space-between;
     align-items: center;
 }
 
-.homepage_section_08 .services_section .services_slider .slider_container .slider_content .slider_content_details .slider-rate h3 {
+.homepage_section_08  .slider_rate h3 {
     color: var(--global_btn_clr);
 }
 
-.homepage_section_08 .services_section .textbox_service .service_stars {
+.homepage_section_08  .service_stars {
     position: absolute;
 }
 
-.homepage_section_08 .services_section .textbox_service .service_stars .star1services {
+.homepage_section_08  .star1services {
     position: relative;
     top: 127px;
     right: 273px;
 }
 
-.homepage_section_08 .services_section .textbox_service .service_stars .star2services {
+.homepage_section_08  .star2services {
     position: relative;
     top: 54px;
     left: 1045px;
