@@ -1,0 +1,163 @@
+/*------------ START WP MIGRATION SERVICE SECTION-3 (service card) ---------------*/
+.price_toggle {
+    width: 458px;
+    height: 82px;
+    border-radius: 100px;
+    border: solid 3px #1D5AFF;
+    box-shadow: 5px 5px #000;
+    padding: 0px 10px;
+    gap: 50px;
+}
+
+.toggle_inactive {
+    color: #1D5AFF;
+    font-family: Nexa;
+}
+
+.toggle_active {
+    width: 219px;
+    height: 66px;
+    background: #1D5AFF;
+    border-radius: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner_card_container p {
+    color: #000;
+}
+
+.inner_heading_container span {
+    font-size: 30px;
+}
+
+.inner_heading_container h3 {
+    line-height: 39.3px;
+    font-size: 40px;
+}
+
+.global_price_service_card .global_service_card_container {
+    gap: 6.16rem;
+    padding-block: 7.15rem;
+}
+
+.global_price_service_card .inner_bottom_container .inner_card_container {
+    width: 30%;
+    padding: 2.34rem 2.13rem;
+    align-items: center;
+    border: 3px solid var(--primary_clr);
+    box-shadow: none;
+}
+
+.global_price_service_card .inner_bottom_container {
+    justify-content: space-between;
+}
+
+.global_price_service_card .inner_bottom_container .inner_card_container h3 {
+    color: var(--heading_black_clr);
+    text-align: center;
+}
+
+.global_price_service_card .inner_bottom_container .inner_heading_price_container {
+    color: var(--primary_clr);
+    font-weight: 700;
+    text-align: center;
+    margin: 0.56rem 0 1.6rem;
+}
+
+.global_price_service_card .inner_bottom_container .inner_heading_price_container>span:nth-child(1) {
+    text-align: center;
+    font-size: 2.1875rem;
+    line-height: 131%;
+    /* 2.86563rem */
+
+}
+
+.global_price_service_card .inner_bottom_container .inner_heading_price_container>span:nth-child(2) {
+    font-size: 1.25rem;
+    line-height: 131%;
+}
+
+.global_price_service_card .inner_bottom_container .inner_card_container p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.global_price_service_card .global_service_card_container .inner_top_heading_content_column {
+    gap: 1.82rem;
+    text-align: center;
+}
+
+.global_price_service_card .inner_top_heading_content_column span {
+    background-color: var(--primary_clr);
+    color: var(--primary_background-clr);
+    padding-inline: 2px;
+    transform: rotate(-0.45deg);
+}
+
+.global_price_service_card .gglobal_service_card_container .inner_top_heading_content_column h5 {
+    color: var(--primary_clr);
+    font-style: normal;
+    line-height: 131%;
+    /* 1.47375rem */
+    letter-spacing: 0.03375rem;
+}
+
+.global_price_service_card .price_btn_content {
+    width: 13.25rem;
+    height: 3.625rem;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0.03rem;
+    margin: 1.20rem 0 1.60rem;
+}
+
+.global_price_service_card .left_bottom_keypoints {
+    gap: 1rem;
+}
+
+.global_price_service_card .keypoints_content {
+    gap: 1.63rem;
+    align-items: center;
+}
+
+.global_price_service_card .bottom_card_keypoints {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 131%;
+    gap: 1rem;
+}
+
+.global_price_service_card .bottom_card_keypoints .cross_text {
+    text-decoration-line: line-through;
+    color: #BDBDBD;
+    gap: 1.85rem;
+    margin-left: 0.5rem;
+}
+
+/* -- CUSTOM CSS MIDDLE & RIGHT CARD CONTAINER SECTION-3 (SERVICE CARD) --*/
+.global_price_service_card .bottom_card_keypoints .cross_text_line_remove,
+.global_price_service_card .bottom_card_keypoints .cross_text_line_remove_2 {
+    text-decoration-line: none;
+    color: var(--heading_black_clr);
+    gap: 1.63rem;
+    margin-left: 0;
+}
+
+.global_price_service_card .inner_bottom_container .Middle_card_container {
+    /* box-shadow: var(--btn_box_shadow); */
+}
+
+/* -- END MIDDLE CARD CONTAINER SECTION-3 (SERVICE CARD) --*/
+/*------------ END WP MIGRATION SERVICE SECTION-3 (service card) ---------------*/
+
+.circle_tick {
+    width: 20px;
+    height: 20px;
+    background: #1D5AFF;
+    border-radius: 50%;
+    box-shadow: 3px 1px#000;
+} 

@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="../../css/custom-styles.css" />
+    <link rel="stylesheet" href="../../components/component_header.css">
+    <link rel="stylesheet" href="../../components/mainFootercomponent.css">
+    <link rel="stylesheet" href="../../components/secure_checkout_component.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- start main container -->
+        <div class="container head_container flex_row">
+            <!-- start left container -->
+            <div class="l_container flex_row">
+                <div class="logo">
+                    <svg width="53" height="27" viewBox="0 0 53 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_687_9026)">
+                            <mask id="mask0_687_9026" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
+                                width="53" height="27">
+                                <path d="M53 0.5H0V26.5H53V0.5Z" fill="white" />
+                            </mask>
+                            <g mask="url(#mask0_687_9026)">
+                                <path
+                                    d="M37.5864 0.543788H16.9565V6.896H25.9309L10.9443 20.1478H6.47492V0.5H0V23.0115L3.55585 26.5H12.0453L14.4629 25.5907L31.1204 10.8588V23.0115L34.6762 26.5H49.4427L53 23.0115V0.5H46.5236V20.1478H37.5953L37.5864 0.543788Z"
+                                    fill="#1D5AFF" />
+                            </g>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_687_9026">
+                                <rect width="53" height="26" fill="white" transform="translate(0 0.5)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <!----------------- start Nav-bar ------------>
+                <div class="navBar">
+                    <ul class="nav_li flex_row">
+                        <li><a class="nav_li_a flex_row" href="#">About</a></li>
+                        <li>
+                            <a class="nav_li_a flex_row" id="services" href="#">Services
+                                <svg width="13" height="7" viewBox="0 0 13 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L6.5 6.5L12 1" stroke="black" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></a>
+                            <!--------header Drop-down Menu Start-------->
+                            <div class="card drop_down_menu card_border_style">
+                                <div class="menu_container flex_row">
+                                    <div class="column">
+                                        <img src="../../Assets/Header/Drop_down.png" alt="" />
+                                    </div>
+                                    <div class="column grid_row">
+                                        <div class="menu_links">
+                                            <h3>Fix</h3>
+                                            <a href="../wpemergency/wpemergency.html">WordPress <br />Emergency
+                                                Services</a>
+                                            <a href="../malwareRemoval/malwareRemoval.html">WordPress
+                                                Malware<br />Removal Services</a>
+                                            <a href="../demandSupport/wpdemandSupport.html">WordPress on<br />Demand
+                                                Support</a>
+                                        </div>
+                                        <div class="menu_links">
+                                            <h3>Optimization</h3>
+                                            <a href="../customwordpressdev/customdev.html">WordPress
+                                                <br />Development</a>
+                                            <a href="../wpmigrationservice/wpmigration.html">WordPress <br />Migration
+                                                Services</a>
+                                        </div>
+                                        <div class="menu_links">
+                                            <h3>Support</h3>
+                                            <a href="../demandSupport/wpdemandSupport.html"> WordPress on<br />Demand
+                                                Support </a>
+                                            <a href="../wpmaintainservices/maintainServices.html">WordPress
+                                                <br />Maintenance </a>
+                                            <a href="../wooComerceMaintain/wpmaintain.html">WooCommerce<br />Maintenance
+                                            </a>
+                                            <a href="../wordpressRetainer/Retainer.html">WordPress Retainer </a>
+                                        </div>
+                                        <div class="menu_links">
+                                            <h3>Security</h3>
+                                            <a href="../malwareRemoval/malwareRemoval.html">WordPress
+                                                Malware<br />Removal Services</a>
+                                            <a href="../wordpressSecurity/security.html">WordPress
+                                                Security<br />Services</a>
+                                        </div>
+                                        <div class="menu_links">
+                                            <h3>Development</h3>
+                                            <a href="../wpseoservice/seoservices.html">WordPress SEO<br />Services</a>
+                                            <a href="../wpoptimization/optimize.html">WordPress Speed<br />Optimization
+                                                <br />Services
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <!--header star patterns -->
+                                    <svg class="star_pattern l_size_stars_1" xmlns="http://www.w3.org/2000/svg"
+                                        width="98" height="96" viewBox="0 0 98 96" fill="none">
+                                        <g opacity="0.8">
+                                            <path
+                                                d="M49 0L49.8286 22.1973C50.3356 35.7776 61.3109 46.6686 74.9895 47.165L98 48L74.9895 48.835C61.3109 49.3314 50.3356 60.2224 49.8286 73.8027L49 96L48.1714 73.8027C47.6644 60.2224 36.6891 49.3314 23.0105 48.835L0 48L23.0105 47.165C36.6891 46.6686 47.6644 35.7776 48.1714 22.1973L49 0Z"
+                                                fill="black" />
+                                        </g>
+                                    </svg>
+                                    <svg class="star_pattern l_size_stars_2" xmlns="http://www.w3.org/2000/svg"
+                                        width="98" height="96" viewBox="0 0 98 96" fill="none">
+                                        <g opacity="0.8">
+                                            <path
+                                                d="M49 0L49.8286 22.1973C50.3356 35.7776 61.3109 46.6686 74.9895 47.165L98 48L74.9895 48.835C61.3109 49.3314 50.3356 60.2224 49.8286 73.8027L49 96L48.1714 73.8027C47.6644 60.2224 36.6891 49.3314 23.0105 48.835L0 48L23.0105 47.165C36.6891 46.6686 47.6644 35.7776 48.1714 22.1973L49 0Z"
+                                                fill="black" />
+                                        </g>
+                                    </svg>
+                                    <svg class="star_pattern m_size_stars" xmlns="http://www.w3.org/2000/svg" width="73"
+                                        height="71" viewBox="0 0 73 71" fill="none">
+                                        <g opacity="0.8">
+                                            <path
+                                                d="M36.5 71L37.1172 54.5832C37.4949 44.5395 45.6704 36.4847 55.8595 36.1175L73 35.5L55.8595 34.8824C45.6704 34.5153 37.4949 26.4605 37.1172 16.4168L36.5 0L35.8828 16.4168C35.5051 26.4605 27.3296 34.5153 17.1405 34.8824L0 35.5L17.1405 36.1175C27.3296 36.4847 35.5051 44.5395 35.8828 54.5832L36.5 71Z"
+                                                fill="black" />
+                                        </g>
+                                    </svg>
+
+                                    <svg class="star_pattern s_size_stars" xmlns="http://www.w3.org/2000/svg" width="41"
+                                        height="40" viewBox="0 0 41 40" fill="none">
+                                        <g opacity="0.8">
+                                            <path
+                                                d="M20.5 40L20.8467 30.7511C21.0588 25.0927 25.6505 20.5547 31.3732 20.3479L41 20L31.3732 19.6521C25.6505 19.4453 21.0588 14.9073 20.8467 9.24888L20.5 0L20.1533 9.24888C19.9412 14.9073 15.3495 19.4453 9.62685 19.6521L0 20L9.62684 20.3479C15.3495 20.5547 19.9412 25.0927 20.1533 30.7511L20.5 40Z"
+                                                fill="black" />
+                                        </g>
+                                    </svg>
+
+                                    <svg class="star_pattern sun_shape" xmlns="http://www.w3.org/2000/svg" width="121"
+                                        height="121" viewBox="0 0 121 121" fill="none">
+                                        <g opacity="0.1">
+                                            <path
+                                                d="M60.5 0L61.5231 27.9779C62.149 45.0946 75.7002 58.8219 92.5891 59.4476L121 60.5L92.5891 61.5524C75.7002 62.1781 62.149 75.9054 61.5231 93.0221L60.5 121L59.4769 93.0221C58.851 75.9054 45.2998 62.1781 28.4109 61.5524L0 60.5L28.4109 59.4476C45.2998 58.8219 58.851 45.0946 59.4769 27.9779L60.5 0Z"
+                                                fill="black" />
+                                            <path
+                                                d="M90.3467 8.10542L77.4303 32.8534C69.5281 47.9942 74.4916 66.7495 88.8092 75.8499L112.895 91.1587L87.7707 77.6728C72.8359 69.656 54.3281 74.677 45.3418 89.1834L30.6533 112.894L43.5697 88.1465C51.4719 73.0058 46.5084 54.2504 32.1908 45.1501L8.10546 29.8412L33.2293 43.3271C48.1641 51.3439 66.6719 46.3229 75.6582 31.8165L90.3467 8.10542Z"
+                                                fill="black" />
+                                            <path
+                                                d="M112.196 30.25L88.801 45.1369C74.4881 54.2447 69.534 73.0026 77.4438 88.1393L90.75 113.603L75.6452 89.1917C66.6662 74.6807 48.161 69.6501 33.2221 77.6591L8.80405 90.75L32.199 75.8631C46.5119 66.7553 51.466 47.9974 43.5562 32.8607L30.25 7.39743L45.3548 31.8083C54.3338 46.3193 72.839 51.3499 87.7779 43.3409L112.196 30.25Z"
+                                                fill="black" />
+                                        </g>
+                                    </svg>
+
+                                    <!--header END star pattern -->
+                                </div>
+                            </div>
+                            <!------------ header Drop-down Menu End------------>
+                        </li>
+                        <li><a class="nav_li_a flex_row" href="#">Pricing</a></li>
+                        <li><a class="nav_li_a flex_row" href="../Howitwork/howit_work.html">How it works</a></li>
+                        <li><a class="nav_li_a flex_row" href="#">Blog</a></li>
+                        <li><a class="nav_li_a flex_row" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <!----------------- end Nav-bar ------------>
+            </div>
+            <!-- end left container -->
+
+            <!-- start right container -->
+            <div class="r_container flex_row">
+                <div class="navIcons">
+                    <a href="#" class="user"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_867_7559)">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M16 14C17.2885 14.0001 18.5272 14.4975 19.4578 15.3887C20.3884 16.2798 20.9391 17.4958 20.995 18.783L21 19V20C21.0002 20.5046 20.8096 20.9906 20.4665 21.3605C20.1234 21.7305 19.6532 21.9572 19.15 21.995L19 22H5C4.49542 22.0002 4.00943 21.8096 3.63945 21.4665C3.26947 21.1234 3.04284 20.6532 3.005 20.15L3 20V19C3.00007 17.7115 3.49754 16.4728 4.38866 15.5422C5.27978 14.6116 6.49575 14.0609 7.783 14.005L8 14H16ZM16 16H8C7.23479 16 6.49849 16.2923 5.94174 16.8173C5.38499 17.3422 5.04989 18.0601 5.005 18.824L5 19V20H19V19C19 18.2348 18.7077 17.4985 18.1827 16.9417C17.6578 16.385 16.9399 16.0499 16.176 16.005L16 16ZM12 2C13.3261 2 14.5979 2.52678 15.5355 3.46447C16.4732 4.40215 17 5.67392 17 7C17 8.32608 16.4732 9.59785 15.5355 10.5355C14.5979 11.4732 13.3261 12 12 12C10.6739 12 9.40215 11.4732 8.46447 10.5355C7.52678 9.59785 7 8.32608 7 7C7 5.67392 7.52678 4.40215 8.46447 3.46447C9.40215 2.52678 10.6739 2 12 2ZM12 4C11.606 4 11.2159 4.0776 10.8519 4.22836C10.488 4.37913 10.1573 4.6001 9.87868 4.87868C9.6001 5.15726 9.37913 5.48797 9.22836 5.85195C9.0776 6.21593 9 6.60603 9 7C9 7.39397 9.0776 7.78407 9.22836 8.14805C9.37913 8.51203 9.6001 8.84274 9.87868 9.12132C10.1573 9.3999 10.488 9.62087 10.8519 9.77164C11.2159 9.9224 11.606 10 12 10C12.7956 10 13.5587 9.68393 14.1213 9.12132C14.6839 8.55871 15 7.79565 15 7C15 6.20435 14.6839 5.44129 14.1213 4.87868C13.5587 4.31607 12.7956 4 12 4Z"
+                                    fill="black" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_867_7559">
+                                    <rect width="24" height="24" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg></a>
+                    <a href="#" class="cart"><svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.29977 5.5H21L19 12.5H7.37671M20 16.5H8L6 3.5H3M9 20.5C9 21.0523 8.55228 21.5 8 21.5C7.44772 21.5 7 21.0523 7 20.5C7 19.9477 7.44772 19.5 8 19.5C8.55228 19.5 9 19.9477 9 20.5ZM20 20.5C20 21.0523 19.5523 21.5 19 21.5C18.4477 21.5 18 21.0523 18 20.5C18 19.9477 18.4477 19.5 19 19.5C19.5523 19.5 20 19.9477 20 20.5Z"
+                                stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></a>
+                </div>
+                <!-- header btn -->
+                <div class="btn">
+                    <button class="btn_yellow global_btn">
+                        Free Site Scan<svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.25 16.5L13.75 11L8.25 5.5" stroke="black" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <!-- end right container -->
+        </div>
+        <!-- end main container -->
+    </header>
+    <main>
+        <section class="secure_checkout_section">
+            <div class="container_secure_section flex_column container">
+                <h1>Secure Checkout</h1>
+                <div class="secure_items_Container flex_row">
+                    <div class="secure_items">
+                        <svg width="33" height="35" viewBox="0 0 33 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.7138 3.83314C14.1334 3.83325 11.614 4.65253 9.48964 6.18233C7.3653 7.71214 5.7364 9.88019 4.81894 12.399C3.90148 14.9178 3.73882 17.6684 4.35251 20.2859C4.96621 22.9035 6.32727 25.2644 8.25521 27.0556C10.1831 28.8468 12.5869 29.9837 15.1477 30.3154C17.7085 30.6471 20.3053 30.1581 22.5938 28.9131C24.8824 27.6681 26.7545 25.7261 27.962 23.3444C29.1694 20.9628 29.6552 18.2541 29.3548 15.5775C29.2354 14.4995 29.9832 13.4581 31.0225 13.4581C31.9265 13.4581 32.7217 14.1145 32.8306 15.0531C33.2905 18.9527 32.4396 22.8981 30.4232 26.2152C28.4069 29.5323 25.3502 32.0152 21.7755 33.2398C18.2007 34.4644 14.3297 34.3547 10.8239 32.9294C7.31803 31.504 4.39485 28.8515 2.55378 25.4251C0.71271 21.9987 0.0680021 18.0109 0.729804 14.1431C1.39161 10.2753 3.31885 6.76751 6.18226 4.21904C9.04567 1.67058 12.6676 0.239575 16.4291 0.170528C20.1907 0.101482 23.8585 1.39867 26.8059 3.84048V2.91648C26.8059 2.43 26.9909 1.96346 27.3203 1.61947C27.6497 1.27548 28.0964 1.08223 28.5622 1.08223C29.028 1.08223 29.4747 1.27548 29.8041 1.61947C30.1335 1.96346 30.3185 2.43 30.3185 2.91648V7.86281L30.3782 7.95814H30.3185V8.41648C30.3185 8.90271 30.1336 9.36902 29.8044 9.71284C29.4752 10.0567 29.0286 10.2498 28.5631 10.2498H23.2967C22.8312 10.2498 22.3847 10.0567 22.0554 9.71284C21.7262 9.36902 21.5413 8.90271 21.5413 8.41648C21.5413 7.93025 21.7262 7.46393 22.0554 7.12012C22.3847 6.7763 22.8312 6.58314 23.2967 6.58314H24.4659C22.2444 4.79598 19.518 3.82882 16.7138 3.83314Z"
+                                fill="#1D5AFF" />
+                        </svg>
+                        <h4>30-day Refund Policy Assurance</h4>
+                    </div>
+                    <div class="secure_items">
+                        <svg width="29" height="40" viewBox="0 0 29 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.60562 39.4584C2.64012 39.4584 1.81389 39.0997 1.12693 38.3823C0.439964 37.6648 0.0958969 36.8013 0.0947266 35.7918V17.4584C0.0947266 16.4501 0.438794 15.5872 1.12693 14.8698C1.81506 14.1523 2.64129 13.793 3.60562 13.7918H5.36107V10.1251C5.36107 7.58899 6.21714 5.42749 7.92929 3.6406C9.64143 1.85371 11.7111 0.959657 14.1383 0.958435C16.5667 0.958435 18.6369 1.85249 20.3491 3.6406C22.0612 5.42871 22.9167 7.59021 22.9155 10.1251V13.7918H24.671C25.6365 13.7918 26.4633 14.1511 27.1514 14.8698C27.8396 15.5884 28.183 16.4513 28.1819 17.4584V35.7918C28.1819 36.8001 27.8384 37.6636 27.1514 38.3823C26.4645 39.1009 25.6376 39.4597 24.671 39.4584H3.60562ZM14.1383 30.2918C15.1038 30.2918 15.9306 29.933 16.6187 29.2156C17.3069 28.4982 17.6504 27.6347 17.6492 26.6251C17.6492 25.6168 17.3057 24.7539 16.6187 24.0364C15.9318 23.319 15.105 22.9597 14.1383 22.9584C13.1728 22.9584 12.3466 23.3178 11.6596 24.0364C10.9726 24.7551 10.6286 25.618 10.6274 26.6251C10.6274 27.6334 10.9715 28.4969 11.6596 29.2156C12.3477 29.9343 13.174 30.293 14.1383 30.2918ZM8.87196 13.7918H19.4046V10.1251C19.4046 8.59732 18.8926 7.29871 17.8686 6.22927C16.8446 5.15982 15.6012 4.6251 14.1383 4.6251C12.6754 4.6251 11.432 5.15982 10.408 6.22927C9.38396 7.29871 8.87196 8.59732 8.87196 10.1251V13.7918Z"
+                                fill="#1D5AFF" />
+                        </svg>
+                        <h4>Secure Payment System</h4>
+                    </div>
+                    <div class="secure_items">
+                        <svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M4.08711 0.875061C2.26331 0.875061 0.787109 2.39468 0.787109 4.27719V24.6764C0.787109 26.5566 2.26331 28.0762 4.08711 28.0762H12.2997L16.3719 34.3702C16.4724 34.5255 16.6085 34.6528 16.7681 34.7409C16.9278 34.829 17.106 34.8751 17.2871 34.8751C17.4682 34.8751 17.6465 34.829 17.8061 34.7409C17.9658 34.6528 18.1019 34.5255 18.2023 34.3702L22.2745 28.0762H30.4871C32.3109 28.0762 33.7871 26.5566 33.7871 24.6741V4.27719C33.7871 2.39468 32.3109 0.875061 30.4871 0.875061H4.08711Z"
+                                fill="#1D5AFF" />
+                        </svg>
+                        <h4>24/7 Customer Support</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="form_container">
+            <div class="container flex_row ">
+                <div class="login_form flex_column">
+                    <h5 style="font-size: 24px;">Returning Customer? Log in below</h5>
+                    <p style="font-size: 16px;">If you have shopped with us before, please enter your details below. If
+                        you are a new customer,
+                        please proceed to the Billing section.</p>
+                    <div class="two_inputs flex_row">
+                        <input type="text">
+                        <input type="text">
+                    </div>
+                    <p style="font-size: 16px;">Forget you password?</p>
+                    <div class="flex_row checkbox_container">
+                        <input type="checkbox" class="form_Checkbox" />
+                        <h5 style="font-size: 16px;">Remember me</h5>
+                    </div>
+                    <button class="global_btn btn_blue submit_button">Submit</button>
+                    <div class="coupon_container flex_column">
+                        <h5>If you have a coupon code, please apply it below</h5>
+                        <div class="coupon_code_form flex_row">
+                            <input type="text">
+                            <button class="global_btn btn_blue">Apply Coupon</button>
+                        </div>
+                    </div>
+                    <div class="second_form flex_column">
+                        <div class="two_inputs flex_row">
+                            <input type="text">
+                            <input type="text">
+                        </div>
+                        <div class="flex_column">
+                            <input type="text">
+                            <input type="text">
+                            <input type="text">
+                            <input type="text">
+                            <input type="text">
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="payment_form ">
+                    <div class="Payment_box flex_column">
+                        <div class="flex_row Payment_details_items">
+                            <h5 style=" width: 59%;">
+                                WordPress Maintenance - Perform ( Monthly ) x 1
+                            </h5>
+                            <div class="price">
+                                $ 199 <br>
+                                <span style="font-size:14px; font-weight: 400;">/month</span>
+                            </div>
+                        </div>
+                        <div class="flex_row Payment_details_items">
+                            <h5 style="width: 59%;">
+                                Total
+                            </h5>
+                            <div class="price">
+                                $ 199
+                            </div>
+                        </div>
+                        <div class="flex_row Payment_details_items">
+                            <h5 style="width: 59%;">
+                                Subtotal
+                            </h5>
+                            <div class="price">
+                                $ 199
+                            </div>
+                        </div>
+                        <div class="flex_row Payment_details_items ">
+                            <h5 style="width: 59%;">
+                                Recurring total
+                            </h5>
+                            <div class="price recuuring">
+                                <span class="textblue">$ 199</span> /month
+                                <p class="para_pay">First renewal : January 18, 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="homepage_footer">
+        <div class="main_container">
+            <div class="upper_containers">
+                <!-- -------------------------------------------upper half container starts ------------------------------- -->
+                <div class="content_container container flex_row">
+                    <div class="mini_container flex_row ">
+                        <div class="mini_sub_container flex_column">
+                            <h3>Hire the Experts at WP Vantage</h3>
+                            <div class="container_max flex_column">
+                                <div class="mini_box_text flex_row">Partner with the <span
+                                        class="styling-text">All-in-One
+                                        WordPress</span></div>
+                                <div class="mini_box_text flex_row">Support Company</div>
+                            </div>
+                            <h4>For nearly a decade our team of design, development and marketing experts has enabled
+                                our
+                                clients to reach their highest level of online success. Our experts become an extension
+                                of
+                                your team, and care about your business goals as much as if they were our own.</h4>
+                            <div class="star_box">
+                                <svg width="98" height="97" class="image_first" viewBox="0 0 98 97" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M49 0.583984L49.8286 22.7813C50.3356 36.3615 61.3109 47.2526 74.9895 47.749L98 48.584L74.9895 49.419C61.3109 49.9153 50.3356 60.8064 49.8286 74.3867L49 96.584L48.1714 74.3867C47.6644 60.8064 36.6891 49.9153 23.0105 49.419L0 48.584L23.0105 47.749C36.6891 47.2526 47.6644 36.3615 48.1714 22.7813L49 0.583984Z"
+                                        fill="white" />
+                                </svg>
+                                <svg width="41" height="40" class="image_second" viewBox="0 0 98 97" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M49 0.583984L49.8286 22.7813C50.3356 36.3615 61.3109 47.2526 74.9895 47.749L98 48.584L74.9895 49.419C61.3109 49.9153 50.3356 60.8064 49.8286 74.3867L49 96.584L48.1714 74.3867C47.6644 60.8064 36.6891 49.9153 23.0105 49.419L0 48.584L23.0105 47.749C36.6891 47.2526 47.6644 36.3615 48.1714 22.7813L49 0.583984Z"
+                                        fill="white" />
+                                </svg>
+                                <svg width="73" height="71" class="image_third" viewBox="0 0 98 97" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M49 0.583984L49.8286 22.7813C50.3356 36.3615 61.3109 47.2526 74.9895 47.749L98 48.584L74.9895 49.419C61.3109 49.9153 50.3356 60.8064 49.8286 74.3867L49 96.584L48.1714 74.3867C47.6644 60.8064 36.6891 49.9153 23.0105 49.419L0 48.584L23.0105 47.749C36.6891 47.2526 47.6644 36.3615 48.1714 22.7813L49 0.583984Z"
+                                        fill="white" />
+                                </svg>
+                                <svg width="41" height="40" class="image_forth" viewBox="0 0 98 97" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M49 0.583984L49.8286 22.7813C50.3356 36.3615 61.3109 47.2526 74.9895 47.749L98 48.584L74.9895 49.419C61.3109 49.9153 50.3356 60.8064 49.8286 74.3867L49 96.584L48.1714 74.3867C47.6644 60.8064 36.6891 49.9153 23.0105 49.419L0 48.584L23.0105 47.749C36.6891 47.2526 47.6644 36.3615 48.1714 22.7813L49 0.583984Z"
+                                        fill="white" />
+                                </svg>
+
+                                <div class="upper_buttons flex_row">
+                                    <button class="getstarted_color btn_blue global_btn">Get Started</button>
+                                    <button class="btn_yellow global_btn footerbutton">
+                                        <div class="center_content flex_row">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M3.2633 9.14888L5.79547 6.11543C6.05213 5.78544 6.18046 5.62044 6.24771 5.43538C6.30722 5.27164 6.33184 5.09726 6.32 4.92345C6.30661 4.72701 6.22898 4.53293 6.07372 4.14477L5.48147 2.66415C5.2517 2.08972 5.13681 1.80251 4.93862 1.61425C4.76399 1.44836 4.54514 1.33646 4.30841 1.29201C4.03975 1.24157 3.73965 1.3166 3.13945 1.46665L1.5 1.87657C1.5 10.2099 7.33308 16.0432 15.6667 16.0432L16.0764 14.4036C16.2264 13.8034 16.3014 13.5032 16.251 13.2346C16.2065 12.9979 16.0946 12.779 15.9288 12.6044C15.7405 12.4062 15.4533 12.2913 14.8789 12.0615L13.5576 11.533C13.1147 11.3559 12.8933 11.2673 12.6726 11.2605C12.4775 11.2545 12.2837 11.2943 12.1067 11.3767C11.9064 11.4699 11.7378 11.6385 11.4006 11.9758L8.82861 14.5073"
+                                                    stroke="black" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Book a Call
+                                            </span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="black_container flex_row">
+                    <div class="links_container flex_row container">
+                        <div class="footer_description flex_column">
+                            <div><img src="./Assets/logo.png" alt=""></div>
+                            <h3>Make Your Life Easier! Have Our <span>WordPress</span> Experts Fully Manage, Protect
+                                and Enhance
+                                Your Website.</h3>
+                        </div>
+                        <ul class="flex_column">
+                            <li>
+                                <span class="flex_row">Services</span>
+                            </li>
+                            <li>WordPress Maintenance</li>
+                            <li>WooCommerce Maintenance</li>
+                            <li>WordPress Emergengy Servicee</li>
+                            <li>WooCommerce Maintenance</li>
+                            <li>WordPress Speed Opitimization Services</li>
+                            <li>WordPress Migration Services</li>
+                            <li>WordPress Malware Removal Services</li>
+                            <li>WordPress Migration Services</li>
+                        </ul>
+                        <ul class="flex_column">
+                            <li>
+                                <span class="flex_row">Blog</span>
+                            </li>
+                            <li>For Web Designers</li>
+                            <li>For Web development</li>
+                            <li>For Web master</li>
+                            <li>infograpics</li>
+                            <li>Web Design</li>
+                            <li>Web Security</li>
+                            <li>WooCommerce</li>
+                        </ul>
+                        <ul class="flex_column">
+                            <li>
+                                <span class="flex_row">My Account</span>
+                            </li>
+                            <li>My Account</li>
+                            <li>Orders</li>
+                            <li>Subscriptions</li>
+                            <li>Submit Ticket</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms and Services</li>
+                        </ul>
+                    </div>
+                    <div class="social_media container flex_row">
+                        <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_556_4123)">
+                                <path
+                                    d="M25.9665 26.643C25.972 27.1952 26.4242 27.6385 26.9764 27.633C27.5287 27.6275 27.9719 27.1754 27.9664 26.6231L25.9665 26.643ZM10.1469 8.80355C9.59461 8.79806 9.14247 9.24131 9.13698 9.79356C9.13149 10.3458 9.57473 10.798 10.127 10.8035L10.1469 8.80355ZM9.87196 17.3033C9.31971 17.3088 8.87646 17.761 8.88195 18.3132C8.88744 18.8655 9.33958 19.3087 9.89184 19.3032L9.87196 17.3033ZM17.4667 26.8781C17.4613 27.4304 17.9045 27.8825 18.4568 27.888C19.009 27.8935 19.4612 27.4503 19.4666 26.898L17.4667 26.8781ZM11.2751 25.4949C10.8845 25.1044 10.2514 25.1044 9.86086 25.4949C9.47033 25.8854 9.47033 26.5186 9.86086 26.9091L11.2751 25.4949ZM9.87288 26.9211C10.2634 27.3117 10.8966 27.3117 11.2871 26.9211C11.6776 26.5306 11.6776 25.8974 11.2871 25.5069L9.87288 26.9211ZM21.2809 15.4891C24.3647 18.5729 25.9263 22.6002 25.9665 26.643L27.9664 26.6231C27.9213 22.078 26.1639 17.5436 22.6951 14.0749L21.2809 15.4891ZM10.127 10.8035C14.1698 10.8436 18.1971 12.4052 21.2809 15.4891L22.6951 14.0749C19.2263 10.6061 14.6919 8.84872 10.1469 8.80355L10.127 10.8035ZM9.89184 19.3032C11.8379 19.2839 13.7866 20.0159 15.2704 21.4996L16.6846 20.0854C14.8055 18.2064 12.3332 17.2789 9.87196 17.3033L9.89184 19.3032ZM15.2704 21.4996C16.7541 22.9834 17.4861 24.9321 17.4667 26.8781L19.4666 26.898C19.4911 24.4368 18.5636 21.9645 16.6846 20.0854L15.2704 21.4996ZM9.86086 26.9091L9.87288 26.9211L11.2871 25.5069L11.2751 25.4949L9.86086 26.9091Z"
+                                    fill="#1D5AFF" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_556_4123">
+                                    <rect width="26" height="26" fill="white"
+                                        transform="translate(18.3848) rotate(45)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_556_4106)">
+                                <mask id="mask0_556_4106" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0"
+                                    y="0" width="26" height="26">
+                                    <path d="M0 0H26V26H0V0Z" fill="white" />
+                                </mask>
+                                <g mask="url(#mask0_556_4106)">
+                                    <mask id="mask1_556_4106" style="mask-type:luminance" maskUnits="userSpaceOnUse"
+                                        x="0" y="0" width="26" height="26">
+                                        <path d="M0 0H26V26H0V0Z" fill="white" />
+                                    </mask>
+                                    <g mask="url(#mask1_556_4106)">
+                                        <path
+                                            d="M0 13C0 18.5499 3.47858 23.2884 8.37417 25.1528C8.255 24.1378 8.12825 22.464 8.40125 21.2897C8.63633 20.28 9.919 14.8568 9.919 14.8568C9.919 14.8568 9.53225 14.0822 9.53225 12.935C9.53225 11.1367 10.5744 9.79333 11.8733 9.79333C12.9783 9.79333 13.5113 10.6221 13.5113 11.6155C13.5113 12.7259 12.8039 14.3856 12.4388 15.925C12.1344 17.2131 13.0856 18.2639 14.3553 18.2639C16.6552 18.2639 18.4243 15.8383 18.4243 12.337C18.4243 9.23758 16.1969 7.072 13.0173 7.072C9.33617 7.072 7.17492 9.83342 7.17492 12.688C7.17492 13.8006 7.60283 14.9923 8.138 15.6412C8.18363 15.6902 8.21586 15.7501 8.23161 15.8152C8.24736 15.8803 8.24609 15.9483 8.22792 16.0128C8.12933 16.4223 7.9105 17.3008 7.86825 17.4807C7.81083 17.7168 7.68083 17.7677 7.43492 17.6529C5.81858 16.9011 4.80892 14.5383 4.80892 12.6403C4.80892 8.55725 7.774 4.80892 13.3586 4.80892C17.8479 4.80892 21.3373 8.008 21.3373 12.2828C21.3373 16.7429 18.5261 20.3331 14.6217 20.3331C13.3098 20.3331 12.0781 19.6506 11.6556 18.8457C11.6556 18.8457 11.0067 21.3178 10.8496 21.9223C10.5441 23.0967 9.69692 24.583 9.1715 25.4269C10.3827 25.7996 11.6675 26 13 26C20.1793 26 26 20.1793 26 13C26 5.82075 20.1793 0 13 0C5.82075 0 0 5.82075 0 13Z"
+                                            fill="#1D5AFF" />
+                                    </g>
+                                </g>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_556_4106">
+                                    <rect width="26" height="26" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_556_4117)">
+                                <path
+                                    d="M26.0003 13.0793C26.0003 5.85455 20.1796 -0.00195312 13.0003 -0.00195312C5.81782 -0.000328125 -0.00292969 5.85455 -0.00292969 13.0809C-0.00292969 19.6085 4.75182 25.0198 10.9658 26.0013V16.8607H7.66707V13.0809H10.9691V10.1965C10.9691 6.91892 12.9109 5.10867 15.8798 5.10867C17.3033 5.10867 18.7902 5.3638 18.7902 5.3638V8.5813H17.1506C15.5369 8.5813 15.0332 9.59042 15.0332 10.6255V13.0793H18.6374L18.0622 16.859H15.0316V25.9997C21.2456 25.0182 26.0003 19.6069 26.0003 13.0793Z"
+                                    fill="#1D5AFF" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_556_4117">
+                                    <rect width="26" height="26" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18.7508 4H21.8175L15.1175 11.6255L23 22H16.8283L11.995 15.7071L6.46333 22H3.395L10.5617 13.8435L3 4.00083H9.32833L13.6975 9.75273L18.7508 4ZM17.675 20.1729H19.3742L8.405 5.73171H6.58167L17.675 20.1729Z"
+                                fill="#1D5AFF" />
+                        </svg>
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_556_4119)">
+                                <path
+                                    d="M0 1.86225C0 0.833625 0.85475 0 1.90937 0H24.0906C25.1453 0 26 0.833625 26 1.86225V24.1378C26 25.1664 25.1453 26 24.0906 26H1.90937C0.85475 26 0 25.1664 0 24.1378V1.86225ZM8.03237 21.7652V10.0246H4.13075V21.7652H8.03237ZM6.08238 8.42075C7.4425 8.42075 8.28912 7.5205 8.28912 6.39275C8.26475 5.24062 7.44413 4.36475 6.10838 4.36475C4.77262 4.36475 3.9 5.24225 3.9 6.39275C3.9 7.5205 4.74662 8.42075 6.05638 8.42075H6.08238ZM14.0579 21.7652V15.2084C14.0579 14.8574 14.0839 14.5064 14.1879 14.2561C14.469 13.5557 15.1109 12.8294 16.1899 12.8294C17.602 12.8294 18.1659 13.9051 18.1659 15.4846V21.7652H22.0675V15.0312C22.0675 11.4237 20.1435 9.74675 17.576 9.74675C15.5057 9.74675 14.5779 10.8842 14.0579 11.6854V11.726H14.0319C14.0405 11.7124 14.0492 11.6989 14.0579 11.6854V10.0246H10.1579C10.2066 11.1264 10.1579 21.7652 10.1579 21.7652H14.0579Z"
+                                    fill="#1D5AFF" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_556_4119">
+                                    <rect width="26" height="26" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="copywrite_container container flex_row">
+                        <p class="copywrite_text">
+                            © 2023 WP Vantage - WordPress Maintenance & Security Services All Right Reserved
+                        </p>
+                        <ul class="copywrite_links flex_row">
+                            <li>My Account</li>
+                            <li>Terms of services</li>
+                            <li>Privacy & Policy</li>
+                            <li>Site Map</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- -------------------------------------------lower half container ends------------------------------- -->
+            </div>
+            <!-- --------------------------------bluecontainer over footer starts -------------------------------------------------- -->
+
+            <!-- --------------------------------bluecontainer over footer ends-------------------------------------------------- -->
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+.container_secure_section {
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 66px;
+}
+
+.secure_items_Container {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.secure_items {
+    width: 20%;
+    text-align: center;
+}
+
+.secure_items h4 {
+    margin-top: 15px;
+}
+
+.login_form {
+    gap: 20px;
+    flex: 1;
+}
+
+.payment_form {
+    flex: 1;
+}
+
+.two_inputs {
+    gap: 40px;
+}
+
+.two_inputs input {
+    width: 464px;
+    height: 60px;
+}
+
+.form_Checkbox {
+    width: 25px;
+    height: 25px;
+    box-shadow: none;
+}
+
+.checkbox_container {
+    gap: 20px;
+    align-items: center;
+}
+
+.submit_button {
+    width: 212px;
+    height: 58px;
+    margin-top: 30px;
+}
+
+.coupon_code_form {
+    gap: 20px;
+}
+
+.coupon_code_form input {
+    width: 100%;
+}
+
+.coupon_code_form button {
+    width: 216px;
+    height: 58px;
+}
+
+.coupon_container {
+    margin: 100px 0px;
+    gap: 30px;
+}
+
+.second_form input {
+    height: 58px;
+    margin-bottom: 30px;
+}
+
+.form_container .container {
+    gap: 47px;
+}
+
+.Payment_box {
+    width: 100%;
+    height: 831px;
+    padding: 50px 40px;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px black;
+}
+
+.Payment_details_items {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.Payment_box {
+    gap: 40px;
+}
+
+.textblue {
+    color: #1D5AFF;
+}
+
+.para_pay {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.price {
+    width: 26%;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: end;
+
+}

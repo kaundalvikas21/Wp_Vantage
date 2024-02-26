@@ -1,0 +1,60 @@
+/* ---------- START WooCOMMERCE Maintenance services SECTION-5-------------- */
+.global_enterprise_card .sub_container{
+    max-width: 1350px;
+    margin-inline: auto;
+    padding: 0.5rem 2rem;
+  }
+  .global_enterprise_card .enterprise_card{
+    background-color: var(--primary_clr);
+    padding: 2.5rem 8rem;
+    gap: 2rem;
+    border: 1px solid var(--primary_background-clr);
+    align-items: center;
+    border-radius: 20px;
+  }
+  .global_enterprise_card .enterprise_card h3{
+    color: var(--yellow_clr);
+    text-align: center;
+  }
+  .global_enterprise_card .enterprise_card p{
+    color: var(--primary_background-clr);
+    text-align: center;
+    font-weight: 400;
+  }
+  .global_enterprise_card .enterprise_card .price_content{
+   text-align: center;
+   font-weight: 700;
+  }
+  .global_enterprise_card .enterprise_card .price_content span:nth-of-type(1),
+  .global_enterprise_card .enterprise_card .price_content span:nth-of-type(5){
+    color: var(--primary_background-clr);
+    font-size: 1.25rem;
+  }
+  .global_enterprise_card .enterprise_card .price_content span:nth-of-type(2){
+   color: #C2C2C2;
+   text-decoration: line-through;
+   font-size: 1.25rem;
+   padding-right: .5rem;
+  }
+  .global_enterprise_card .enterprise_card .price_content span:nth-of-type(3){
+    color: var(--global_btn_clr);
+    font-size: 2.188rem;
+  }
+  .global_enterprise_card .enterprise_card .price_content span:nth-of-type(4){
+    color: var(--global_btn_clr);
+    font-size: 1.25rem;
+  }
+  .global_enterprise_card .enterprise_card button{
+    background: var(--solid_white_clr);
+    color: var(--primary_clr);
+    border: 1px solid var(--primary_clr);
+  }
+  .global_enterprise_card .enterprise_card .price_btn{
+    width: 13.576rem;
+    height: 3.938rem;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 1.11rem;
+    letter-spacing: 0.03rem;
+  }
+  /* ---------- START WooCOMMERCE Maintenance services SECTION-5-------------- */

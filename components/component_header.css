@@ -1,0 +1,197 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary_background-clr);
+    z-index: 1000;
+  }
+  
+  .header .head_container {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .header .l_container {
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+  }
+  
+  .header .r_container {
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+  }
+  
+  /* navBar CSS */
+  .header .container .l_container .navBar {
+    width: 70%;
+  }
+  
+  .header .container .l_container .navBar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.03rem;
+    line-height: 1.11rem;
+  }
+  
+  .header .container .l_container .navBar ul a {
+    text-decoration: none;
+    color: var(--heading_black_clr);
+    cursor: pointer;
+  }
+  
+  .header .container .l_container .navBar ul li a:hover {
+    color: var(--primary_clr) !important;
+  }
+  
+  .header .container .l_container .navBar ul li>a {
+    justify-content: center;
+    align-items: center;
+    gap: 0.3125rem;
+  }
+  
+  .header .container .l_container .navBar ul li {
+    padding: 2rem 0;
+    cursor: pointer;
+  }
+  
+  .header .container .l_container .navBar ul li a>svg {
+    color: var(--heading_black_clr);
+  }
+  
+  .header .container .l_container .navBar ul li:hover a>svg {
+    transform: rotate(180deg);
+  }
+  
+  .header .container .l_container .navBar ul li:hover a>svg path {
+    stroke: var(--primary_clr);
+  }
+  
+  .header .container .r_container .navIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18%;
+  }
+  
+  .header .container .r_container .navIcons svg {
+    color: var(--heading_black_clr);
+  }
+  
+  .header .container .r_container .navIcons>.user:hover svg path {
+    fill: var(--primary_clr);
+  }
+  
+  .header .container .r_container .navIcons>.cart:hover svg path {
+    stroke: var(--primary_clr);
+  }
+  
+  .header .container .r_container button {
+    width: 13.25rem;
+    height: 3.625rem;
+    font-size: 1rem;
+  }
+  
+  .header .container .r_container button svg {
+    position: absolute;
+    margin-left: 0.2rem;
+    text-align: center;
+  }
+  
+  .header .container .navBar ul li .drop_down_menu {
+    position: absolute;
+    width: 93%;
+    background: var(--solid_white_clr);
+    left: 4%;
+    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    border: 3px solid var(--primary_clr);
+    overflow-x: hidden;
+    z-index: 999;
+  }
+  
+  .header .container .navBar ul li:hover .drop_down_menu {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .header .container .navBar ul li .drop_down_menu .menu_container {
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 4rem;
+  }
+  
+  .header .container .navBar ul li .drop_down_menu .menu_container .column:nth-of-type(1) {
+    width: 25%;
+  }
+  
+  .header .container .navBar ul li .drop_down_menu .menu_container .column:nth-of-type(2) {
+    width: 60%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+  
+  .header .container .navBar ul li .drop_down_menu .menu_container .column:nth-of-type(2) .menu_links h3 {
+    color: var(--heading_black_clr);
+    font-style: normal;
+    line-height: 1.875rem;
+    margin-bottom: 1.8rem;
+    text-decoration-line: underline;
+    text-decoration-skip-ink: none;
+  }
+  
+  .header .container .navBar ul li .drop_down_menu .menu_container .column:nth-of-type(2) .menu_links a {
+    color: var(--heading_black_clr);
+    font-size: 1.375rem;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .header .container .navBar ul li .drop_down_menu .menu_contain .column:nth-of-type(2) .menu_links a:hover {
+    color: var(--primary_clr);
+  }
+  
+  /* star pattern positions */
+  .header .container .drop_down_menu .menu_container .star_pattern {
+    position: absolute;
+  }
+  
+  .header .container .drop_down_menu .menu_container .l_size_stars_1 {
+    top: -30px;
+    left: -20px;
+  }
+  
+  .header .container .drop_down_menu .menu_container .l_size_stars_2 {
+    bottom: 48px;
+    right: 293px;
+  }
+  
+  .header .container .drop_down_menu .menu_container .m_size_stars {
+    bottom: 60px;
+    left: 54px;
+  }
+  
+  .header .container .drop_down_menu .menu_container .s_size_stars {
+    top: 57px;
+    right: 115px;
+  }
+  
+  .header .container .drop_down_menu .menu_container .sun_shape {
+    top: 340px;
+    right: 391px;
+  }
+  /*------------------- Header CSS End -------------------*/

@@ -1,0 +1,131 @@
+/* --------------------------------------blog-section-starts section-10 ------------------------- */
+
+/* --------------------------------------blog-section-starts section9 ------------------------- */
+
+.homepage_section_10 .styling_text2 {
+    background: #1D5AFF;
+    color: #ffffff;
+    transform: rotate(-0.40deg);
+    width: fit-content;
+    margin-left: 0.625rem;
+    padding: 0px 0.938rem;
+    padding-top: 5px;
+    padding-bottom: 0.625rem;
+}
+
+.homepage_section_10 .blogs_section {
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage_section_10 .container_Blogs {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.homepage_section_10 .container_Blogs button {
+    width: 212px;
+    height: 58px;
+    background-color: var(--global_btn_clr);
+    /* -------------------bg-is-overlaaping-in-global------------ */
+    border: 1px solid black;
+    /* ----------------border-is-not-added-in-buttons----------- */
+    border-radius: 5px;
+    /* ----------------border-radius-is--also-wrong----------- */
+    font-weight: 700;
+    /* ----------------also add font-weight----------- */
+    cursor: pointer;
+    /* ----------------cursor-pointer is not added----------- */
+    font-size: 1.25rem;
+    /* ----------------fontsize is not  is not added----------- */
+}
+
+.homepage_section_10 .container_Blogs h2 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.homepage_section_10 .blog_image .responsive_image {
+    width: 100%;
+    height: auto;
+}
+
+.homepage_section_10 .blog_card {
+    width: 100%;
+    height: auto;
+    border: solid 2px #1D5AFF;
+    border-radius: 0.938rem;
+    justify-content: center;
+    padding: 0.625rem;
+    box-shadow: 9px 9px black;
+}
+
+.homepage_section_10 .blog_image {
+    position: relative;
+    width: 100%;
+
+}
+
+.homepage_section_10 .blog_image img {
+    object-fit: cover;
+}
+
+.homepage_section_10 .card_content span {
+    color: #ffffff;
+    background: #1D5AFF;
+    padding: 5px;
+    width: fit-content;
+}
+
+.homepage_section_10 .card_content h4 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.homepage_section_10 .card_content {
+    gap: 1.25rem;
+    margin-top: 1.875rem;
+}
+
+.homepage_section_10 .blog_author_details {
+    width: 100%;
+    height: 3.125rem;
+    margin-top: 1.875rem;
+    align-items: center;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.homepage_section_10 .card_details {
+    padding: 0px 4%;
+}
+
+
+.homepage_section_10 .container_author p {
+    font-size: 13px;
+}
+
+
+.homepage_section_10 .container_author {
+    gap: 8px;
+}
+
+.homepage_section_10 .read_post {
+    color: #1D5AFF;
+    font-weight: 700;
+}
+
+.homepage_section_10 .card_container {
+    gap: 25px;
+}
+
+.homepage_section_10 .container_Blogs h2 {
+    gap: 0.625rem;
+}
+
+/* --------------------------------------blog-section-starts section9 ends ------------------------- */

@@ -1,0 +1,217 @@
+/* ---------------- START TESTIMONIAL SECTION-5 (Customer experience) ------------------ */
+.homepage_section_5 .testimonial_container {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0 9rem;
+  }
+  .homepage_section_5 .sub_container{
+    max-width: 1400px;
+    margin-inline: auto;
+    padding: 0 2rem;
+  }
+  
+  .homepage_section_5 .testimonial_container .testimonial {
+    height: auto;
+    gap: 6.27rem;
+  }
+  
+  /* RADIAL GRADIENT (UPPER-CONTENT) */
+  .homepage_section_5 .upper-content {
+    position: relative;
+    justify-content: space-between;
+  }
+  
+  .homepage_section_5 .radial {
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .homepage_section_5 .radial_1 {
+    top: -87%;
+    left: -155%;
+  }
+  
+  .homepage_section_5 .radial_2 {
+    top: -87%;
+    right: -157%;
+  }
+  
+  .homepage_section_5 .l-content {
+    width: 43%;
+    gap: 1.875rem;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* star svg */
+  .homepage_section_5 .l-content .l-content-star {
+    position: absolute;
+    top: 267px;
+    left: 25px;
+  }
+  
+  .homepage_section_5 .testimonial_heading {
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.93rem;
+  }
+  
+  .homepage_section_5 .testimonial_container h1>span {
+    background-color: var(--primary_clr);
+    color: var(--primary_background-clr);
+    padding-inline: 4px;
+    transform: rotate(-0.45deg);
+  }
+  
+  .homepage_section_5 .testimonial_container .testimonial .l-content h3 {
+    color: var(--heading_black_clr);
+    text-align: center;
+    font-style: normal;
+    line-height: 131%;
+  }
+  
+  .homepage_section_5 .testimonial_container .testimonial .l-content h3>span {
+    background-color: var(--primary_clr);
+    color: var(--primary_background-clr);
+    padding-inline: 4px;
+    transform: rotate(-0.45deg);
+  }
+  
+  .homepage_section_5 .testimonial_container .testimonial .l-content p {
+    color: var(--medium_light_gray_para_clr);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .homepage_section_5 .testimonial_container .testimonial .l-content span {
+    color: var(--heading_black_clr);
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  /* Right content testimonial */
+  .homepage_section_5 .r-content {
+    width: 43%;
+    gap: 1.875rem;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* star svg */
+  .homepage_section_5 .r-content .r-content-star {
+    position: absolute;
+    top: 130px;
+    right: -138px;
+  }
+  
+  .homepage_section_5 .testimonial_container .testimonial .r-content h3 {
+    color: var(--heading_black_clr);
+    text-align: center;
+    /* font-size: 2rem; */
+    font-style: normal;
+    /* font-weight: 700; */
+    line-height: 131%;
+  }
+  
+  .homepage_section_5 .testimonial_container .testimonial .r-content h3>span {
+    background-color: var(--primary_clr);
+    color: var(--primary_background-clr);
+    padding-inline: 4px;
+    transform: rotate(-0.45deg);
+  }
+  
+  .homepage_section_5 .testimonial_container .testimonial .r-content p {
+    color: #545454;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .homepage_section_5 .testimonial_container .testimonial .r-content span {
+    color: var(--heading_black_clr);
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  /* Lower content CSS Start */
+  .homepage_section_5 .testimonial_container .lower_content {
+    gap: 1.875rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .homepage_section_5 .lower_content .r-content-sun {
+    position: absolute;
+    top: -79px;
+    left: 668px;
+  }
+  
+  .homepage_section_5 .lower_content .blue-star_lower {
+    position: absolute;
+    bottom: 271px;
+    right: 91px;
+  }
+  
+  .homepage_section_5 .lower_content .left-star_lower {
+    position: absolute;
+    bottom: 92px;
+    left: 208px;
+  }
+  
+  .homepage_section_5 .testimonial_container .lower_content h3 {
+    color: var(--heading_black_clr);
+    text-align: center;
+    font-style: normal;
+    line-height: 131%;
+  }
+  
+  .homepage_section_5 .testimonial_container .lower_content h3 span {
+    background-color: var(--primary_clr);
+    color: var(--primary_background-clr);
+    padding-inline: 4px;
+    transform: rotate(-0.45deg);
+  }
+  
+  .homepage_section_5 .testimonial_container .lower_content p {
+    color: var(--medium_light_gray_para_clr);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .homepage_section_5 .testimonial_container .lower_content span {
+    color: var(--heading_black_clr);
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  /* BUTTON CSS CONTINUE HERE */
+  .homepage_section_5 .lower_content .customer_experience_btn {
+    width: 16.25rem;
+    height: 3.625rem;
+    border: 1px solid var(--heading_black_clr);
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 4rem 0 1rem;
+  }
+  
+  /* ----------------End TESTIMONIAL SECTION-5 (Customer experience) ------------------ */
+  

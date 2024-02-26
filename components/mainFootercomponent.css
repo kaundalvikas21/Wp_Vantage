@@ -1,0 +1,295 @@
+/* -------------------------------footer styling starts------------------------------------------------- */
+.homepage_footer .main_container {
+    position: relative;
+}
+
+.homepage_footer .center_content {
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.homepage_footer .white_container {
+    width: 100%;
+    height: 21.313rem;
+    margin-top: 5.625rem;
+}
+
+.homepage_footer .footer_description h3 {
+    line-height: 2.5rem;
+}
+
+.homepage_footer .black_container {
+    width: 100%;
+    background-color: black;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage_footer .content_container {
+    margin-bottom: -15rem;
+    width: 100%;
+    height: 37.5rem;
+    justify-content: center;
+}
+
+.homepage_footer .mini_container {
+    border-radius: 0.625rem;
+    width: 100%;
+    background-color: #1D5AFF;
+    box-shadow: 9px 9px black;
+    border: 3px solid white;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage_footer .footerbutton {
+    width: 13.25rem;
+    height: 3.625rem;
+    background-color: var(--global_btn_clr);
+    /* -------------------bg-is-overlaaping-in-global------------ */
+    border: 1px solid black;
+    /* ----------------border-is-not-added-in-buttons----------- */
+    border-radius: 5px;
+    /* ----------------border-radius-is--also-wrong----------- */
+    font-weight: 700;
+    /* ----------------also add font-weight----------- */
+    cursor: pointer;
+    /* ----------------cursor-pointer is not added----------- */
+    font-size: 1.25rem;
+    /* ----------------fontsize is not  is not added----------- */
+
+}
+
+.homepage_footer .styling-text {
+    background: white;
+    color: #1D5AFF;
+    margin-left: 0.625rem;
+    padding: 0px  0.625rem;
+}
+
+.homepage_footer .getstarted_color {
+    width: 13.25rem;
+    height: 3.625rem;
+    color: white;
+    /* -------------------bg-is-overlaaping-in-global------------ */
+    border: 1px solid rgb(255, 255, 255);
+    /* ----------------border-is-not-added-in-buttons----------- */
+    border-radius: 5px;
+    /* ----------------border-radius-is--also-wrong----------- */
+    font-weight: 700;
+    /* ----------------also add font-weight----------- */
+    cursor: pointer;
+    /* ----------------cursor-pointer is not added----------- */
+    font-size: 1.25rem;
+}
+
+.homepage_footer .upper_buttons {
+    margin-top: 1.875rem;
+
+}
+
+.homepage_footer .mini_sub_container {
+    padding: 0px;
+    width: 71.438rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--solid_white_clr);
+}    
+
+.homepage_footer .links_container {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 18.75rem;
+    align-items: center;
+}
+
+.homepage_footer .links_container li {
+    font-size: 1.375rem;
+}
+
+.homepage_footer .links_container li:hover {
+    color: var(--primary_clr);
+    cursor: pointer;
+}
+
+.homepage_footer .links_container ul {
+    gap:  0.625rem;
+}
+
+.homepage_footer .mini_sub_container h4 {
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.homepage_footer .mini_sub_container {
+    gap: 1.875rem;
+}
+
+.homepage_footer .footer_description {
+    width: 20.313rem;
+    gap: 1.875rem;
+    color: var(--solid_white_clr);
+}
+
+.homepage_footer .footer_description span {
+    font-size: 2rem;
+}
+
+.homepage_footer .links_container ul li span {
+    margin-bottom: 1.25rem;
+    color: var(--global_btn_clr);
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+
+.homepage_footer .links_container ul li {
+    color: var(--solid_white_clr);
+    font-weight: 700;
+}
+
+.homepage_footer .copywrite_container {
+    border-top: gray solid 2px;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 2.063rem;
+}
+
+.homepage_footer .copywrite_links {
+    gap: 4.375rem;
+    margin-right: 3.75rem;
+}
+
+.homepage_footer .copywrite_links li {
+    font-size: 0.938rem;
+    color: var(--solid_white_clr);
+}
+
+.homepage_footer .copywrite_text {
+    width: 31.25rem;
+    color: var(--solid_white_clr);
+
+}
+
+.homepage_footer .footer_description h3 {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.homepage_footer .social_media {
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    gap: 0.938rem;
+}
+
+.homepage_footer .social_media svg:hover path {
+    fill: var(--primary_clr);
+    cursor: pointer;
+}
+
+.homepage_footer .social_media svg path {
+    fill: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.homepage_footer .mini_sub_container .star_box {
+    width: 89%;
+    height: 37.5rem;
+    position: absolute;
+    top: 0;
+}
+
+.homepage_footer .star_box .image_first {
+    position: relative;
+    left: 6.25rem;
+    top: 3.125rem;
+}
+
+.homepage_footer .star_box .image_second {
+    position: relative;
+    left: 84.188rem;
+    top: 4.625rem;
+    width: 5.875rem;
+    height: 5.5rem;
+}
+
+.homepage_footer .star_box .image_third {
+    position: relative;
+    left: 75.375rem;
+    top: 15rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.homepage_footer .star_box .image_forth {
+    position: relative;
+    left: 11.875rem;
+    top: 22.5rem;
+    width: 2.688rem;
+    height: 2.688rem;
+}
+
+.homepage_footer .styling_text {
+    background: #ffffff;
+    color: #1D5AFF;
+    transform: rotate(-0.50deg);
+    width: fit-content;
+    margin-left:  0.625rem;
+    padding: 0 0.938rem;
+}
+
+.homepage_footer .container_max {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage_footer .mini_box_text {
+    font-size: 3.125rem;
+    text-align: center;
+    font-weight: 700;
+    width: 90%;
+    justify-content: center;
+}
+
+.homepage_footer h3 span {
+    font-size: 2.25rem;
+    background-color: #1D5AFF;
+    width: fit-content;
+    padding: 2px 5px;
+}
+
+.homepage_footer .upper_buttons {
+    position: relative;
+    gap: 2.5rem;
+    top: 22.5rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.homepage_footer .container_links_footer {
+    width: 100%;
+}
+
+.homepage_footer .scrollup_container {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.homepage_footer .scrollup_container button {
+    width: 5.25rem;
+    height: 3.125rem;
+    margin: 1.25rem 0px;
+    box-shadow: 5px 5px #525252;
+}
+
+.homepage_footer .scrollup_container button:hover {
+    cursor: pointer;
+    box-shadow: none
+}
+
+/* ------------------------------------------------footer section  ends --------------------------------------------- */

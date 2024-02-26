@@ -1,0 +1,68 @@
+/* -------- START WP MIGRATION SERVICE SECTION-4 (consistent service card) ----------- */
+.bg_gray{
+  background: #f1f1f1;
+  color: black ;
+}
+.bg_gray p{
+  color: black ;
+}
+.bg_blue p{
+  color: rgb(255, 255, 255) ;
+}
+.bg_blue{
+  background-color: #1D5AFF;
+  color: white ;
+}
+
+
+
+.global_consistent_customer_service .global_consistent_service_container {
+  padding: 3.94rem 2rem;
+  gap: 3.69rem;
+}
+
+
+
+/* -- START CSS INNER TOP CONTENT CONTAINER -- */
+.global_consistent_customer_service .column:nth-of-type(1) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.global_consistent_customer_service .column:nth-of-type(1) h1 {
+  width: 70%;
+}
+
+.global_consistent_customer_service .column:nth-of-type(1) h5 {
+  width: 22%;
+  line-height: 1.5rem;
+  /* 133.333% */
+}
+
+.global_consistent_customer_service .column:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.global_consistent_customer_service .column:nth-of-type(2) .icon {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.global_consistent_customer_service .column:nth-of-type(2) .icon h3 {
+  /* color: var(--primary_background-clr); */
+  font-size: 2.1875rem;
+  font-weight: 700;
+  line-height: 131%;
+  /* 2.86563rem */
+}
+
+.global_consistent_customer_service p {
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* -------- END WP MIGRATION SERVICE SECTION-4 (consistent service card) ----------- */

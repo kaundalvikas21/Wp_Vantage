@@ -1,0 +1,38 @@
+/* -------- START WP MIGRATION SERVICE SECTION-5 (global_exp_wp_tools) ----------- */
+
+.bg_gray {
+    background: #F1F1F1;
+    padding: 50px 0px;
+}
+.global_exp_wp_tools{
+    padding: 100px 0px;
+}
+.global_exp_wp_tools .global_exp_wp_tools_container {
+
+    gap: 3.94rem;
+}
+
+.global_exp_wp_tools .inner_top_heading_content_container {
+    color: var(--heading_black_clr);
+    font-size: 2.1875rem;
+    font-weight: 700;
+    line-height: 111%;
+    text-align: center;
+    gap: 40px;
+}
+
+.global_exp_wp_tools .inner_top_heading_content_container p {
+    font-size: 18px;
+}
+
+
+.global_exp_wp_tools .global_svg_wp_tools {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.global_exp_wp_tools .global_svg_wp_tools img {
+    width: 13%;
+}
+
+/* -------- END WP MIGRATION SERVICE SECTION-5 (global_exp_wp_tools) ----------- */

@@ -1,0 +1,104 @@
+/* -----------------------------------------faq_section_09 starts-------------------- */
+
+.homepage_section_09 .faq_section {
+    width: 100%;
+    height: 100vh;
+    color: #000000;
+    background: #F1F1F1;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage_section_09 .faq_container {
+    gap: 60px;
+    height: auto;
+    position: sticky;
+}
+
+.homepage_section_09 .faq_headings {
+    flex: 0.3;
+    gap:  0.625rem;
+    position: relative;
+}
+
+.homepage_section_09 .faq_questions {
+    flex: 1;
+    gap: 1.25rem;
+}
+
+.homepage_section_09 .faq_headings p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.homepage_section_09 .faq_headings h2 {
+    font-weight: 900;
+}
+
+.homepage_section_09 .faq_button button {
+    width: 212px;
+    height: 58px;
+    background-color: var(--global_btn_clr);
+    /* -------------------bg-is-overlaaping-in-global------------ */
+    border: 1px solid black;
+    /* ----------------border-is-not-added-in-buttons----------- */
+    border-radius: 5px;
+    /* ----------------border-radius-is--also-wrong----------- */
+    font-weight: 700;
+    /* ----------------also add font-weight----------- */
+    cursor: pointer;
+    /* ----------------cursor-pointer is not added----------- */
+    font-size: 1.25rem;
+    /* ----------------fontsize is not  is not added----------- */
+}
+
+.homepage_section_09 .questions_container {
+    background: #ffffff;
+    width: 100%;
+    height: 71px;
+    border-radius:  0.625rem;
+    border: solid 2px black;
+    box-shadow: #000000 4px 4px;
+    justify-content: space-between;
+    padding: 0px 1.875rem;
+    padding-top: 17px;
+
+
+}
+
+.homepage_section_09 .questions_container div p {
+    width: 800px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 1.25rem;
+    display: none;
+}
+
+/* --------this is only use for dyamic content to .increase_height ---- */
+
+.increase_height {
+    height: auto;
+    align-items: start;
+    padding-bottom: 1.25rem;
+}
+
+.homepage_section_09 .questions_container div {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.homepage_section_09 .questions_container svg {
+    cursor: pointer;
+}
+
+.homepage_section_09 .image_faq_star {
+    position: absolute;
+    left: 18.75rem;
+    top: 49px;
+}
+
+.homepage_section_09 .image_faq_star svg {
+    opacity: 10%;
+}
+
+/* -----------------------------------------faq_section_09 ends-------------------- */

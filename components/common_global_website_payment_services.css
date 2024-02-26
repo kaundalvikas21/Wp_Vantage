@@ -1,0 +1,77 @@
+h2 {
+    text-align: center;
+    width: 50%;
+}
+
+.start_button {
+    padding: 20px 171px;
+    margin-top: 60px;
+    margin-bottom: 110px;
+}
+
+.payment_container {
+    width: 80%;
+}
+
+.payment_type_container {
+    gap: 26px;
+    flex: 2;
+    padding-right: 2%;
+}
+
+.payment_container button {
+    width: 446px;
+    height: 66px;
+    font-family: Nexa;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.paypal_button {
+    border: 3px solid #1D5AFF;
+    color: #1D5AFF;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+.payment_type_container p {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Nexa;
+    width: 79%;
+
+}
+
+.rate_per_month {
+    margin: 30px 0px;
+    color: #1D5AFF;
+}
+
+.rate_per_month span {
+    font-size: 24px;
+}
+
+.features_container {
+    flex: 1;
+    align-items: end;
+}
+.features_items {
+    gap: 26px;  
+}
+.features_items_container{
+    gap: 28px;
+}
+.features_container p {
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+.checkbox_input{
+    width: 20px;
+    height: 20px;
+    box-shadow: none;
+}
