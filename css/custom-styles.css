@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
 }
 
 :root {
@@ -35,7 +36,6 @@
     url("/Typography/nexa/Nexa-Bold.otf");
 }
 
-
 body {
   font-family: "Nexa", sans-serif;
   font-weight: normal;
@@ -49,10 +49,12 @@ img,
 picture {
   width: 100%;
 }
-
+span,a,li{
+  display: inline-block;
+}
 section {
   margin-bottom: 9.375rem;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .flex_row {
@@ -158,8 +160,8 @@ textarea {
   background-color: var(--solid_white_clr);
   outline: none;
 }
-/*------------------Global CSS ended-------------------*/
 
+/*------------------Global CSS ended-------------------*/
 
 /*------------------- Header CSS Start -------------------*/
 .header {
@@ -176,6 +178,10 @@ textarea {
   align-items: center;
   justify-content: space-between;
   position: relative;
+}
+
+.header .head_container .logo {
+  cursor: pointer;
 }
 
 .header .l_container {
@@ -229,6 +235,7 @@ textarea {
 
 .header .container .l_container .navBar ul li a>svg {
   color: var(--heading_black_clr);
+  margin-top: 0.2rem;
 }
 
 .header .container .l_container .navBar ul li:hover a>svg {
@@ -358,6 +365,7 @@ textarea {
   top: 340px;
   right: 391px;
 }
+
 /*------------------- Header CSS End -------------------*/
 
 /*---------------------- Homepage CSS started ----------------------*/
@@ -369,25 +377,31 @@ textarea {
   mask-repeat: no-repeat;
   background-size: cover;
 }
+
 .Homepage_section_1 .Homepage_container_1 {
   position: relative;
   align-items: center;
   gap: 7rem;
 }
+
 .Homepage_section_1 .hero_left_inner_section {
   gap: 2.5rem;
   align-items: flex-start;
   width: 60%;
 }
+
 .Homepage_section_1 .inner_column_img_container {
   width: 40%;
 }
+
 .Homepage_section_1 h1 {
   color: var(--solid_white_clr);
 }
+
 .Homepage_section_1 p {
   color: var(--solid_white_clr);
 }
+
 .Homepage_section_1 .inner_column_btn-container .btn_yellow {
   width: 17.875rem;
   height: 3.625rem;
@@ -398,39 +412,47 @@ textarea {
   border: 1px solid var(--heading_black_clr);
   background-color: var(--global_btn_clr);
 }
+
 .Homepage_section_1 .inner_column_image_container {
   justify-content: space-between;
 }
+
 .Homepage_section_1 .inner_column_btn-container {
   gap: 2.25rem;
   align-items: center;
 }
+
 .Homepage_section_1 .inner_image_section {
   align-items: center;
   gap: 1rem;
   width: 50%;
 }
-.Homepage_section_1 .text_container{
+
+.Homepage_section_1 .text_container {
   width: 30%;
 }
+
 .Homepage_section_1 .text_container :nth-child(1) {
   color: var(--primary_background-clr);
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 0.6375rem;
 }
+
 .Homepage_section_1 .text_container :nth-child(2) {
   color: var(--global_btn_clr);
   font-size: 1.875rem;
   font-weight: 700;
   line-height: 131%;
 }
+
 .Homepage_section_1 .text_container :nth-child(3) {
   color: var(--global_btn_clr);
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 131%;
 }
+
 .Homepage_section_1 .text_container :nth-child(4) {
   color: var(--global_btn_clr);
   font-size: 1.25rem;
@@ -438,38 +460,47 @@ textarea {
   font-weight: 400;
   line-height: 131%;
 }
+
 /* star pattern started */
 .Homepage_section_1 .inner_star_pattern {
   position: absolute;
 }
+
 .Homepage_section_1 .homepage_hero_sec_star_1 {
   top: -60px;
   left: -29px;
 }
+
 .Homepage_section_1 .homepage_hero_sec_star_2 {
   left: 25.5rem;
   top: 15px;
 }
+
 .Homepage_section_1 .homepage_hero_sec_star_3 {
   top: 8px;
   right: 37rem;
 }
+
 .Homepage_section_1 .homepage_hero_sec_star_4 {
   top: -10px;
   right: 8.5rem;
 }
+
 .Homepage_section_1 .homepage_hero_sec_star_5 {
   top: 5%;
   right: -5%;
 }
+
 .Homepage_section_1 .homepage_hero_sec_star_6 {
   top: 20rem;
   left: 7rem;
 }
+
 .Homepage_section_1 .homepage_hero_sec_star_7 {
   top: 437px;
   left: 0rem;
 }
+
 /* star pattern ended */
 /*------------------Homepage_Section_1 CSS Ended-------------------*/
 
@@ -477,15 +508,18 @@ textarea {
 .Homepage_section_2 .Homepage_container_2 {
   position: relative;
 }
+
 .homepage_section_2 .inner_col_top {
   align-items: flex-start;
   gap: 5.125rem;
   margin-bottom: 9.375rem;
 }
+
 .homepage_section_2 .inner_col_top .inner_container {
   gap: 1.125rem;
   width: 25%;
 }
+
 /* .homepage_section_2 .inner_col_top .inner_container img {
   width: 2.75rem;
   height: 2.75rem;
@@ -494,23 +528,28 @@ textarea {
   color: var(--heading_black_clr);
   font-weight: bold;
 }
+
 .homepage_section_2 .inner_bottom_content_container {
   gap: 1.75rem;
   width: 100%;
   align-items: center;
 }
+
 .homepage_section_2 .inner_col_bottom {
   align-items: center;
   gap: 3.125rem;
 }
+
 .homepage_section_2 .inner_col_bottom h2 {
   text-align: center;
 }
+
 .homepage_section_2 .inner_col_bottom .bg_text_color {
   background-color: var(--primary_clr);
   padding: 0.2rem;
   color: var(--solid_white_clr);
 }
+
 .homepage_section_2 .inner_service_col {
   width: 25%;
   height: 31.875rem;
@@ -519,40 +558,49 @@ textarea {
   border: 3px solid var(--primary_background-clr);
   background-color: var(--primary_clr);
 }
+
 .homepage_section_2 .inner_service_col .inner_text_container {
   gap: 1rem;
 }
+
 .homepage_section_2 .inner_service_col .inner_text_container h3,
 .homepage_section_2 .inner_service_col .inner_text_container p,
 .homepage_section_2 .price_starting_range {
   color: var(--primary_background-clr);
 }
+
 .homepage_section_2 .inner_service_col .inner_text_container h3 {
   line-height: 2.62rem;
 }
+
 .homepage_section_2 .inner_service_col .inner_text_container p {
   font-size: 1rem;
   line-height: 1.31rem;
 }
+
 .inner_maintenance_price_nxt_btn {
   justify-content: space-between;
   align-items: center;
 }
+
 .homepage_section_2 .price_starting_range {
   font-size: 1.25rem;
   letter-spacing: 0.0375rem;
 }
+
 .homepage_section_2 .maintenance_price_text {
   color: var(--global_btn_clr);
   font-size: 2.1875rem;
   letter-spacing: 0.06563rem;
   font-weight: 700;
 }
+
 .Homepage_section_2_next_previous_btns {
   justify-content: space-between;
   width: 100%;
   position: relative;
 }
+
 /* .homepage_section_2 .section_2_arrow_btn {
   position: absolute;
 } */
@@ -575,10 +623,12 @@ textarea {
   transition: 0.3s ease all;
   cursor: pointer;
 }
+
 .homepage_section_2 .inner_maintenance_next_btn_arrow_icon:hover {
   box-shadow: none;
   transform: translate(4px, 4px);
 }
+
 /*-----star pattern started----- */
 .homepage_section_2_star_pattern {
   position: absolute;
@@ -586,6 +636,7 @@ textarea {
   right: 58rem;
   z-index: -1;
 }
+
 /*----star pattern ended----*/
 /*------------------Homepage_Section_2 CSS Ended-------------------*/
 
@@ -594,38 +645,47 @@ textarea {
   background-color: var(--secondary_background-clr);
   padding: 9.375rem 0rem;
 }
+
 .Homepage_section_3 .Homepage_container_3 {
   gap: 6.25rem;
 }
+
 .Homepage_section_3 .inner_top_heading_content_column {
   align-items: center;
   gap: 1.25rem;
 }
+
 .Homepage_section_3 .inner_top_heading_content_column h4 {
   color: var(--primary_clr);
   font-weight: 700;
 }
+
 .Homepage_section_3 .inner_top_heading_content_column p,
 .Homepage_section_3 .inner_middle_planning_content {
   font-size: 1.25rem;
   text-align: center;
 }
+
 .Homepage_section_3 .inner_middle_planning_content_container {
   gap: 3.9375rem;
   width: 100%;
 }
+
 .Homepage_section_3 .inner_middle_planning_content {
   align-items: center;
   gap: 1.875rem;
   width: 25%;
 }
+
 .Homepage_section_3 .inner_middle_planning_content img {
   height: 150px;
   width: 150px;
 }
+
 .Homepage_section_3 .inner_bottom_planning_button {
   text-align: center;
 }
+
 .Homepage_section_3 .plans_pricing_btn {
   width: 16.5625rem;
   height: 3.625rem;
@@ -633,8 +693,8 @@ textarea {
   font-size: 1.25rem;
   font-weight: 700;
 }
-/*------------------Homepage_Section_3 CSS Ended-------------------*/
 
+/*------------------Homepage_Section_3 CSS Ended-------------------*/
 
 /*------------------Homepage_Section_1 responsive CSS started-------------------*/
 @media (min-width: 768px) {
@@ -664,7 +724,6 @@ textarea {
 /*------------------Homepage_Section_1 responsive CSS Ended -------------------*/
 /*--------------------------Homepage CSS ended-----------------------------*/
 
-
 /* ---------------- START TESTIMONIAL SECTION-5 (Customer experience) ------------------ */
 .homepage_section_5 .testimonial_container {
   width: 100%;
@@ -673,8 +732,9 @@ textarea {
   align-items: center;
   padding: 0 9rem;
 }
-.homepage_section_5 .sub_container{
-  max-width: 1350px;
+
+.homepage_section_5 .sub_container {
+  max-width: 1400px;
   margin-inline: auto;
   padding: 0 2rem;
 }
@@ -705,15 +765,15 @@ textarea {
   right: -157%;
 }
 
-.homepage_section_5 .l-content {
-  width: 42%;
+.homepage_section_5 .l_content {
+  width: 43%;
   gap: 1.875rem;
   align-items: center;
   position: relative;
 }
 
 /* star svg */
-.homepage_section_5 .l-content .l-content-star {
+.homepage_section_5 .l_content .l-content-star {
   position: absolute;
   top: 267px;
   left: 25px;
@@ -725,6 +785,7 @@ textarea {
   font-size: 3rem;
   font-weight: 700;
   line-height: 3.93rem;
+  text-align: center;
 }
 
 .homepage_section_5 .testimonial_container h1>span {
@@ -734,21 +795,21 @@ textarea {
   transform: rotate(-0.45deg);
 }
 
-.homepage_section_5 .testimonial_container .testimonial .l-content h3 {
+.homepage_section_5 .testimonial_container .testimonial .l_content h3 {
   color: var(--heading_black_clr);
   text-align: center;
   font-style: normal;
   line-height: 131%;
 }
 
-.homepage_section_5 .testimonial_container .testimonial .l-content h3>span {
+.homepage_section_5 .testimonial_container .testimonial .l_content h3>span {
   background-color: var(--primary_clr);
   color: var(--primary_background-clr);
   padding-inline: 4px;
   transform: rotate(-0.45deg);
 }
 
-.homepage_section_5 .testimonial_container .testimonial .l-content p {
+.homepage_section_5 .testimonial_container .testimonial .l_content p {
   color: var(--medium_light_gray_para_clr);
   text-align: center;
   font-style: normal;
@@ -756,7 +817,7 @@ textarea {
   line-height: normal;
 }
 
-.homepage_section_5 .testimonial_container .testimonial .l-content span {
+.homepage_section_5 .testimonial_container .testimonial .l_content span {
   color: var(--heading_black_clr);
   text-align: center;
   font-size: 1.5rem;
@@ -766,21 +827,21 @@ textarea {
 }
 
 /* Right content testimonial */
-.homepage_section_5 .r-content {
-  width: 42%;
+.homepage_section_5 .r_content {
+  width: 43%;
   gap: 1.875rem;
   align-items: center;
   position: relative;
 }
 
 /* star svg */
-.homepage_section_5 .r-content .r-content-star {
+.homepage_section_5 .r_content .r-content-star {
   position: absolute;
   top: 130px;
   right: -138px;
 }
 
-.homepage_section_5 .testimonial_container .testimonial .r-content h3 {
+.homepage_section_5 .testimonial_container .testimonial .r_content h3 {
   color: var(--heading_black_clr);
   text-align: center;
   /* font-size: 2rem; */
@@ -789,14 +850,14 @@ textarea {
   line-height: 131%;
 }
 
-.homepage_section_5 .testimonial_container .testimonial .r-content h3>span {
+.homepage_section_5 .testimonial_container .testimonial .r_content h3>span {
   background-color: var(--primary_clr);
   color: var(--primary_background-clr);
   padding-inline: 4px;
   transform: rotate(-0.45deg);
 }
 
-.homepage_section_5 .testimonial_container .testimonial .r-content p {
+.homepage_section_5 .testimonial_container .testimonial .r_content p {
   color: #545454;
   text-align: center;
   font-style: normal;
@@ -804,7 +865,7 @@ textarea {
   line-height: normal;
 }
 
-.homepage_section_5 .testimonial_container .testimonial .r-content span {
+.homepage_section_5 .testimonial_container .testimonial .r_content span {
   color: var(--heading_black_clr);
   text-align: center;
   font-size: 1.5rem;
@@ -882,7 +943,6 @@ textarea {
 
 /* ----------------End TESTIMONIAL SECTION-5 (Customer experience) ------------------ */
 
-
 /* ---------------- START HOMEPAGE PLANS AND PRICING SECTION-6  ------------------ */
 .homepage_section_6 {
   background: var(--secondary_background-clr);
@@ -906,7 +966,6 @@ textarea {
 
 .homepage_section_6 .inner_card_top_content h5 {
   color: var(--primary_clr);
-
 }
 
 .homepage_section_6 .inner_card_top_content h3 {
@@ -932,13 +991,13 @@ textarea {
 .homepage_section_6 .inner_card_divider {
   width: 100%;
   height: 0.0625rem;
-  background: rgba(0, 0, 0, 0.20);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .homepage_section_6 .inner_card_top_content {
   gap: 0.62rem;
   text-align: center;
-} 
+}
 
 .homepage_section_6 .homepage_6_card p {
   color: var(--heading_black_clr);
@@ -962,11 +1021,13 @@ textarea {
   /* justify-content: space-between; */
   align-items: center;
   margin-top: 1rem;
-  gap: .5rem;
+  gap: 0.5rem;
 }
-.homepage_section_6 .price_content_container{
+
+.homepage_section_6 .price_content_container {
   width: 40%;
 }
+
 .homepage_section_6 .price_content_container>span {
   color: var(--primary_clr);
   font-weight: 700;
@@ -993,7 +1054,7 @@ textarea {
 .homepage_section_6 .plan_pricing .middle_card_blue {
   border: 3px solid var(--primary_background-clr);
   background: var(--primary_clr);
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /* ADD HOVER EFFECT */
@@ -1013,11 +1074,13 @@ textarea {
   color: var(--primary_clr);
   border: 2px solid var(--primary_clr);
 }
+
 /* END SECTION-6 CARD-2 CUSTOM CSS */
 
 .homepage_section_6 .inner_lower_column {
   justify-content: space-between;
 }
+
 .homepage_section_6 .services_btn {
   width: 15.3125rem;
   height: 3.625rem;
@@ -1109,7 +1172,6 @@ textarea {
 
 /*------------ END HOMEPAGE SECTION-7 ---------------*/
 
-
 /* ----------------------free services section 08 starts--------------------- */
 .homepage_section_08 .services_section {
   width: 100%;
@@ -1151,7 +1213,7 @@ textarea {
 .homepage_section_08 .slider_content {
   width: 40%;
   height: auto;
-  background: #1D5AFF;
+  background: #1d5aff;
   border-radius: 10px;
   box-shadow: 7px 7px;
   padding: 20px;
@@ -1218,13 +1280,12 @@ textarea {
 
 /* ----------------------free services section 08 ends--------------------- */
 
-
 /* -----------------------------------------faq_section_09 starts-------------------- */
 .homepage_section_09 .faq_section {
   width: 100%;
   height: 100vh;
   color: #000000;
-  background: #F1F1F1;
+  background: #f1f1f1;
   justify-content: center;
   align-items: center;
 }
@@ -1321,12 +1382,11 @@ textarea {
 
 /* -----------------------------------------faq_section_09 ends-------------------- */
 
-
 /* --------------------------------------blog-section-starts section-10 ------------------------- */
 .homepage_section_10 .styling_text2 {
-  background: #1D5AFF;
+  background: #1d5aff;
   color: #ffffff;
-  transform: rotate(-0.40deg);
+  transform: rotate(-0.4deg);
   width: fit-content;
   margin-left: 10px;
   padding: 0px 15px;
@@ -1379,7 +1439,7 @@ textarea {
 .homepage_section_10 .blog_card {
   width: 100%;
   height: auto;
-  border: solid 2px #1D5AFF;
+  border: solid 2px #1d5aff;
   border-radius: 15px;
   justify-content: center;
   padding: 10px;
@@ -1389,7 +1449,6 @@ textarea {
 .homepage_section_10 .blog_image {
   position: relative;
   width: 100%;
-
 }
 
 .homepage_section_10 .blog_image img {
@@ -1398,7 +1457,7 @@ textarea {
 
 .homepage_section_10 .card_content span {
   color: #ffffff;
-  background: #1D5AFF;
+  background: #1d5aff;
   padding: 5px;
   width: fit-content;
 }
@@ -1435,7 +1494,7 @@ textarea {
 }
 
 .homepage_section_10 .read_post {
-  color: #1D5AFF;
+  color: #1d5aff;
   font-weight: 700;
 }
 
@@ -1448,7 +1507,6 @@ textarea {
 }
 
 /* --------------------------------------blog-section-starts section 10 ends ------------------------- */
-
 
 /* -------------------------------footer styling starts------------------------------------------------- */
 .homepage_footer .main_container {
@@ -1491,7 +1549,7 @@ textarea {
 .homepage_footer .mini_container {
   border-radius: 0.625rem;
   width: 100%;
-  background-color: #1D5AFF;
+  background-color: #1d5aff;
   box-shadow: 9px 9px black;
   border: 3px solid white;
   justify-content: center;
@@ -1513,12 +1571,11 @@ textarea {
   /* ----------------cursor-pointer is not added----------- */
   font-size: 1.25rem;
   /* ----------------fontsize is not  is not added----------- */
-
 }
 
 .homepage_footer .styling-text {
   background: white;
-  color: #1D5AFF;
+  color: #1d5aff;
   margin-left: 0.625rem;
   padding: 0px 0.625rem;
 }
@@ -1540,7 +1597,6 @@ textarea {
 
 .homepage_footer .upper_buttons {
   margin-top: 1.875rem;
-
 }
 
 .homepage_footer .mini_sub_container {
@@ -1624,7 +1680,6 @@ textarea {
 .homepage_footer .copywrite_text {
   width: 31.25rem;
   color: var(--solid_white_clr);
-
 }
 
 .homepage_footer .footer_description h3 {
@@ -1688,8 +1743,8 @@ textarea {
 
 .homepage_footer .styling_text {
   background: #ffffff;
-  color: #1D5AFF;
-  transform: rotate(-0.50deg);
+  color: #1d5aff;
+  transform: rotate(-0.5deg);
   width: fit-content;
   margin-left: 0.625rem;
   padding: 0 0.938rem;
@@ -1711,7 +1766,7 @@ textarea {
 
 .homepage_footer h3 span {
   font-size: 2.25rem;
-  background-color: #1D5AFF;
+  background-color: #1d5aff;
   width: fit-content;
   padding: 2px 5px;
 }
@@ -1744,31 +1799,10 @@ textarea {
 
 .homepage_footer .scrollup_container button:hover {
   cursor: pointer;
-  box-shadow: none
+  box-shadow: none;
 }
 
 /* ------------------------------------------------footer section ends --------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* <<<<<<<<<<<<<<<<<<ANOTHER PAGE SECTION CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*------------ START WP MIGRATION SERVICE SECTION-3 (service card) ---------------*/
@@ -1811,7 +1845,6 @@ textarea {
   font-size: 2.1875rem;
   line-height: 131%;
   /* 2.86563rem */
-
 }
 
 .global_price_service_card .inner_bottom_container .inner_heading_price_container>span:nth-child(2) {
@@ -1823,7 +1856,6 @@ textarea {
   font-size: 1rem;
   font-weight: 400;
   text-align: center;
-
 }
 
 .global_price_service_card .global_service_card_container .inner_top_heading_content_column {
@@ -1852,7 +1884,7 @@ textarea {
   text-align: center;
   font-size: 1rem;
   letter-spacing: 0.03rem;
-  margin: 1.20rem 0 1.60rem;
+  margin: 1.2rem 0 1.6rem;
 }
 
 .global_price_service_card .left_bottom_keypoints {
@@ -1873,7 +1905,7 @@ textarea {
 
 .global_price_service_card .bottom_card_keypoints .cross_text {
   text-decoration-line: line-through;
-  color: #BDBDBD;
+  color: #bdbdbd;
   gap: 1.85rem;
   margin-left: 0.5rem;
 }
@@ -1894,15 +1926,13 @@ textarea {
 /* -- END MIDDLE CARD CONTAINER SECTION-3 (SERVICE CARD) --*/
 /*------------ END WP MIGRATION SERVICE SECTION-3 (service card) ---------------*/
 
-
-
 /* -------- START WP MIGRATION SERVICE SECTION-4 (consistent service card) ----------- */
 .global_consistent_customer_service {
   background: var(--primary_clr);
 }
 
 .global_consistent_customer_service .global_consistent_service_container {
-  padding: 3.94rem 2rem;
+  padding-block: 3.94rem;
   gap: 3.69rem;
 }
 
@@ -1911,7 +1941,6 @@ textarea {
 .global_consistent_customer_service h5,
 .global_consistent_customer_service p {
   color: var(--primary_background-clr);
-
 }
 
 /* -- START CSS INNER TOP CONTENT CONTAINER -- */
@@ -1958,7 +1987,6 @@ textarea {
 
 /* -------- END WP MIGRATION SERVICE SECTION-4 (consistent service card) ----------- */
 
-
 /* -------- START WP MIGRATION SERVICE SECTION-5 (global_exp_wp_tools) ----------- */
 .global_exp_wp_tools {
   background: var(--primary_background-clr);
@@ -1980,14 +2008,12 @@ textarea {
   justify-content: space-between;
   width: 100%;
 }
-.global_exp_wp_tools .global_svg_wp_tools img{
+
+.global_exp_wp_tools .global_svg_wp_tools img {
   width: 13%;
 }
 
 /* -------- END WP MIGRATION SERVICE SECTION-5 (global_exp_wp_tools) ----------- */
-
-
-
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ABOUT US PAGE CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /* ------------- START CSS About_Us SECTION-1 -------------- */
@@ -2087,11 +2113,11 @@ textarea {
 
 /* ------------- END CSS About_Us SECTION-1 -------------- */
 
-
 /* ------------- START CSS About_Us SECTION-2 -------------- */
 .about_us_section_2 {
   background: var(--primary_background-clr);
 }
+
 .about_us_section_2 .about_us_container {
   gap: 8.44rem;
 }
@@ -2102,26 +2128,31 @@ textarea {
   margin: 0 auto;
   position: relative;
 }
-.about_us_section_2 .heading_column .purple_star{
+
+.about_us_section_2 .heading_column .purple_star {
   position: absolute;
   top: 48%;
   right: -20%;
 }
-.about_us_section_2 .heading_column .chat_box{
-position: absolute;
-top: 130%;
-right: -210px;
-background-color: var(--primary_clr);
-box-shadow: 5px 5px 0 0 var(--heading_black_clr);
-border-radius: 50%;
-width: 4.375rem;
-height: 4.375rem;
-}
-.about_us_section_2 .heading_column .chat_box > svg{
+
+.about_us_section_2 .heading_column .chat_box {
   position: absolute;
-    top: 25%;
-    left: 25%;
+  top: 130%;
+  right: -210px;
+  background-color: var(--primary_clr);
+  box-shadow: 5px 5px 0 0 var(--heading_black_clr);
+  border-radius: 50%;
+  width: 4.375rem;
+  height: 4.375rem;
 }
+
+.about_us_section_2 .heading_column .chat_box>svg {
+  /* position: absolute;
+  top: 25%;
+  left: 25%; */
+  transform: translate(40%, 40%);
+}
+
 .about_us_section_2 .icon_heading {
   text-align: center;
   align-items: center;
@@ -2167,50 +2198,55 @@ height: 4.375rem;
   height: auto;
   border: 2px solid var(--primary_clr);
   position: relative;
-  
 }
+
 .about_us_section_2 .define_heading .fst_heading .team_leaders {
   justify-content: space-between;
   align-items: center;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
-.about_us_section_2 .define_heading .fst_heading .team_card h4{
-color: var(--primary_clr);
-text-align: center;
-padding: 1.2rem 0 0.3rem;
 
+.about_us_section_2 .define_heading .fst_heading .team_card h4 {
+  color: var(--primary_clr);
+  text-align: center;
+  padding: 1.2rem 0 0.3rem;
 }
-.about_us_section_2 .define_heading .fst_heading .team_card span{
+
+.about_us_section_2 .define_heading .fst_heading .team_card span {
   font-size: 1rem;
   color: var(--heading_black_clr);
   text-align: center;
   font-weight: 400;
-  line-height: 1.30rem;
+  line-height: 1.3rem;
   padding-bottom: 1rem;
 }
-.about_us_section_2 .define_heading .fst_heading .team_card .img_logo{
+
+.about_us_section_2 .define_heading .fst_heading .team_card .img_logo {
   position: absolute;
   right: 2rem;
   top: 1.5rem;
   cursor: pointer;
 }
-/* ------------- END CSS About_Us SECTION-2 -------------- */
 
+/* ------------- END CSS About_Us SECTION-2 -------------- */
 
 /* ------------- START CSS About_Us SECTION-3 -------------- */
 
-.maintenance_section_3 .maintenance_container{
+.maintenance_section_3 .maintenance_container {
   gap: 4rem;
 }
-.maintenance_section_3 .maintenance_container h2{
+
+.maintenance_section_3 .maintenance_container h2 {
   font-size: 3.125rem;
   color: var(--heading_black_clr);
 }
-.maintenance_section_3 .maintenance_container .maintenance_cards{
+
+.maintenance_section_3 .maintenance_container .maintenance_cards {
   padding: 0.5rem 0;
   justify-content: space-between;
 }
-.maintenance_section_3 .maintenance_cards .mainte_card{
+
+.maintenance_section_3 .maintenance_cards .mainte_card {
   background-color: var(--primary_clr);
   width: 24%;
   height: auto;
@@ -2218,82 +2254,96 @@ padding: 1.2rem 0 0.3rem;
   gap: 1.5rem;
   padding: 2rem 2rem 2.5rem;
 }
-.maintenance_section_3 .maintenance_cards .mainte_card h3{
+
+.maintenance_section_3 .maintenance_cards .mainte_card h3 {
   color: var(--primary_background-clr);
 }
-.maintenance_section_3 .keypoints{
+
+.maintenance_section_3 .keypoints {
   gap: 1rem;
 }
-.maintenance_section_3 .maintenance_cards .keypoints a{
-text-decoration: none;
+
+.maintenance_section_3 .maintenance_cards .keypoints a {
+  text-decoration: none;
 }
-.maintenance_section_3 .maintenance_cards .keypoints span{
+
+.maintenance_section_3 .maintenance_cards .keypoints span {
   color: var(--primary_background-clr);
   font-size: 1rem;
   font-weight: 400;
   cursor: pointer;
 }
-.maintenance_section_3 .maintenance_cards .keypoint_content a{
-gap: 1rem;
-display: flex;
-align-items: center;
+
+.maintenance_section_3 .maintenance_cards .keypoint_content a {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
 }
+
 /* ------------- END CSS About_Us SECTION-3 -------------- */
-
-
 
 /*------------------------- Another page CSS--------------------------------- */
 /* ---------- START WooCOMMERCE Maintenance services SECTION-5-------------- */
-.global_enterprise_card .sub_container{
+.global_enterprise_card .sub_container {
   max-width: 1350px;
   margin-inline: auto;
   padding: 0.5rem 2rem;
 }
-.global_enterprise_card .enterprise_card{
+
+.global_enterprise_card .enterprise_card {
   background-color: var(--primary_clr);
   padding: 2.5rem 8rem;
   gap: 2rem;
   border: 1px solid var(--primary_background-clr);
   align-items: center;
 }
-.global_enterprise_card .enterprise_card h3{
+
+.global_enterprise_card .enterprise_card h3 {
   color: var(--yellow_clr);
   text-align: center;
 }
-.global_enterprise_card .enterprise_card p{
+
+.global_enterprise_card .enterprise_card p {
   color: var(--primary_background-clr);
   text-align: center;
   font-weight: 400;
 }
-.global_enterprise_card .enterprise_card .price_content{
- text-align: center;
- font-weight: 700;
+
+.global_enterprise_card .enterprise_card .price_content {
+  text-align: center;
+  font-weight: 700;
 }
+
 .global_enterprise_card .enterprise_card .price_content span:nth-of-type(1),
-.global_enterprise_card .enterprise_card .price_content span:nth-of-type(5){
+.global_enterprise_card .enterprise_card .price_content span:nth-of-type(5) {
   color: var(--primary_background-clr);
   font-size: 1.25rem;
 }
-.global_enterprise_card .enterprise_card .price_content span:nth-of-type(2){
- color: #C2C2C2;
- text-decoration: line-through;
- font-size: 1.25rem;
- padding-right: .5rem;
+
+.global_enterprise_card .enterprise_card .price_content span:nth-of-type(2) {
+  color: #c2c2c2;
+  text-decoration: line-through;
+  font-size: 1.25rem;
+  padding-right: 0.5rem;
 }
-.global_enterprise_card .enterprise_card .price_content span:nth-of-type(3){
+
+.global_enterprise_card .enterprise_card .price_content span:nth-of-type(3) {
   color: var(--global_btn_clr);
   font-size: 2.188rem;
 }
-.global_enterprise_card .enterprise_card .price_content span:nth-of-type(4){
+
+.global_enterprise_card .enterprise_card .price_content span:nth-of-type(4) {
   color: var(--global_btn_clr);
   font-size: 1.25rem;
 }
-.global_enterprise_card .enterprise_card button{
+
+.global_enterprise_card .enterprise_card button {
   background: var(--solid_white_clr);
   color: var(--primary_clr);
   border: 1px solid var(--primary_clr);
 }
-.global_enterprise_card .enterprise_card .price_btn{
+
+.global_enterprise_card .enterprise_card .price_btn {
   width: 13.576rem;
   height: 3.938rem;
   font-size: 1rem;
@@ -2301,4 +2351,235 @@ align-items: center;
   line-height: 1.11rem;
   letter-spacing: 0.03rem;
 }
-/* ---------- START WooCOMMERCE Maintenance services SECTION-5-------------- */
+
+/* ---------- END WooCOMMERCE Maintenance services SECTION-5-------------- */
+
+/* ---------- START WooCOMMERCE Maintenance services SECTION-8-------------- */
+
+.global_wpslider_cards .global_wpslider_container {
+  gap: 5rem;
+}
+
+.global_wpslider_cards .global_wpslider_container .main_heading {
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: var(--heading_black_clr);
+  padding-left: 4rem;
+}
+
+.global_wpslider_cards .wpslider_cards {
+  padding: 0.5rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.global_wpslider_cards .wpslider_cards .slider_card_content {
+  width: 22%;
+  height: auto;
+  text-align: start;
+  background-color: var(--primary_clr);
+  border: 3px solid var(--primary_background-clr);
+  color: var(--primary_background-clr);
+  padding: 1.5rem 1rem;
+  gap: 1.25rem;
+}
+
+.global_wpslider_cards .wpslider_cards .slider_card_content .count_num {
+  background-color: var(--heading_black_clr);
+  width: 42px;
+  height: 42px;
+  box-shadow: 4px 1px 0 0 #f1f1f1;
+  border-radius: 50%;
+}
+
+.global_wpslider_cards .count_num h4 {
+  font-size: 1.75rem;
+  text-align: center;
+  color: var(--primary_background-clr);
+  padding: 6px;
+}
+
+.global_wpslider_cards .inner_detail_content {
+  gap: 1.25rem;
+}
+
+.global_wpslider_cards .inner_detail_content h4 {
+  font-size: 1.75rem;
+  color: var(--primary_background-clr);
+}
+
+.global_wpslider_cards .inner_detail_content p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--primary_background-clr);
+}
+
+.global_wpslider_cards .inner_detail_content .price_arrow {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.global_wpslider_cards .inner_detail_content .price_arrow h3 {
+  font-size: 2.188rem;
+  color: var(--yellow_clr);
+}
+
+.global_wpslider_cards .inner_detail_content .price_arrow svg {
+  margin-right: 2.5rem;
+}
+
+/* ---------- END WooCOMMERCE Maintenance services SECTION-8-------------- */
+
+/*-------------------------- ANOTHER PAGE CSS --------------------------*/
+/*------------------------ START REVIEWS PAGE CSS SECTION-1 --------------------------*/
+.review_hero_section_1 {
+  background-color: var(--primary_clr);
+}
+
+.review_hero_section_1 .review_hero_container {
+  text-align: center;
+  padding-block: 5.75rem;
+  gap: 2.5rem;
+  align-items: center;
+  position: relative;
+}
+
+.review_hero_section_1 .review_hero_container h1 {
+  color: var(--primary_background-clr);
+}
+
+.review_hero_section_1 .review_hero_container p {
+  color: var(--primary_background-clr);
+  font-weight: 400;
+}
+
+.review_hero_section_1 .review_hero_container .star_review_sec_1 {
+  position: absolute;
+}
+.review_hero_section_1 .review_hero_container .left_top_str {
+  left: -30px;
+  top: 0px;
+}
+.review_hero_section_1 .review_hero_container .left_bottom_str {
+  left: 79px;
+  bottom: -24px;
+}
+.review_hero_section_1 .review_hero_container .center_str {
+  top: 130px;
+  left: 566px;
+}
+.review_hero_section_1 .review_hero_container .sun_str {
+  top: 159px;
+  right: 256px;
+}
+.review_hero_section_1 .review_hero_container .right_top_str {
+  top: 10px;
+  right: 10px;
+}
+
+/*------------------------ END REVIEWS PAGE CSS SECTION-1 --------------------------*/
+
+/*------------------------ START REVIEWS PAGE CSS SECTION-2 --------------------------*/
+.review_section_2 .review_sec_main_container{
+  gap: 8rem;
+}
+.review_section_2 .l_content .blue_str {
+  position: absolute;
+  top: 102px;
+  left: -65px;
+}
+.review_section_2 .testimonial_container .testimonial .l_content span,
+.review_section_2 .testimonial_container .testimonial .r_content span,
+.review_section_2 .testimonial_container .lower_content span {
+  color: var(--medium_light_gray_para_clr);
+}
+
+.review_section_2 .lower_content .r-content-sun {
+  top: -262px;
+  left: 595px;
+}
+
+.review_section_2 .r_content .r-content-star {
+  top: -50px;
+  right: -138px;
+}
+
+.review_section_2 .lower_content .left-star_lower {
+  bottom: 125px;
+  left: 208px;
+}
+
+/*------------------------ END REVIEWS PAGE CSS SECTION-2 --------------------------*/
+
+/*-------------------------- ANOTHER PAGE CSS --------------------------*/
+/*------------------------ START SERVICES PAGE CSS SECTION-1 --------------------------*/
+
+/*------------------------ END SERVICES PAGE CSS SECTION-1 --------------------------*/
+
+/*------------------------ START SERVICES PAGE CSS SECTION-2 --------------------------*/
+.services_cards_sec_1 .service_card_container {
+  /* align-items: center; */
+  gap: 6.75rem;
+}
+
+.services_cards_sec_1 .service_card_container h2 {
+  font-size: 3.125rem;
+  text-align: center;
+}
+
+.services_cards_sec_1 .service_card_container h2>span {
+  background-color: var(--primary_clr);
+  color: var(--primary_background-clr);
+  padding-inline: 4px;
+  transform: rotate(-0.45deg);
+}
+
+.services_cards_sec_1 .services_cards{
+padding-block: .5rem;
+grid-template-columns: repeat(2, 1fr);
+gap: 3.5rem;
+}
+.services_cards_sec_1 .services_cards .servc_card {
+  background-color: var(--primary_clr);
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem 2.5rem;
+  border: 3px solid var(--primary_background-clr);
+  border-radius: 10px;
+}
+
+.services_cards_sec_1 .services_cards .servc_card h3 {
+  font-size: 2.5rem;
+  color: var(--primary_background-clr);
+  text-align: center;
+}
+.services_cards_sec_1 .services_cards .servc_card p{
+  color: var(--primary_background-clr);
+  text-align: center;
+  font-weight: 400;
+}
+.services_cards_sec_1 .services_cards .servc_card .card_price{
+  font-weight: 700;
+}
+.services_cards_sec_1 .services_cards .servc_card .card_price > span{
+font-size: 2.188rem;
+color: var(--yellow_clr);
+margin-left: .8rem;
+margin-top: .5rem;
+}
+.services_cards_sec_1 .services_cards .servc_card button {
+  background: var(--solid_white_clr);
+  color: var(--primary_clr);
+  border: 1px solid var(--primary_clr);
+}
+.services_cards_sec_1 .services_cards .servc_card .servc_card_btn{
+  width: 13.25rem;
+  height: 3.625rem;
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 1.11rem;
+  letter-spacing: 0.03rem;
+}
+
+/*------------------------ END SERVICES PAGE CSS SECTION-2 --------------------------*/
