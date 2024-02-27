@@ -49,9 +49,13 @@ img,
 picture {
   width: 100%;
 }
-span,a,li{
+
+span,
+a,
+li {
   display: inline-block;
 }
+
 section {
   margin-bottom: 9.375rem;
   overflow: hidden;
@@ -844,9 +848,7 @@ textarea {
 .homepage_section_5 .testimonial_container .testimonial .r_content h3 {
   color: var(--heading_black_clr);
   text-align: center;
-  /* font-size: 2rem; */
   font-style: normal;
-  /* font-weight: 700; */
   line-height: 131%;
 }
 
@@ -880,6 +882,7 @@ textarea {
   align-items: center;
   justify-content: center;
   position: relative;
+  padding-bottom: 7rem;
 }
 
 .homepage_section_5 .lower_content .r-content-sun {
@@ -1121,7 +1124,7 @@ textarea {
 .homepage_section_7 .inner_bottom_container {
   width: 100%;
   justify-content: space-between;
-  padding: 1rem 0;
+  padding-block: 1rem;
 }
 
 .homepage_section_7 .inner_left_container {
@@ -1147,7 +1150,7 @@ textarea {
   gap: 3.12rem;
   padding: 6.15rem 4.15rem;
   border: 3px solid var(--primary_clr);
-  width: 45%;
+  width: 50%;
 }
 
 .homepage_section_7 .inner_right_container p {
@@ -2025,7 +2028,8 @@ textarea {
   gap: 2.5rem;
   justify-content: center;
   align-items: center;
-  padding-block: 5.75rem;
+  padding-top: 5.5rem;
+  padding-bottom: 1.5rem;
   position: relative;
 }
 
@@ -2036,15 +2040,16 @@ textarea {
   /* 5.24rem */
 }
 
-.provid_solu_tech_sec_1 .inner_para_provid_solu_sec_1 {
+.provid_solu_tech_sec_1 p {
   color: var(--primary_background-clr);
   font-weight: 400;
-  margin-right: 2.5rem;
+  /* margin-right: 2.5rem; */
 }
 
 .provid_solu_tech_sec_1 .inner_column_image_container {
   width: 48%;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .provid_solu_tech_sec_1 .inner_image_section {
@@ -2052,9 +2057,8 @@ textarea {
   gap: 1.04rem;
 }
 
-.provid_solu_tech_sec_1 .text_container :nth-child(1) {
+.provid_solu_tech_sec_1 .text_container p {
   color: var(--primary_background-clr);
-  font-size: 1.25rem;
   font-weight: 400;
   line-height: 131%;
   /* 1.6375rem */
@@ -2065,6 +2069,7 @@ textarea {
   font-size: 1.875rem;
   font-weight: 700;
   line-height: 131%;
+  margin-top: 0.5rem;
 }
 
 .provid_solu_tech_sec_1 .text_container :nth-child(3) {
@@ -2107,8 +2112,8 @@ textarea {
 }
 
 .provid_solu_tech_sec_1 .provid_solu_tech_container .sun_star {
-  right: 280px;
-  bottom: 173px;
+  right: 257px;
+  bottom: 182px;
 }
 
 /* ------------- END CSS About_Us SECTION-1 -------------- */
@@ -2457,22 +2462,27 @@ textarea {
 .review_hero_section_1 .review_hero_container .star_review_sec_1 {
   position: absolute;
 }
+
 .review_hero_section_1 .review_hero_container .left_top_str {
   left: -30px;
   top: 0px;
 }
+
 .review_hero_section_1 .review_hero_container .left_bottom_str {
   left: 79px;
   bottom: -24px;
 }
+
 .review_hero_section_1 .review_hero_container .center_str {
   top: 130px;
   left: 566px;
 }
+
 .review_hero_section_1 .review_hero_container .sun_str {
   top: 159px;
   right: 256px;
 }
+
 .review_hero_section_1 .review_hero_container .right_top_str {
   top: 10px;
   right: 10px;
@@ -2481,14 +2491,16 @@ textarea {
 /*------------------------ END REVIEWS PAGE CSS SECTION-1 --------------------------*/
 
 /*------------------------ START REVIEWS PAGE CSS SECTION-2 --------------------------*/
-.review_section_2 .review_sec_main_container{
+.review_section_2 .review_sec_main_container {
   gap: 8rem;
 }
+
 .review_section_2 .l_content .blue_str {
   position: absolute;
   top: 102px;
   left: -65px;
 }
+
 .review_section_2 .testimonial_container .testimonial .l_content span,
 .review_section_2 .testimonial_container .testimonial .r_content span,
 .review_section_2 .testimonial_container .lower_content span {
@@ -2515,32 +2527,99 @@ textarea {
 /*-------------------------- ANOTHER PAGE CSS --------------------------*/
 /*------------------------ START SERVICES PAGE CSS SECTION-1 --------------------------*/
 
+.services_cards_sec_1 p {
+  text-align: center;
+}
+
+.services_cards_sec_1 .servc_price_txt {
+  font-weight: 700 !important;
+}
+
+.services_cards_sec_1 .provid_solu_tech_container .mid_small_star {
+  top: 32px;
+  left: 690px;
+}
+
+.services_cards_sec_1 .provid_solu_tech_container .sun_star {
+  left: 75px;
+  top: 45px;
+}
+
+.services_cards_sec_1 .provid_solu_tech_container .left_botm_star {
+  left: 20px;
+  bottom: 32px;
+}
+
+.services_cards_sec_1 .text_container p>span {
+  color: var(--heading_black_clr);
+}
+
+.services_cards_sec_1 .text_container :nth-child(2) {
+  color: var(--heading_black_clr);
+}
+
+.services_cards_sec_1 .text_container :nth-child(3),
+.services_cards_sec_1 .text_container :nth-child(4) {
+  color: var(--primary_background-clr);
+}
+
+.services_cards_sec_1 .servi_sec_1_btn {
+  gap: 2rem;
+}
+
+.services_cards_sec_1 .servi_sec_1_btn button {
+  background: var(--primary_background-clr);
+  color: var(--primary_clr);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.services_cards_sec_1 .servi_sec_1_btn .l_btn {
+  width: 27rem;
+  height: 3.938rem;
+  border-radius: 10px;
+  border: 3px solid var(--primary_clr);
+
+}
+
+.services_cards_sec_1 .servi_sec_1_btn .r_btn {
+  width: 13.25rem;
+  height: 3.625rem;
+  border-radius: 5px;
+  border: 2px solid var(--primary_clr);
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem
+}
+
 /*------------------------ END SERVICES PAGE CSS SECTION-1 --------------------------*/
 
 /*------------------------ START SERVICES PAGE CSS SECTION-2 --------------------------*/
-.services_cards_sec_1 .service_card_container {
+.services_cards_sec_2 .service_card_container {
   /* align-items: center; */
   gap: 6.75rem;
 }
 
-.services_cards_sec_1 .service_card_container h2 {
+.services_cards_sec_2 .service_card_container h2 {
   font-size: 3.125rem;
   text-align: center;
 }
 
-.services_cards_sec_1 .service_card_container h2>span {
+.services_cards_sec_2 .service_card_container h2>span {
   background-color: var(--primary_clr);
   color: var(--primary_background-clr);
   padding-inline: 4px;
   transform: rotate(-0.45deg);
 }
 
-.services_cards_sec_1 .services_cards{
-padding-block: .5rem;
-grid-template-columns: repeat(2, 1fr);
-gap: 3.5rem;
+.services_cards_sec_2 .services_cards {
+  padding-block: .5rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.5rem;
 }
-.services_cards_sec_1 .services_cards .servc_card {
+
+.services_cards_sec_2 .services_cards .servc_card {
   background-color: var(--primary_clr);
   align-items: center;
   gap: 2rem;
@@ -2549,31 +2628,41 @@ gap: 3.5rem;
   border-radius: 10px;
 }
 
-.services_cards_sec_1 .services_cards .servc_card h3 {
+.services_cards_sec_2 .services_cards .servc_card svg {
+  height: 80px;
+  width: 80px;
+}
+
+.services_cards_sec_2 .services_cards .servc_card h3 {
   font-size: 2.5rem;
   color: var(--primary_background-clr);
   text-align: center;
 }
-.services_cards_sec_1 .services_cards .servc_card p{
+
+.services_cards_sec_2 .services_cards .servc_card p {
   color: var(--primary_background-clr);
   text-align: center;
   font-weight: 400;
 }
-.services_cards_sec_1 .services_cards .servc_card .card_price{
+
+.services_cards_sec_2 .services_cards .servc_card .card_price {
   font-weight: 700;
 }
-.services_cards_sec_1 .services_cards .servc_card .card_price > span{
-font-size: 2.188rem;
-color: var(--yellow_clr);
-margin-left: .8rem;
-margin-top: .5rem;
+
+.services_cards_sec_2 .services_cards .servc_card .card_price>span {
+  font-size: 2.188rem;
+  color: var(--yellow_clr);
+  margin-left: .8rem;
+  margin-top: .5rem;
 }
-.services_cards_sec_1 .services_cards .servc_card button {
-  background: var(--solid_white_clr);
+
+.services_cards_sec_2 .services_cards .servc_card button {
+  background: var(--primary_background-clr);
   color: var(--primary_clr);
   border: 1px solid var(--primary_clr);
 }
-.services_cards_sec_1 .services_cards .servc_card .servc_card_btn{
+
+.services_cards_sec_2 .services_cards .servc_card .servc_card_btn {
   width: 13.25rem;
   height: 3.625rem;
   font-size: 1rem;
@@ -2583,3 +2672,157 @@ margin-top: .5rem;
 }
 
 /*------------------------ END SERVICES PAGE CSS SECTION-2 --------------------------*/
+
+/*------------------------ START SERVICES PAGE CSS SECTION-3 --------------------------*/
+.services_cards_sec_3 .l_content .blue_str {
+  position: absolute;
+  top: 22%;
+  left: -11%;
+}
+
+.services_cards_sec_3 .r_content .r-content-star {
+  top: -10%;
+  right: -21%;
+}
+
+.services_cards_sec_3 .lower_content .r-content-sun {
+  top: -47%;
+  left: 45%;
+}
+
+.services_cards_sec_3 .lower_content .left-star_lower {
+  bottom: 73%;
+  left: 15%;
+}
+
+.services_cards_sec_3 .lower_content .blue-star_lower {
+  bottom: 99%;
+  right: 12%;
+}
+
+.services_cards_sec_3 .lower_content .right-sun_lower {
+  position: absolute;
+  bottom: -3%;
+  right: 30%;
+}
+
+.services_cards_sec_3 .lower_content .customer_experience_btn {
+  border: 1px solid var(--primary_background-clr);
+  width: 13.25rem;
+}
+
+.services_cards_sec_3 .testimonial_container .testimonial .l_content span,
+.services_cards_sec_3 .testimonial_container .testimonial .r_content span,
+.services_cards_sec_3 .testimonial_container .lower_content span {
+  color: var(--medium_light_gray_para_clr);
+}
+
+/*------------------------ END SERVICES PAGE CSS SECTION-3 --------------------------*/
+
+/*------------------------ START SERVICES PAGE CSS SECTION-4 --------------------------*/
+.services_cards_sec_4 .servic_main_container {
+  gap: 4rem;
+}
+
+.services_cards_sec_4 .our_commit_servc {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.services_cards_sec_4 .our_commit_servc .free_servc_content {
+  width: 55%;
+}
+
+.services_cards_sec_4 .our_commit_servc .commit_img {
+  width: 40%;
+}
+
+.services_cards_sec_4 .our_commit_servc .free_servc_content h2 {
+  font-size: 3.125rem;
+}
+
+.services_cards_sec_4 .our_commit_servc .free_servc_content {
+  gap: 2rem;
+}
+
+.services_cards_sec_4 .our_commit_servc .free_servc_content p {
+  color: var(--heading_black_clr);
+  font-size: 1.125rem;
+}
+
+/*------------------------ END SERVICES PAGE CSS SECTION-4 --------------------------*/
+
+/*------------------------  START Services page CSS section-5 --------------------------*/
+.services_contactus_sec_5 .inner_bottom_container {
+  padding-inline: 6rem;
+}
+
+.services_contactus_sec_5 .inner_heading_container {
+  gap: 1rem;
+}
+
+.services_contactus_sec_5 .inner_heading_container h4 {
+  color: var(--primary_clr);
+}
+
+.services_contactus_sec_5 .inner_bottom_container .inner_left_container p {
+  color: var(--heading_black_clr);
+  font-weight: 400;
+}
+
+.services_contactus_sec_5 .inner_left_container .arrow_svg_contanr {
+  margin-top: 3rem;
+}
+
+.services_contactus_sec_5 .inner_right_container {
+  background-color: var(--blog-category-blue);
+  border: 3px solid var(--solid_white_clr);
+  box-shadow: 5px 5px 0px 0px #000;
+  padding-block: 3.15rem;
+  gap: 2rem;
+}
+
+.services_contactus_sec_5 .inner_right_container h3 {
+  color: var(--solid_white_clr);
+}
+
+.services_contactus_sec_5 .inner_right_container .form_container {
+  gap: 1.5rem;
+}
+
+.services_contactus_sec_5 .form_container input,
+.services_contactus_sec_5 .form_container textarea {
+  padding: 1rem 2rem;
+  border: 3px solid #000;
+}
+
+.services_contactus_sec_5 .form_container input::placeholder,
+.services_contactus_sec_5 .form_container textarea::placeholder {
+  color: var(--heading_black_clr);
+}
+.services_contactus_sec_5 .form_container .chkbox_text{
+  gap: 1rem;
+  align-items: flex-start;
+}
+.services_contactus_sec_5 .form_container .chkbox_text input{
+  border: 1px solid var(--heading_black_clr);
+  border-radius: 4px;
+  box-shadow: none;
+  width: 25px;
+  height: 25px;
+}
+.services_contactus_sec_5 .form_container .chkbox_text p{
+  font-size: 1rem;
+  color: var(--solid_white_clr);
+}
+.services_contactus_sec_5 .form_container button{
+  width: 13.25rem;
+  height: 3.625rem;
+  background: var(--primary_background-clr);
+  color: var(--primary_clr);
+  margin-top: 1rem;
+  border: 1px solid var(--primary_clr);
+}
+
+
+/*------------------------  END Services page CSS section-5  --------------------------*/
