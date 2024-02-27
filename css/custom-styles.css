@@ -2102,8 +2102,8 @@ textarea {
 }
 
 .provid_solu_tech_sec_1 .provid_solu_tech_container .right_top_star {
-  right: 46px;
-  top: 75px;
+  right: 8%;
+  top: 10%;
 }
 
 .provid_solu_tech_sec_1 .provid_solu_tech_container .left_botm_star {
@@ -2536,18 +2536,18 @@ textarea {
 }
 
 .services_cards_sec_1 .provid_solu_tech_container .mid_small_star {
-  top: 32px;
-  left: 690px;
+  top: 8%;
+  left: 45%;
 }
 
 .services_cards_sec_1 .provid_solu_tech_container .sun_star {
-  left: 75px;
-  top: 45px;
+  left: 7%;
+  top: 10%;
 }
 
 .services_cards_sec_1 .provid_solu_tech_container .left_botm_star {
-  left: 20px;
-  bottom: 32px;
+  left: -3%;
+  bottom: 12%;
 }
 
 .services_cards_sec_1 .text_container p>span {
