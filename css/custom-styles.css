@@ -988,7 +988,7 @@ input[type="checkbox"] {
 .blog_page_section_02_blog_cards .blog_card_author_details {
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 90%;
   padding: 0px 10px;
 }
 
