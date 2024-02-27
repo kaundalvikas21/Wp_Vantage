@@ -2464,28 +2464,28 @@ textarea {
 }
 
 .review_hero_section_1 .review_hero_container .left_top_str {
-  left: -30px;
-  top: 0px;
+  left: -2%;
+  top: 1%;
 }
 
 .review_hero_section_1 .review_hero_container .left_bottom_str {
-  left: 79px;
-  bottom: -24px;
+  left: 10%;
+  bottom: -5%;
 }
 
 .review_hero_section_1 .review_hero_container .center_str {
-  top: 130px;
-  left: 566px;
+  top: 29%;
+  left: 37%;
 }
 
 .review_hero_section_1 .review_hero_container .sun_str {
-  top: 159px;
-  right: 256px;
+  top: 34%;
+  right: 17%;
 }
 
 .review_hero_section_1 .review_hero_container .right_top_str {
-  top: 10px;
-  right: 10px;
+  top: 6%;
+  right: 2%;
 }
 
 /*------------------------ END REVIEWS PAGE CSS SECTION-1 --------------------------*/
