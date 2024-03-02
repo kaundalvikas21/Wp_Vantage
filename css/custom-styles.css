@@ -413,7 +413,7 @@ textarea {
 .Homepage_section_1 .Homepage_container_1 {
   position: relative;
   align-items: center;
-  gap: 7rem;
+  justify-content: space-between;
 }
 
 .Homepage_section_1 .hero_left_inner_section {
@@ -423,7 +423,7 @@ textarea {
 }
 
 .Homepage_section_1 .inner_column_img_container {
-  width: 40%;
+  width: 35%;
 }
 
 .Homepage_section_1 h1 {
@@ -447,6 +447,7 @@ textarea {
 
 .Homepage_section_1 .inner_column_image_container {
   justify-content: space-between;
+  width: 82%;
 }
 
 .Homepage_section_1 .inner_column_btn-container {
@@ -457,17 +458,17 @@ textarea {
 .Homepage_section_1 .inner_image_section {
   align-items: center;
   gap: 1rem;
-  width: 50%;
+  width: 70%;
 }
 
 .Homepage_section_1 .text_container {
-  width: 30%;
+  width: 22%;
 }
 
 .Homepage_section_1 .text_container> :nth-child(1) {
   color: var(--primary_background-clr);
   font-size: 1.25rem;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 0.6375rem;
   margin-bottom: .75rem;
 }
@@ -481,7 +482,7 @@ textarea {
 }
 
 .Homepage_section_1 .text_container strong {
-  font-size: 1.5rem;
+  font-size: 1.875rem;
 }
 
 .Homepage_section_1 .text_container :nth-child(4) {
@@ -2665,28 +2666,15 @@ text-align: center;
   background: none;
 }
 
-.price_pag_sec_2 .inner_middle_planning_content_container {
+.price_pag_sec_2 .inner_middle_planning_content {
   position: relative;
 }
 
-.price_pag_sec_2 .inner_middle_planning_content_container .hr_line {
+.price_pag_sec_2 .inner_middle_planning_content .hr_line {
   position: absolute;
   padding-inline: 1rem;
-}
-
-.price_pag_sec_2 .line_1 {
   top: 20%;
-  left: 18%;
-}
-
-.price_pag_sec_2 .line_2 {
-  top: 20%;
-  left: 42.5%;
-}
-
-.price_pag_sec_2 .line_3 {
-  top: 20%;
-  left: 67.5%;
+  left: 74%;
 }
 
 /*----------------------- END PRICING_PAGE SECTION-2  ------------------*/
@@ -2817,7 +2805,73 @@ text-align: center;
 /*----------------------- END PRICING_PAGE SECTION-7  ------------------*/
 
 
-/*---------------------------- START FOOTER  ---------------------------*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Another page CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*---------------------------- START wp_maintenance_service Section-1 ---------------------------*/
+.wp_mainte_servi_sec_1 {
+  background: none;
+}
+.wp_mainte_servi_sec_1 h4{
+color: var(--primary_clr);
+}
+.wp_mainte_servi_sec_1 h1{
+  color: var(--heading_black_clr);
+}
+.wp_mainte_servi_sec_1 .inner_column_btn-container button{
+  width: 13.25rem;
+  height: 3.625rem;
+}
+.wp_mainte_servi_sec_1 .Homepage_container_1{
+position: relative;
+}
+.wp_mainte_servi_sec_1 .homepage_hero_sec_star_5{
+top: 58%;
+right: 36%;
+}
+.wp_mainte_servi_sec_1 .homepage_hero_sec_star_4{
+top: -3%;
+right: -1%;
+}
+.wp_mainte_servi_sec_1 .homepage_hero_sec_star_3{
+top: 96%;
+left: 3%;
+}
+.wp_mainte_servi_sec_1 .inner_column_img_container {
+  gap: 1rem;
+  align-items: center;
+}
+.wp_mainte_servi_sec_1 .inner_column_img_container img{
+  width: 22rem;
+  height: 19rem;
+}
+.wp_mainte_servi_sec_1 .inner_column_img_container h3{
+text-align: center;
+}
+.wp_mainte_servi_sec_1 .inner_column_img_container p{
+  font-size: .8rem;
+  text-align: center;
+}
+.wp_mainte_servi_sec_1 .inner_column_img_container button{
+margin-top: 1rem;
+}
+/*---------------------------- END wp_maintenance_service Section-1  ---------------------------*/
 
 
-/*---------------------------- START FOOTER  ---------------------------*/
+/*---------------------------- START wp_maintenance_service Section-2  ---------------------------*/
+.wp_mainte_servi_sec_2 .wp_steps_container {
+  gap: 5rem;
+  position: relative;
+}
+.wp_mainte_servi_sec_2 .wp_steps_container .left_star{
+position: absolute;
+top: 8%;
+left: 17%;
+}
+.wp_mainte_servi_sec_2 .wp_step_heading h2{
+text-align: center;
+}
+.wp_mainte_servi_sec_2 .wp_step_heading h2 > span{
+  background-color: var(--primary_clr);
+  color: var(--primary_background-clr);
+  padding-inline: 4px;
+}
+/*---------------------------- END wp_maintenance_service Section-2  ---------------------------*/
