@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
+  /* outline: 1px solid red; */
 }
 
 :root {
@@ -30,14 +30,21 @@
 }
 
 @font-face {
-  font-family: "Nexa";
-  src: url("/Typography/nexa/Nexa-Light.otf"),
-    url("/Typography/nexa/NexaRegular.otf"),
-    url("/Typography/nexa/Nexa-Bold.otf");
+  font-family: "nexa";
+  src: url("/Typography/nexa/NexaLight.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nexa";
+  src: url("/Typography/nexa/NexaBold.otf");
+  font-weight: bold;
+  font-style: normal;
 }
 
 body {
-  font-family: "Nexa", sans-serif;
+  font-family: "nexa";
   font-weight: normal;
   overflow-x: hidden;
   background-color: var(--primary_background-clr);
@@ -76,36 +83,38 @@ section {
 
 h1 {
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 4.84rem;
+
 }
 
 h2 {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 3.93rem;
 }
 
 h3 {
   font-size: 2rem;
   line-height: 2rem;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 h4 {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.965rem;
 }
 
 h5 {
   font-size: 1.125rem;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 p {
   color: var(--light_gray_para_clr);
   font-size: 1.25rem;
+
 }
 
 ul {
@@ -129,7 +138,7 @@ ul {
   border-radius: 0.3125rem;
   transition: 0.3s all ease-in-out;
   cursor: pointer;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .global_btn:hover {
@@ -165,6 +174,24 @@ textarea {
   outline: none;
 }
 
+.chkbox_text {
+  gap: 1rem;
+
+}
+
+.chkbox_text input {
+  border: 1px solid var(--heading_black_clr);
+  border-radius: 4px;
+  box-shadow: none;
+  width: 20px;
+  height: 20px;
+}
+
+.chkbox_text p {
+  font-size: 1rem;
+  color: var(--light_gray_para_clr);
+}
+
 /*------------------Global CSS ended-------------------*/
 
 /*------------------- Header CSS Start -------------------*/
@@ -175,6 +202,7 @@ textarea {
   width: 100%;
   background-color: var(--primary_background-clr);
   z-index: 1000;
+  box-shadow: 0px 2px 4px 0px #00000050;
 }
 
 .header .head_container {
@@ -211,7 +239,7 @@ textarea {
   justify-content: space-between;
   font-size: 1rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   letter-spacing: 0.03rem;
   line-height: 1.11rem;
 }
@@ -331,7 +359,7 @@ textarea {
   font-size: 1.375rem;
   display: block;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 1.875rem;
   margin-bottom: 1.25rem;
 }
@@ -376,10 +404,10 @@ textarea {
 /*------------------Homepage_Section_1 CSS started-------------------*/
 .Homepage_section_1 {
   /* background-color: var(--primary_clr); */
-  padding: 9.375rem;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1920' height='767' viewBox='0 0 1920 767' fill='none'%3E%3Cpath d='M0 0H1920V740C954.5 815.5 858 703 0 740V0Z' fill='%231D5AFF'/%3E%3C/svg%3E");
   mask-repeat: no-repeat;
   background-size: cover;
+  padding: 4rem 0;
 }
 
 .Homepage_section_1 .Homepage_container_1 {
@@ -411,7 +439,7 @@ textarea {
   height: 3.625rem;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   color: var(--heading_black_clr);
   border: 1px solid var(--heading_black_clr);
   background-color: var(--global_btn_clr);
@@ -436,32 +464,31 @@ textarea {
   width: 30%;
 }
 
-.Homepage_section_1 .text_container :nth-child(1) {
+.Homepage_section_1 .text_container> :nth-child(1) {
   color: var(--primary_background-clr);
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 0.6375rem;
+  margin-bottom: .75rem;
 }
 
-.Homepage_section_1 .text_container :nth-child(2) {
-  color: var(--global_btn_clr);
-  font-size: 1.875rem;
-  font-weight: 700;
-  line-height: 131%;
-}
 
 .Homepage_section_1 .text_container :nth-child(3) {
   color: var(--global_btn_clr);
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 131%;
+}
+
+.Homepage_section_1 .text_container strong {
+  font-size: 1.5rem;
 }
 
 .Homepage_section_1 .text_container :nth-child(4) {
   color: var(--global_btn_clr);
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 131%;
 }
 
@@ -517,6 +544,7 @@ textarea {
   align-items: flex-start;
   gap: 5.125rem;
   margin-bottom: 9.375rem;
+  position: relative;
 }
 
 .homepage_section_2 .inner_col_top .inner_container {
@@ -535,8 +563,8 @@ textarea {
 
 .homepage_section_2 .inner_bottom_content_container {
   gap: 1.75rem;
-  width: 100%;
   align-items: center;
+  padding-bottom: .5rem;
 }
 
 .homepage_section_2 .inner_col_bottom {
@@ -582,7 +610,7 @@ textarea {
   line-height: 1.31rem;
 }
 
-.inner_maintenance_price_nxt_btn {
+.homepage_section_2 .inner_maintenance_price_nxt_btn {
   justify-content: space-between;
   align-items: center;
 }
@@ -596,28 +624,9 @@ textarea {
   color: var(--global_btn_clr);
   font-size: 2.1875rem;
   letter-spacing: 0.06563rem;
-  font-weight: 700;
+  font-weight: bold;
 }
 
-.Homepage_section_2_next_previous_btns {
-  justify-content: space-between;
-  width: 100%;
-  position: relative;
-}
-
-/* .homepage_section_2 .section_2_arrow_btn {
-  position: absolute;
-} */
-/* .homepage_section_2 .previous_btn {
-  top: -20rem;
-  left: -5%;
-  cursor: pointer;
-}
-.homepage_section_2 .next_btn {
-  top: -20rem;
-  right: -5rem;
-  cursor: pointer;
-} */
 .homepage_section_2 .inner_maintenance_next_btn_arrow_icon {
   padding: 0.81rem 0.75rem;
   background-color: var(--heading_black_clr);
@@ -634,11 +643,10 @@ textarea {
 }
 
 /*-----star pattern started----- */
-.homepage_section_2_star_pattern {
+.homepage_section_2 .homepage_section_2_star_pattern {
   position: absolute;
-  top: 85rem;
-  right: 58rem;
-  z-index: -1;
+  top: 8%;
+  right: 2%;
 }
 
 /*----star pattern ended----*/
@@ -661,7 +669,7 @@ textarea {
 
 .Homepage_section_3 .inner_top_heading_content_column h4 {
   color: var(--primary_clr);
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .Homepage_section_3 .inner_top_heading_content_column p,
@@ -695,7 +703,7 @@ textarea {
   height: 3.625rem;
   border: 1px solid var(--heading_black_clr);
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 /*------------------Homepage_Section_3 CSS Ended-------------------*/
@@ -787,7 +795,7 @@ textarea {
   justify-content: center;
   gap: 0.5rem;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 3.93rem;
   text-align: center;
 }
@@ -817,7 +825,7 @@ textarea {
   color: var(--medium_light_gray_para_clr);
   text-align: center;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   line-height: normal;
 }
 
@@ -826,7 +834,7 @@ textarea {
   text-align: center;
   font-size: 1.5rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   line-height: normal;
 }
 
@@ -863,7 +871,7 @@ textarea {
   color: #545454;
   text-align: center;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   line-height: normal;
 }
 
@@ -872,7 +880,7 @@ textarea {
   text-align: center;
   font-size: 1.5rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   line-height: normal;
 }
 
@@ -882,7 +890,6 @@ textarea {
   align-items: center;
   justify-content: center;
   position: relative;
-  padding-bottom: 7rem;
 }
 
 .homepage_section_5 .lower_content .r-content-sun {
@@ -921,7 +928,7 @@ textarea {
   color: var(--medium_light_gray_para_clr);
   text-align: center;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   line-height: normal;
 }
 
@@ -930,7 +937,7 @@ textarea {
   text-align: center;
   font-size: 1.5rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   line-height: normal;
 }
 
@@ -939,7 +946,7 @@ textarea {
   width: 16.25rem;
   height: 3.625rem;
   border: 1px solid var(--heading_black_clr);
-  font-weight: 700;
+  font-weight: bold;
   font-size: 1rem;
   margin: 4rem 0 1rem;
 }
@@ -949,7 +956,7 @@ textarea {
 /* ---------------- START HOMEPAGE PLANS AND PRICING SECTION-6  ------------------ */
 .homepage_section_6 {
   background: var(--secondary_background-clr);
-  padding: 9.38rem 0;
+  padding-block: 9.38rem;
 }
 
 .homepage_section_6 .homepage_container_6 {
@@ -959,11 +966,13 @@ textarea {
 
 .homepage_section_6 .inner_top_heading_content_column {
   gap: 1.875rem;
+  width: 100%;
+  text-align: center;
 }
 
 .homepage_section_6 .inner_top_heading_content_column h4 {
   color: var(--primary_clr);
-  font-weight: 700;
+  font-weight: bold;
   gap: 1.875rem;
 }
 
@@ -975,7 +984,7 @@ textarea {
   color: var(--heading_black_clr);
   font-size: 2.5rem;
   text-align: center;
-  font-weight: 700;
+  font-weight: bold;
   line-height: normal;
 }
 
@@ -1006,7 +1015,7 @@ textarea {
   color: var(--heading_black_clr);
   font-size: 1rem;
   line-height: 1.31rem;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .homepage_section_6 .inner_card_middle_content_container {
@@ -1033,7 +1042,7 @@ textarea {
 
 .homepage_section_6 .price_content_container>span {
   color: var(--primary_clr);
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .homepage_section_6 .price_content_container>span:nth-child(1) {
@@ -1082,6 +1091,8 @@ textarea {
 
 .homepage_section_6 .inner_lower_column {
   justify-content: space-between;
+  align-items: center;
+  padding-block: 0.5rem;
 }
 
 .homepage_section_6 .services_btn {
@@ -1089,7 +1100,7 @@ textarea {
   height: 3.625rem;
   border: 1px solid var(--heading_black_clr);
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 /* ----------------END  PLANS AND PRICING SECTION-6 ------------------ */
@@ -1114,7 +1125,7 @@ textarea {
 
 .homepage_section_7 .inner_top_heading_content_column h4 {
   color: var(--primary_clr);
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .homepage_section_7 .inner_top_heading_content_column p {
@@ -1124,7 +1135,7 @@ textarea {
 .homepage_section_7 .inner_bottom_container {
   width: 100%;
   justify-content: space-between;
-  padding-block: 1rem;
+  padding-block: .5rem;
 }
 
 .homepage_section_7 .inner_left_container {
@@ -1141,7 +1152,7 @@ textarea {
   width: 13.25rem;
   height: 3.625rem;
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: bold;
   border: 1px solid var(--heading_black_clr);
 }
 
@@ -1155,7 +1166,7 @@ textarea {
 
 .homepage_section_7 .inner_right_container p {
   color: var(--medium_light_gray_para_clr);
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .homepage_section_7 .right_bottom_container {
@@ -1170,346 +1181,46 @@ textarea {
   gap: 0.62rem;
   align-items: center;
 }
-
-/* END INNER RIGHT CONTAINER CSS */
-
 /*------------ END HOMEPAGE SECTION-7 ---------------*/
 
-/* ----------------------free services section 08 starts--------------------- */
-.homepage_section_08 .services_section {
-  width: 100%;
-  height: auto;
-  color: #000;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 30px;
-  margin-top: 150px;
-}
 
-.homepage_section_08 .textbox_service p {
-  width: 1078px;
-  font-size: 18px;
-}
-
-.homepage_section_08 .textbox_service {
-  gap: 30px;
+/* ---------------------- START section_08 CSS--------------------- */
+.homepage_section_8 .our_commit_servc {
+  gap: 3rem;
   position: relative;
 }
-
-.homepage_section_08 .services_slider {
-  width: 100%;
-  height: 408px;
-  gap: 3%;
-  margin-top: 40px;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
+.homepage_section_8 .our_commit_servc .free_servc_content p{
+color: var(--light_gray_para_clr)!important;
+text-align: center;
 }
-
-.homepage_section_08 .slider_container {
-  gap: 4%;
-  justify-content: center;
-  align-items: center;
-}
-
-.homepage_section_08 .slider_content {
-  width: 40%;
-  height: auto;
-  background: #1d5aff;
-  border-radius: 10px;
-  box-shadow: 7px 7px;
-  padding: 20px;
-  gap: 20px;
-  border: 2px solid white;
-}
-
-.homepage_section_08 .slider_count {
-  width: 42px;
-  height: 42px;
-  background: #000;
-  border-radius: 50%;
-  box-shadow: 2px 0px 0px 0px white;
-  padding: 6px;
-  color: white;
-}
-
-.homepage_section_08 .slider_count h3 {
-  color: #ffffff;
-  font-size: 25px;
-}
-
-.homepage_section_08 .slider_content_details {
-  text-align: start;
-  gap: 30px;
-}
-
-.homepage_section_08 .slider_content_details h3 {
-  text-align: start;
-  gap: 30px;
-  color: var(--solid_white_clr);
-}
-
-.homepage_section_08 .slider_content_details p {
-  color: #ffffff;
-  line-height: 20px;
-}
-
-.homepage_section_08 .slider_rate {
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.homepage_section_08 .slider_rate h3 {
-  color: var(--global_btn_clr);
-}
-
-.homepage_section_08 .service_stars {
+.homepage_section_8 .our_commit_servc .black_str{
   position: absolute;
 }
-
-.homepage_section_08 .star1services {
-  position: relative;
-  top: 127px;
-  right: 273px;
+.homepage_section_8 .our_commit_servc .l_star{
+  bottom:-12%;
+  left: 6%;
 }
-
-.homepage_section_08 .star2services {
-  position: relative;
-  top: 54px;
-  left: 1045px;
+.homepage_section_8 .our_commit_servc .r_star{
+  bottom: 14%;
+  right: 14%;
 }
+/* ---------------------- END section_08 CSS--------------------- */
 
-/* ----------------------free services section 08 ends--------------------- */
-
-/* -----------------------------------------faq_section_09 starts-------------------- */
-.homepage_section_09 .faq_section {
-  width: 100%;
-  height: 100vh;
-  color: #000000;
-  background: #f1f1f1;
-  justify-content: center;
-  align-items: center;
-}
-
-.homepage_section_09 .faq_container {
-  gap: 60px;
-  height: auto;
-  position: sticky;
-}
-
-.homepage_section_09 .faq_headings {
-  flex: 1;
-  gap: 10px;
+/* ---------------------starts faq_section_9 ------------------ */
+.homepage_section_9 .faq_container .inner_col_1{
   position: relative;
 }
-
-.homepage_section_09 .faq_questions {
-  flex: 1;
-  gap: 20px;
-}
-
-.homepage_section_09 .faq_headings p {
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.homepage_section_09 .faq_headings h2 {
-  font-weight: 900;
-}
-
-.homepage_section_09 .faq_button button {
-  width: 212px;
-  height: 58px;
-  background-color: var(--global_btn_clr);
-  /* -------------------bg-is-overlaaping-in-global------------ */
-  border: 1px solid black;
-  /* ----------------border-is-not-added-in-buttons----------- */
-  border-radius: 5px;
-  /* ----------------border-radius-is--also-wrong----------- */
-  font-weight: 700;
-  /* ----------------also add font-weight----------- */
-  cursor: pointer;
-  /* ----------------cursor-pointer is not added----------- */
-  font-size: 20px;
-  /* ----------------fontsize is not  is not added----------- */
-}
-
-.homepage_section_09 .questions_container {
-  background: #ffffff;
-  width: 1224px;
-  height: 71px;
-  border-radius: 10px;
-  border: solid 2px black;
-  box-shadow: #000000 4px 4px;
-  justify-content: space-between;
-  padding: 0px 30px;
-  padding-top: 17px;
-}
-
-.homepage_section_09 .questions_container div p {
-  width: 800px;
-  font-size: 18px;
-  line-height: 24px;
-  margin-top: 20px;
-  display: none;
-}
-
-/* --------this is only use for dyamic content to .increase_height ---- */
-
-.increase_height {
-  height: auto;
-  align-items: start;
-  padding-bottom: 20px;
-}
-
-.homepage_section_09 .questions_container div {
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.homepage_section_09 .questions_container svg {
-  cursor: pointer;
-}
-
-.homepage_section_09 .image_faq_star {
+.homepage_section_9 .faq_container .inner_col_1 .sun_svg{
   position: absolute;
-  left: 300px;
-  top: 49px;
+  right: -4%;
+  top: 12%;
 }
+/* ------------------- End faq_section_09 ends-------------------- */
 
-.homepage_section_09 .image_faq_star svg {
-  opacity: 10%;
-}
+/* ---------------Start Blog_section-10 ----------------------- */
 
-/* -----------------------------------------faq_section_09 ends-------------------- */
 
-/* --------------------------------------blog-section-starts section-10 ------------------------- */
-.homepage_section_10 .styling_text2 {
-  background: #1d5aff;
-  color: #ffffff;
-  transform: rotate(-0.4deg);
-  width: fit-content;
-  margin-left: 10px;
-  padding: 0px 15px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-}
-
-.homepage_section_10 .blogs_section {
-  width: 100%;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
-
-.homepage_section_10 .container_Blogs {
-  width: 100%;
-  height: 100vh;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.homepage_section_10 .container_Blogs button {
-  width: 212px;
-  height: 58px;
-  background-color: var(--global_btn_clr);
-  /* -------------------bg-is-overlaaping-in-global------------ */
-  border: 1px solid black;
-  /* ----------------border-is-not-added-in-buttons----------- */
-  border-radius: 5px;
-  /* ----------------border-radius-is--also-wrong----------- */
-  font-weight: 700;
-  /* ----------------also add font-weight----------- */
-  cursor: pointer;
-  /* ----------------cursor-pointer is not added----------- */
-  font-size: 20px;
-  /* ----------------fontsize is not  is not added----------- */
-}
-
-.homepage_section_10 .container_Blogs h2 {
-  color: #000000;
-  font-weight: 700;
-  font-size: 64px;
-}
-
-.homepage_section_10 .blog_image .responsive_image {
-  width: 100%;
-  height: auto;
-}
-
-.homepage_section_10 .blog_card {
-  width: 100%;
-  height: auto;
-  border: solid 2px #1d5aff;
-  border-radius: 15px;
-  justify-content: center;
-  padding: 10px;
-  box-shadow: 9px 9px black;
-}
-
-.homepage_section_10 .blog_image {
-  position: relative;
-  width: 100%;
-}
-
-.homepage_section_10 .blog_image img {
-  object-fit: cover;
-}
-
-.homepage_section_10 .card_content span {
-  color: #ffffff;
-  background: #1d5aff;
-  padding: 5px;
-  width: fit-content;
-}
-
-.homepage_section_10 .card_content h4 {
-  font-size: 24px;
-  color: #000000;
-}
-
-.homepage_section_10 .card_content {
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.homepage_section_10 .blog_author_details {
-  width: 100%;
-  height: 50px;
-  margin-top: 30px;
-  align-items: center;
-  justify-content: space-between;
-  color: #000000;
-}
-
-.homepage_section_10 .card_details {
-  padding: 0px 20px;
-}
-
-.homepage_section_10 .container_author {
-  gap: 10px;
-}
-
-.homepage_section_10 .container_author p {
-  font-size: 13px;
-}
-
-.homepage_section_10 .read_post {
-  color: #1d5aff;
-  font-weight: 700;
-}
-
-.homepage_section_10 .card_container {
-  gap: 25px;
-}
-
-.homepage_section_10 .container_Blogs h2 {
-  gap: 10px;
-}
-
-/* --------------------------------------blog-section-starts section 10 ends ------------------------- */
+/* ---------------Start Blog_section-10 ----------------------- */
 
 /* -------------------------------footer styling starts------------------------------------------------- */
 .homepage_footer .main_container {
@@ -1568,7 +1279,7 @@ textarea {
   /* ----------------border-is-not-added-in-buttons----------- */
   border-radius: 5px;
   /* ----------------border-radius-is--also-wrong----------- */
-  font-weight: 700;
+  font-weight: bold;
   /* ----------------also add font-weight----------- */
   cursor: pointer;
   /* ----------------cursor-pointer is not added----------- */
@@ -1591,7 +1302,7 @@ textarea {
   /* ----------------border-is-not-added-in-buttons----------- */
   border-radius: 5px;
   /* ----------------border-radius-is--also-wrong----------- */
-  font-weight: 700;
+  font-weight: bold;
   /* ----------------also add font-weight----------- */
   cursor: pointer;
   /* ----------------cursor-pointer is not added----------- */
@@ -1633,7 +1344,7 @@ textarea {
 .homepage_footer .mini_sub_container h4 {
   font-size: 1.25rem;
   text-align: center;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .homepage_footer .mini_sub_container {
@@ -1653,13 +1364,13 @@ textarea {
 .homepage_footer .links_container ul li span {
   margin-bottom: 1.25rem;
   color: var(--global_btn_clr);
-  font-weight: 700;
+  font-weight: bold;
   font-size: 2.25rem;
 }
 
 .homepage_footer .links_container ul li {
   color: var(--solid_white_clr);
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .homepage_footer .copywrite_container {
@@ -1687,7 +1398,7 @@ textarea {
 
 .homepage_footer .footer_description h3 {
   font-size: 2.25rem;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .homepage_footer .social_media {
@@ -1762,7 +1473,7 @@ textarea {
 .homepage_footer .mini_box_text {
   font-size: 3.125rem;
   text-align: center;
-  font-weight: 700;
+  font-weight: bold;
   width: 90%;
   justify-content: center;
 }
@@ -1838,7 +1549,7 @@ textarea {
 
 .global_price_service_card .inner_bottom_container .inner_heading_price_container {
   color: var(--primary_clr);
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
   margin: 0.56rem 0 1.6rem;
 }
@@ -1857,7 +1568,7 @@ textarea {
 
 .global_price_service_card .inner_bottom_container .inner_card_container p {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: normal;
   text-align: center;
 }
 
@@ -1901,7 +1612,7 @@ textarea {
 
 .global_price_service_card .bottom_card_keypoints {
   font-size: 1.125rem;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 131%;
   gap: 1rem;
 }
@@ -1977,7 +1688,7 @@ textarea {
 .global_consistent_customer_service .column:nth-of-type(2) .icon h3 {
   color: var(--primary_background-clr);
   font-size: 2.1875rem;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 131%;
   /* 2.86563rem */
 }
@@ -1985,7 +1696,7 @@ textarea {
 .global_consistent_customer_service p {
   font-size: 1.375rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 /* -------- END WP MIGRATION SERVICE SECTION-4 (consistent service card) ----------- */
@@ -2002,7 +1713,7 @@ textarea {
 .global_exp_wp_tools .inner_top_heading_content_container {
   color: var(--heading_black_clr);
   font-size: 2.1875rem;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 111%;
   text-align: center;
 }
@@ -2042,7 +1753,7 @@ textarea {
 
 .provid_solu_tech_sec_1 p {
   color: var(--primary_background-clr);
-  font-weight: 400;
+  font-weight: normal;
   /* margin-right: 2.5rem; */
 }
 
@@ -2059,7 +1770,7 @@ textarea {
 
 .provid_solu_tech_sec_1 .text_container p {
   color: var(--primary_background-clr);
-  font-weight: 400;
+  font-weight: normal;
   line-height: 131%;
   /* 1.6375rem */
 }
@@ -2067,7 +1778,7 @@ textarea {
 .provid_solu_tech_sec_1 .text_container :nth-child(2) {
   color: var(--global_btn_clr);
   font-size: 1.875rem;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 131%;
   margin-top: 0.5rem;
 }
@@ -2075,7 +1786,7 @@ textarea {
 .provid_solu_tech_sec_1 .text_container :nth-child(3) {
   color: var(--global_btn_clr);
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 131%;
 }
 
@@ -2083,7 +1794,7 @@ textarea {
   color: var(--global_btn_clr);
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 131%;
 }
 
@@ -2176,13 +1887,13 @@ textarea {
 .about_us_section_2 .define_heading .inner_row h2 {
   font-size: 3.125rem;
   color: var(--heading_black_clr);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 131%;
 }
 
 .about_us_section_2 .define_heading .inner_row p {
   color: var(--secondary_black_clr);
-  font-weight: 400;
+  font-weight: normal;
   line-height: 131%;
   /* 1.6375rem */
 }
@@ -2221,7 +1932,7 @@ textarea {
   font-size: 1rem;
   color: var(--heading_black_clr);
   text-align: center;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 1.3rem;
   padding-bottom: 1rem;
 }
@@ -2275,7 +1986,7 @@ textarea {
 .maintenance_section_3 .maintenance_cards .keypoints span {
   color: var(--primary_background-clr);
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: normal;
   cursor: pointer;
 }
 
@@ -2311,12 +2022,12 @@ textarea {
 .global_enterprise_card .enterprise_card p {
   color: var(--primary_background-clr);
   text-align: center;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .global_enterprise_card .enterprise_card .price_content {
   text-align: center;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .global_enterprise_card .enterprise_card .price_content span:nth-of-type(1),
@@ -2367,7 +2078,7 @@ textarea {
 
 .global_wpslider_cards .global_wpslider_container .main_heading {
   font-size: 3.125rem;
-  font-weight: 700;
+  font-weight: bold;
   color: var(--heading_black_clr);
   padding-left: 4rem;
 }
@@ -2415,7 +2126,7 @@ textarea {
 
 .global_wpslider_cards .inner_detail_content p {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: normal;
   color: var(--primary_background-clr);
 }
 
@@ -2456,7 +2167,7 @@ textarea {
 
 .review_hero_section_1 .review_hero_container p {
   color: var(--primary_background-clr);
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .review_hero_section_1 .review_hero_container .star_review_sec_1 {
@@ -2497,8 +2208,8 @@ textarea {
 
 .review_section_2 .l_content .blue_str {
   position: absolute;
-  top: 102px;
-  left: -65px;
+  top: 22%;
+  left: -15%;
 }
 
 .review_section_2 .testimonial_container .testimonial .l_content span,
@@ -2508,18 +2219,18 @@ textarea {
 }
 
 .review_section_2 .lower_content .r-content-sun {
-  top: -262px;
-  left: 595px;
+  top: -62%;
+  left: 45%;
 }
 
 .review_section_2 .r_content .r-content-star {
-  top: -50px;
-  right: -138px;
+  top: -10%;
+  right: -18%;
 }
 
 .review_section_2 .lower_content .left-star_lower {
-  bottom: 125px;
-  left: 208px;
+  bottom: 62%;
+  left: 15%;
 }
 
 /*------------------------ END REVIEWS PAGE CSS SECTION-2 --------------------------*/
@@ -2570,7 +2281,7 @@ textarea {
 .services_cards_sec_1 .servi_sec_1_btn button {
   background: var(--primary_background-clr);
   color: var(--primary_clr);
-  font-weight: 700;
+  font-weight: bold;
   font-size: 1rem;
 }
 
@@ -2588,12 +2299,12 @@ textarea {
   border-radius: 5px;
   border: 2px solid var(--primary_clr);
   display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem
 }
-
 /*------------------------ END SERVICES PAGE CSS SECTION-1 --------------------------*/
+
 
 /*------------------------ START SERVICES PAGE CSS SECTION-2 --------------------------*/
 .services_cards_sec_2 .service_card_container {
@@ -2642,11 +2353,11 @@ textarea {
 .services_cards_sec_2 .services_cards .servc_card p {
   color: var(--primary_background-clr);
   text-align: center;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .services_cards_sec_2 .services_cards .servc_card .card_price {
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .services_cards_sec_2 .services_cards .servc_card .card_price>span {
@@ -2670,14 +2381,18 @@ textarea {
   line-height: 1.11rem;
   letter-spacing: 0.03rem;
 }
-
 /*------------------------ END SERVICES PAGE CSS SECTION-2 --------------------------*/
+
 
 /*------------------------ START SERVICES PAGE CSS SECTION-3 --------------------------*/
 .services_cards_sec_3 .l_content .blue_str {
   position: absolute;
   top: 22%;
   left: -11%;
+}
+
+.services_cards_sec_3 .testimonial_container .lower_content {
+  padding-bottom: 5rem;
 }
 
 .services_cards_sec_3 .r_content .r-content-star {
@@ -2696,14 +2411,14 @@ textarea {
 }
 
 .services_cards_sec_3 .lower_content .blue-star_lower {
-  bottom: 99%;
+  bottom: 103%;
   right: 12%;
 }
 
 .services_cards_sec_3 .lower_content .right-sun_lower {
   position: absolute;
   bottom: -3%;
-  right: 30%;
+  right: 33%;
 }
 
 .services_cards_sec_3 .lower_content .customer_experience_btn {
@@ -2716,8 +2431,8 @@ textarea {
 .services_cards_sec_3 .testimonial_container .lower_content span {
   color: var(--medium_light_gray_para_clr);
 }
-
 /*------------------------ END SERVICES PAGE CSS SECTION-3 --------------------------*/
+
 
 /*------------------------ START SERVICES PAGE CSS SECTION-4 --------------------------*/
 .services_cards_sec_4 .servic_main_container {
@@ -2749,14 +2464,10 @@ textarea {
   color: var(--heading_black_clr);
   font-size: 1.125rem;
 }
-
 /*------------------------ END SERVICES PAGE CSS SECTION-4 --------------------------*/
 
-/*------------------------  START Services page CSS section-5 --------------------------*/
-.services_contactus_sec_5 .inner_bottom_container {
-  padding-inline: 6rem;
-}
 
+/*------------------------  START Services page CSS section-5 --------------------------*/
 .services_contactus_sec_5 .inner_heading_container {
   gap: 1rem;
 }
@@ -2767,7 +2478,7 @@ textarea {
 
 .services_contactus_sec_5 .inner_bottom_container .inner_left_container p {
   color: var(--heading_black_clr);
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .services_contactus_sec_5 .inner_left_container .arrow_svg_contanr {
@@ -2790,6 +2501,10 @@ textarea {
   gap: 1.5rem;
 }
 
+.services_contactus_sec_5 .inner_right_container .form_container .chkbox_text p {
+  color: var(--solid_white_clr);
+}
+
 .services_contactus_sec_5 .form_container input,
 .services_contactus_sec_5 .form_container textarea {
   padding: 1rem 2rem;
@@ -2800,22 +2515,8 @@ textarea {
 .services_contactus_sec_5 .form_container textarea::placeholder {
   color: var(--heading_black_clr);
 }
-.services_contactus_sec_5 .form_container .chkbox_text{
-  gap: 1rem;
-  align-items: flex-start;
-}
-.services_contactus_sec_5 .form_container .chkbox_text input{
-  border: 1px solid var(--heading_black_clr);
-  border-radius: 4px;
-  box-shadow: none;
-  width: 25px;
-  height: 25px;
-}
-.services_contactus_sec_5 .form_container .chkbox_text p{
-  font-size: 1rem;
-  color: var(--solid_white_clr);
-}
-.services_contactus_sec_5 .form_container button{
+
+.services_contactus_sec_5 .form_container button {
   width: 13.25rem;
   height: 3.625rem;
   background: var(--primary_background-clr);
@@ -2823,6 +2524,300 @@ textarea {
   margin-top: 1rem;
   border: 1px solid var(--primary_clr);
 }
-
-
 /*------------------------  END Services page CSS section-5  --------------------------*/
+
+
+/* ---------------------- Contact Page CSS ---------------------------------------*/
+/*------------------------  START contact page CSS section-1  --------------------------*/
+.contact_pge_sec_1 .inner_bottom_container {
+  padding-top: 6rem;
+}
+
+.contact_pge_sec_1 .inner_right_container {
+  background-color: var(--solid_white_clr);
+  border: 1px solid var(--heading_black_clr);
+}
+
+.contact_pge_sec_1 .inner_right_container h3 {
+  color: var(--heading_black_clr);
+}
+
+.contact_pge_sec_1 .inner_right_container .form_container .chkbox_text p {
+  color: var(--light_gray_para_clr);
+}
+
+.contact_pge_sec_1 .form_container input,
+.contact_pge_sec_1 .form_container textarea {
+  border: 1px solid var(--heading_black_clr);
+}
+
+.contact_pge_sec_1 .form_container button {
+  background-color: var(--primary_clr);
+  color: var(--primary_background-clr);
+  border: 1px solid var(--primary_background-clr);
+}
+/*------------------------  END contact page CSS section-1  --------------------------*/
+
+
+/* ---------------------- My Account Page CSS ---------------------------------------*/
+/*------------------------  Start My Account page CSS section-1  --------------------------*/
+.account_form_sec .acc_frm_container {
+  padding-top: 6rem;
+  padding-bottom: 0.5rem;
+  justify-content: space-between;
+}
+
+.account_form_sec .acc_frm_container .form_container {
+  gap: 1.5rem;
+}
+
+.account_form_sec .acc_frm_container input:not([type="checkbox"]) {
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.account_form_sec .inner_content {
+  padding: 3.15rem 4.15rem;
+  gap: 2rem;
+  border: 1px solid var(--heading_black_clr);
+  width: 49%;
+}
+
+.account_form_sec h3 {
+  color: var(--heading_black_clr);
+}
+
+.account_form_sec span {
+  color: var(--primary_clr);
+  font-weight: normal;
+}
+
+.account_form_sec .form_container {
+  gap: 1rem;
+}
+
+.account_form_sec .form_container p {
+  font-size: 1rem;
+}
+
+.account_form_sec .form_container p>a {
+  color: var(--primary_clr);
+}
+
+.account_form_sec .form_container button {
+  width: 13.25rem;
+  height: 3.625rem;
+  margin-top: 1rem;
+}
+/*------------------------  End My Account page CSS section-1  --------------------------*/
+
+
+/* ---------------------- Pricing Page CSS ---------------------------------------*/
+/*----------------------- START PRICING_PAGE SECTION-1  ------------------*/
+.price_pag_sec_1 {
+  background-color: var(--medium_light_gray_para_clr);
+  background-image: none;
+}
+
+.price_pag_sec_1 h1 {
+  color: var(--primary_clr);
+}
+
+.price_pag_sec_1 h1>span {
+  background-color: var(--primary_clr);
+  color: var(--primary_background-clr);
+  padding-inline: 4px;
+  transform: rotate(-0.45deg);
+}
+
+.price_pag_sec_1 p {
+  color: var(--light_gray_para_clr);
+}
+
+.price_pag_sec_1 .text_container :nth-child(1),
+.price_pag_sec_1 .text_container :nth-child(3) {
+  color: var(--heading_black_clr);
+}
+
+.price_pag_sec_1 .r_btn {
+  width: 13.25rem;
+  height: 3.625rem;
+  background: var(--primary_background-clr);
+  color: var(--primary_clr);
+  border: 2px solid var(--primary_clr);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.price_pag_sec_1 .homepage_hero_sec_star_4 {
+  top: 10%;
+  right: 8%;
+}
+
+/*----------------------- END PRICING_PAGE  SECTION-1  ------------------*/
+
+
+/*----------------------- START PRICING_PAGE SECTION-2  ------------------*/
+.price_pag_sec_2 {
+  padding-block: .5rem;
+  background: none;
+}
+
+.price_pag_sec_2 .inner_middle_planning_content_container {
+  position: relative;
+}
+
+.price_pag_sec_2 .inner_middle_planning_content_container .hr_line {
+  position: absolute;
+  padding-inline: 1rem;
+}
+
+.price_pag_sec_2 .line_1 {
+  top: 20%;
+  left: 18%;
+}
+
+.price_pag_sec_2 .line_2 {
+  top: 20%;
+  left: 42.5%;
+}
+
+.price_pag_sec_2 .line_3 {
+  top: 20%;
+  left: 67.5%;
+}
+
+/*----------------------- END PRICING_PAGE SECTION-2  ------------------*/
+
+
+/*----------------------- START PRICING_PAGE SECTION-3  ------------------*/
+.price_pag_sec_3 {
+  background: none;
+  padding-block: 2.38rem;
+  position: relative;
+}
+
+.price_pag_sec_3 .inner_top_heading_content_column {
+  background: var(--primary_clr);
+  text-align: center;
+  padding: 3rem 0 12rem 0;
+
+}
+
+.price_pag_sec_3 .inner_top_heading_content_column h4 {
+  color: var(--secondary_background-clr);
+
+}
+
+.price_pag_sec_3 .inner_top_heading_content_column h1 {
+  color: var(--primary_background-clr);
+  padding-bottom: 2rem;
+}
+
+.price_pag_sec_3 .homepage_container_6 {
+  margin-top: -9rem;
+}
+
+.price_pag_sec_3 .homepage_6_card .inner_card:nth-of-type(odd) {
+  background: var(--primary_background-clr);
+}
+
+.price_pag_sec_3 .head_str {
+  position: absolute;
+}
+
+.price_pag_sec_3 .top_str {
+  top: 6%;
+  left: 10%;
+}
+
+.price_pag_sec_3 .small_str {
+  top: 17%;
+  left: 1%;
+}
+/*----------------------- END PRICING_PAGE  SECTION-3  ------------------*/
+
+
+/*----------------------- START PRICING_PAGE TESTIMONIAL SECTION-4  ------------------*/
+.price_pag_sec_4 .lower_content .r-content-sun {
+  top: 76%;
+  left: 58%;
+}
+.price_pag_sec_4 .testimonial_container .lower_content {
+  padding-bottom: 5rem;
+}
+/*----------------------- END PRICING_PAGE TESTIMONIAL SECTION-4  ------------------*/
+
+
+/*----------------------- START PRICING_PAGE SECTION-5  ------------------*/
+.price_pag_sec_5 .our_commit_servc {
+  position: relative;
+}
+.price_pag_sec_5 .our_commit_servc .price_str {
+  position: absolute;
+}
+.price_pag_sec_5 .our_commit_servc .left_str {
+  bottom: 77%;
+  left: 2%;
+}
+.price_pag_sec_5 .our_commit_servc .blue_str {
+  right: 6%;
+  bottom: 53%;
+}
+/*----------------------- END PRICING_PAGE SECTION-5  ------------------*/
+
+
+/*----------------------- START PRICING_PAGE  SECTION-6  ------------------*/
+.price_pag_sec_6 .inner_bottom_container {
+  padding-top: 0;
+}
+/*----------------------- END PRICING_PAGE SECTION-6  ------------------*/
+
+
+/*----------------------- START PRICING_PAGE SECTION-7  ------------------*/
+.price_pag_sec_7{
+  background-color: var(--secondary_background-clr);
+}
+.price_pag_sec_7 .faq_container{
+  justify-content: space-between;
+  padding-block: 5rem;
+}
+.price_pag_sec_7 .faq_container .inner_col_1{
+  width: 30%;
+  gap: 1rem;
+}
+
+.price_pag_sec_7 .inner_col_1 p{
+  color: var(--medium_light_gray_para_clr);
+}
+.price_pag_sec_7 .faq_container .inner_col_2{
+  width: 65%;
+  gap: 1rem;
+}
+.price_pag_sec_7 .faq_container .faq_accordions {
+  background-color: var(--primary_background-clr);
+  border-radius: 10px;
+  border: 1px solid var(--heading_black_clr);
+  padding: 1.25rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.price_pag_sec_7 .faq_container .faq_accordions svg{
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.price_pag_sec_7 .faq_container .inner_col_2 button{
+  width: 13.25rem;
+  height: 3.625rem;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+/*----------------------- END PRICING_PAGE SECTION-7  ------------------*/
+
+
+/*---------------------------- START FOOTER  ---------------------------*/
+
+
+/*---------------------------- START FOOTER  ---------------------------*/
