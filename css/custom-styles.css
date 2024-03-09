@@ -42,7 +42,9 @@
   font-weight: bold;
   font-style: normal;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "nexa";
   font-weight: normal;
@@ -56,13 +58,12 @@ img,
 picture {
   width: 100%;
 }
-
 span,
 a,
 li {
   display: inline-block;
+  text-decoration: none;
 }
-
 section {
   margin-bottom: 9.375rem;
   overflow: hidden;
@@ -1182,6 +1183,7 @@ textarea {
   gap: 0.62rem;
   align-items: center;
 }
+
 /*------------ END HOMEPAGE SECTION-7 ---------------*/
 
 
@@ -1190,32 +1192,39 @@ textarea {
   gap: 3rem;
   position: relative;
 }
-.homepage_section_8 .our_commit_servc .free_servc_content p{
-color: var(--light_gray_para_clr)!important;
-text-align: center;
+
+.homepage_section_8 .our_commit_servc .free_servc_content p {
+  color: var(--light_gray_para_clr) !important;
+  text-align: center;
 }
-.homepage_section_8 .our_commit_servc .black_str{
+
+.homepage_section_8 .our_commit_servc .black_str {
   position: absolute;
 }
-.homepage_section_8 .our_commit_servc .l_star{
-  bottom:-12%;
+
+.homepage_section_8 .our_commit_servc .l_star {
+  bottom: -12%;
   left: 6%;
 }
-.homepage_section_8 .our_commit_servc .r_star{
+
+.homepage_section_8 .our_commit_servc .r_star {
   bottom: 14%;
   right: 14%;
 }
+
 /* ---------------------- END section_08 CSS--------------------- */
 
 /* ---------------------starts faq_section_9 ------------------ */
-.homepage_section_9 .faq_container .inner_col_1{
+.homepage_section_9 .faq_container .inner_col_1 {
   position: relative;
 }
-.homepage_section_9 .faq_container .inner_col_1 .sun_svg{
+
+.homepage_section_9 .faq_container .inner_col_1 .sun_svg {
   position: absolute;
   right: -4%;
   top: 12%;
 }
+
 /* ------------------- End faq_section_09 ends-------------------- */
 
 /* ---------------Start Blog_section-10 ----------------------- */
@@ -1523,11 +1532,10 @@ text-align: center;
 /*------------ START WP MIGRATION SERVICE SECTION-3 (service card) ---------------*/
 .global_price_service_card {
   background: var(--secondary_background-clr);
-  /* padding: 8rem; */
 }
 
 .global_price_service_card .global_service_card_container {
-  gap: 6.16rem;
+  gap: 5.16rem;
   padding-block: 7.15rem;
 }
 
@@ -1537,6 +1545,7 @@ text-align: center;
   align-items: center;
   border: 3px solid var(--primary_clr);
   box-shadow: none;
+  background-color: var(--primary_background-clr);
 }
 
 .global_price_service_card .inner_bottom_container {
@@ -1585,7 +1594,7 @@ text-align: center;
   transform: rotate(-0.45deg);
 }
 
-.global_price_service_card .gglobal_service_card_container .inner_top_heading_content_column h5 {
+.global_price_service_card .global_service_card_container .inner_top_heading_content_column h5 {
   color: var(--primary_clr);
   font-style: normal;
   line-height: 131%;
@@ -1642,51 +1651,51 @@ text-align: center;
 /*------------ END WP MIGRATION SERVICE SECTION-3 (service card) ---------------*/
 
 /* -------- START WP MIGRATION SERVICE SECTION-4 (consistent service card) ----------- */
-.global_consistent_customer_service {
+.WP_Migra_Service_section_4 {
   background: var(--primary_clr);
 }
 
-.global_consistent_customer_service .global_consistent_service_container {
+.WP_Migra_Service_section_4 .global_consistent_service_container {
   padding-block: 3.94rem;
   gap: 3.69rem;
 }
 
-.global_consistent_customer_service h1,
-.global_consistent_customer_service h3,
-.global_consistent_customer_service h5,
-.global_consistent_customer_service p {
+.WP_Migra_Service_section_4 h1,
+.WP_Migra_Service_section_4 h3,
+.WP_Migra_Service_section_4 h5,
+.WP_Migra_Service_section_4 p {
   color: var(--primary_background-clr);
 }
 
 /* -- START CSS INNER TOP CONTENT CONTAINER -- */
-.global_consistent_customer_service .column:nth-of-type(1) {
+.WP_Migra_Service_section_4 .column:nth-of-type(1) {
   display: flex;
   justify-content: space-between;
 }
 
-.global_consistent_customer_service .column:nth-of-type(1) h1 {
+.WP_Migra_Service_section_4 .column:nth-of-type(1) h1 {
   width: 70%;
 }
 
-.global_consistent_customer_service .column:nth-of-type(1) h5 {
+.WP_Migra_Service_section_4 .column:nth-of-type(1) h5 {
   width: 22%;
   line-height: 1.5rem;
   /* 133.333% */
 }
 
-.global_consistent_customer_service .column:nth-of-type(2) {
+.WP_Migra_Service_section_4 .column:nth-of-type(2) {
   display: flex;
   justify-content: space-between;
 }
 
-.global_consistent_customer_service .column:nth-of-type(2) .icon {
+.WP_Migra_Service_section_4 .column:nth-of-type(2) .icon {
   width: 22%;
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
 }
 
-.global_consistent_customer_service .column:nth-of-type(2) .icon h3 {
+.WP_Migra_Service_section_4 .column:nth-of-type(2) .icon h3 {
   color: var(--primary_background-clr);
   font-size: 2.1875rem;
   font-weight: bold;
@@ -1694,7 +1703,7 @@ text-align: center;
   /* 2.86563rem */
 }
 
-.global_consistent_customer_service p {
+.WP_Migra_Service_section_4 p {
   font-size: 1.375rem;
   font-style: normal;
   font-weight: normal;
@@ -1708,14 +1717,11 @@ text-align: center;
 }
 
 .global_exp_wp_tools .global_exp_wp_tools_container {
-  gap: 3.94rem;
+  gap: 2.5rem;
 }
 
-.global_exp_wp_tools .inner_top_heading_content_container {
-  color: var(--heading_black_clr);
+.global_exp_wp_tools .global_exp_wp_tools_container h3 {
   font-size: 2.1875rem;
-  font-weight: bold;
-  line-height: 111%;
   text-align: center;
 }
 
@@ -1996,101 +2002,29 @@ text-align: center;
   display: flex;
   align-items: center;
 }
-
 /* ------------- END CSS About_Us SECTION-3 -------------- */
 
 /*------------------------- Another page CSS--------------------------------- */
-/* ---------- START WooCOMMERCE Maintenance services SECTION-5-------------- */
-.global_enterprise_card .sub_container {
-  max-width: 1350px;
-  margin-inline: auto;
-  padding: 0.5rem 2rem;
-}
-
-.global_enterprise_card .enterprise_card {
-  background-color: var(--primary_clr);
-  padding: 2.5rem 8rem;
-  gap: 2rem;
-  border: 1px solid var(--primary_background-clr);
-  align-items: center;
-}
-
-.global_enterprise_card .enterprise_card h3 {
-  color: var(--yellow_clr);
-  text-align: center;
-}
-
-.global_enterprise_card .enterprise_card p {
-  color: var(--primary_background-clr);
-  text-align: center;
-  font-weight: normal;
-}
-
-.global_enterprise_card .enterprise_card .price_content {
-  text-align: center;
-  font-weight: bold;
-}
-
-.global_enterprise_card .enterprise_card .price_content span:nth-of-type(1),
-.global_enterprise_card .enterprise_card .price_content span:nth-of-type(5) {
-  color: var(--primary_background-clr);
-  font-size: 1.25rem;
-}
-
-.global_enterprise_card .enterprise_card .price_content span:nth-of-type(2) {
-  color: #c2c2c2;
-  text-decoration: line-through;
-  font-size: 1.25rem;
-  padding-right: 0.5rem;
-}
-
-.global_enterprise_card .enterprise_card .price_content span:nth-of-type(3) {
-  color: var(--global_btn_clr);
-  font-size: 2.188rem;
-}
-
-.global_enterprise_card .enterprise_card .price_content span:nth-of-type(4) {
-  color: var(--global_btn_clr);
-  font-size: 1.25rem;
-}
-
-.global_enterprise_card .enterprise_card button {
-  background: var(--solid_white_clr);
-  color: var(--primary_clr);
-  border: 1px solid var(--primary_clr);
-}
-
-.global_enterprise_card .enterprise_card .price_btn {
-  width: 13.576rem;
-  height: 3.938rem;
-  font-size: 1rem;
-  font-style: normal;
-  line-height: 1.11rem;
-  letter-spacing: 0.03rem;
-}
-
-/* ---------- END WooCOMMERCE Maintenance services SECTION-5-------------- */
-
-/* ---------- START WooCOMMERCE Maintenance services SECTION-8-------------- */
-
-.global_wpslider_cards .global_wpslider_container {
+/* ---------- START WooCOMMERCE Maintenance services Sec-8-------------- */
+.woocom_mainte_service_sec_8 .global_wpslider_container {
   gap: 5rem;
 }
 
-.global_wpslider_cards .global_wpslider_container .main_heading {
+.woocom_mainte_service_sec_8 .global_wpslider_container .main_heading {
   font-size: 3.125rem;
   font-weight: bold;
   color: var(--heading_black_clr);
   padding-left: 4rem;
+  text-align: start;
 }
 
-.global_wpslider_cards .wpslider_cards {
+.woocom_mainte_service_sec_8 .wpslider_cards {
   padding: 0.5rem 0;
   justify-content: space-between;
   align-items: center;
 }
 
-.global_wpslider_cards .wpslider_cards .slider_card_content {
+.woocom_mainte_service_sec_8 .wpslider_cards .slider_card_content {
   width: 22%;
   height: auto;
   text-align: start;
@@ -2101,7 +2035,7 @@ text-align: center;
   gap: 1.25rem;
 }
 
-.global_wpslider_cards .wpslider_cards .slider_card_content .count_num {
+.woocom_mainte_service_sec_8 .wpslider_cards .slider_card_content .count_num {
   background-color: var(--heading_black_clr);
   width: 42px;
   height: 42px;
@@ -2109,51 +2043,48 @@ text-align: center;
   border-radius: 50%;
 }
 
-.global_wpslider_cards .count_num h4 {
+.woocom_mainte_service_sec_8 .count_num h4 {
   font-size: 1.75rem;
   text-align: center;
   color: var(--primary_background-clr);
   padding: 6px;
 }
 
-.global_wpslider_cards .inner_detail_content {
+.woocom_mainte_service_sec_8 .inner_detail_content {
   gap: 1.25rem;
 }
 
-.global_wpslider_cards .inner_detail_content h4 {
+.woocom_mainte_service_sec_8 .inner_detail_content h4 {
   font-size: 1.75rem;
   color: var(--primary_background-clr);
 }
 
-.global_wpslider_cards .inner_detail_content p {
+.woocom_mainte_service_sec_8 .inner_detail_content p {
   font-size: 1rem;
   font-weight: normal;
   color: var(--primary_background-clr);
 }
 
-.global_wpslider_cards .inner_detail_content .price_arrow {
+.woocom_mainte_service_sec_8 .inner_detail_content .price_arrow {
   width: 100%;
   align-items: center;
   justify-content: space-between;
 }
-
-.global_wpslider_cards .inner_detail_content .price_arrow h3 {
+.woocom_mainte_service_sec_8 .inner_detail_content .price_arrow h3 {
   font-size: 2.188rem;
   color: var(--yellow_clr);
 }
-
-.global_wpslider_cards .inner_detail_content .price_arrow svg {
+.woocom_mainte_service_sec_8 .inner_detail_content .price_arrow svg {
   margin-right: 2.5rem;
 }
-
 /* ---------- END WooCOMMERCE Maintenance services SECTION-8-------------- */
+
 
 /*-------------------------- ANOTHER PAGE CSS --------------------------*/
 /*------------------------ START REVIEWS PAGE CSS SECTION-1 --------------------------*/
 .review_hero_section_1 {
   background-color: var(--primary_clr);
 }
-
 .review_hero_section_1 .review_hero_container {
   text-align: center;
   padding-block: 5.75rem;
@@ -2161,45 +2092,36 @@ text-align: center;
   align-items: center;
   position: relative;
 }
-
 .review_hero_section_1 .review_hero_container h1 {
   color: var(--primary_background-clr);
 }
-
 .review_hero_section_1 .review_hero_container p {
   color: var(--primary_background-clr);
   font-weight: normal;
 }
-
 .review_hero_section_1 .review_hero_container .star_review_sec_1 {
   position: absolute;
 }
-
 .review_hero_section_1 .review_hero_container .left_top_str {
   left: -2%;
   top: 1%;
 }
-
 .review_hero_section_1 .review_hero_container .left_bottom_str {
   left: 10%;
   bottom: -5%;
 }
-
 .review_hero_section_1 .review_hero_container .center_str {
   top: 29%;
   left: 37%;
 }
-
 .review_hero_section_1 .review_hero_container .sun_str {
   top: 34%;
   right: 17%;
 }
-
 .review_hero_section_1 .review_hero_container .right_top_str {
   top: 6%;
   right: 2%;
 }
-
 /*------------------------ END REVIEWS PAGE CSS SECTION-1 --------------------------*/
 
 /*------------------------ START REVIEWS PAGE CSS SECTION-2 --------------------------*/
@@ -2304,6 +2226,7 @@ text-align: center;
   justify-content: center;
   gap: 0.5rem
 }
+
 /*------------------------ END SERVICES PAGE CSS SECTION-1 --------------------------*/
 
 
@@ -2382,6 +2305,7 @@ text-align: center;
   line-height: 1.11rem;
   letter-spacing: 0.03rem;
 }
+
 /*------------------------ END SERVICES PAGE CSS SECTION-2 --------------------------*/
 
 
@@ -2402,7 +2326,7 @@ text-align: center;
 }
 
 .services_cards_sec_3 .lower_content .r-content-sun {
-  top: -47%;
+  top: -60%;
   left: 45%;
 }
 
@@ -2432,6 +2356,7 @@ text-align: center;
 .services_cards_sec_3 .testimonial_container .lower_content span {
   color: var(--medium_light_gray_para_clr);
 }
+
 /*------------------------ END SERVICES PAGE CSS SECTION-3 --------------------------*/
 
 
@@ -2525,6 +2450,7 @@ text-align: center;
   margin-top: 1rem;
   border: 1px solid var(--primary_clr);
 }
+
 /*------------------------  END Services page CSS section-5  --------------------------*/
 
 
@@ -2557,6 +2483,7 @@ text-align: center;
   color: var(--primary_background-clr);
   border: 1px solid var(--primary_background-clr);
 }
+
 /*------------------------  END contact page CSS section-1  --------------------------*/
 
 
@@ -2610,6 +2537,7 @@ text-align: center;
   height: 3.625rem;
   margin-top: 1rem;
 }
+
 /*------------------------  End My Account page CSS section-1  --------------------------*/
 
 
@@ -2632,7 +2560,7 @@ text-align: center;
 }
 
 .price_pag_sec_1 p {
-  color: var(--light_gray_para_clr);
+  color: var(--heading_black_clr);
 }
 
 .price_pag_sec_1 .text_container :nth-child(1),
@@ -2725,6 +2653,7 @@ text-align: center;
   top: 17%;
   left: 1%;
 }
+
 /*----------------------- END PRICING_PAGE  SECTION-3  ------------------*/
 
 
@@ -2733,9 +2662,11 @@ text-align: center;
   top: 76%;
   left: 58%;
 }
+
 .price_pag_sec_4 .testimonial_container .lower_content {
   padding-bottom: 5rem;
 }
+
 /*----------------------- END PRICING_PAGE TESTIMONIAL SECTION-4  ------------------*/
 
 
@@ -2743,17 +2674,21 @@ text-align: center;
 .price_pag_sec_5 .our_commit_servc {
   position: relative;
 }
+
 .price_pag_sec_5 .our_commit_servc .price_str {
   position: absolute;
 }
+
 .price_pag_sec_5 .our_commit_servc .left_str {
   bottom: 77%;
   left: 2%;
 }
+
 .price_pag_sec_5 .our_commit_servc .blue_str {
   right: 6%;
   bottom: 53%;
 }
+
 /*----------------------- END PRICING_PAGE SECTION-5  ------------------*/
 
 
@@ -2761,29 +2696,34 @@ text-align: center;
 .price_pag_sec_6 .inner_bottom_container {
   padding-top: 0;
 }
+
 /*----------------------- END PRICING_PAGE SECTION-6  ------------------*/
 
 
 /*----------------------- START PRICING_PAGE SECTION-7  ------------------*/
-.price_pag_sec_7{
+.price_pag_sec_7 {
   background-color: var(--secondary_background-clr);
 }
-.price_pag_sec_7 .faq_container{
+
+.price_pag_sec_7 .faq_container {
   justify-content: space-between;
   padding-block: 5rem;
 }
-.price_pag_sec_7 .faq_container .inner_col_1{
+
+.price_pag_sec_7 .faq_container .inner_col_1 {
   width: 30%;
   gap: 1rem;
 }
 
-.price_pag_sec_7 .inner_col_1 p{
+.price_pag_sec_7 .inner_col_1 p {
   color: var(--medium_light_gray_para_clr);
 }
-.price_pag_sec_7 .faq_container .inner_col_2{
+
+.price_pag_sec_7 .faq_container .inner_col_2 {
   width: 65%;
   gap: 1rem;
 }
+
 .price_pag_sec_7 .faq_container .faq_accordions {
   background-color: var(--primary_background-clr);
   border-radius: 10px;
@@ -2792,11 +2732,13 @@ text-align: center;
   align-items: center;
   justify-content: space-between;
 }
-.price_pag_sec_7 .faq_container .faq_accordions svg{
+
+.price_pag_sec_7 .faq_container .faq_accordions svg {
   margin-right: 2rem;
   cursor: pointer;
 }
-.price_pag_sec_7 .faq_container .inner_col_2 button{
+
+.price_pag_sec_7 .faq_container .inner_col_2 button {
   width: 13.25rem;
   height: 3.625rem;
   font-size: 1.25rem;
@@ -2810,49 +2752,61 @@ text-align: center;
 .wp_mainte_servi_sec_1 {
   background: none;
 }
-.wp_mainte_servi_sec_1 h4{
-color: var(--primary_clr);
+.wp_mainte_servi_sec_1 h4 {
+  color: var(--primary_clr);
 }
-.wp_mainte_servi_sec_1 h1{
+
+.wp_mainte_servi_sec_1 h1 {
   color: var(--heading_black_clr);
 }
-.wp_mainte_servi_sec_1 .inner_column_btn-container button{
+
+.wp_mainte_servi_sec_1 .inner_column_btn-container button {
   width: 13.25rem;
   height: 3.625rem;
 }
-.wp_mainte_servi_sec_1 .Homepage_container_1{
-position: relative;
+
+.wp_mainte_servi_sec_1 .Homepage_container_1 {
+  position: relative;
 }
-.wp_mainte_servi_sec_1 .homepage_hero_sec_star_5{
-top: 58%;
-right: 36%;
+
+.wp_mainte_servi_sec_1 .homepage_hero_sec_star_5 {
+  top: 58%;
+  right: 36%;
 }
-.wp_mainte_servi_sec_1 .homepage_hero_sec_star_4{
-top: -3%;
-right: -1%;
+
+.wp_mainte_servi_sec_1 .homepage_hero_sec_star_4 {
+  top: -3%;
+  right: -1%;
 }
-.wp_mainte_servi_sec_1 .homepage_hero_sec_star_3{
-top: 96%;
-left: 3%;
+
+.wp_mainte_servi_sec_1 .homepage_hero_sec_star_3 {
+  top: 96%;
+  left: 3%;
 }
+
 .wp_mainte_servi_sec_1 .inner_column_img_container {
   gap: 1rem;
   align-items: center;
 }
-.wp_mainte_servi_sec_1 .inner_column_img_container img{
+
+.wp_mainte_servi_sec_1 .inner_column_img_container img {
   width: 22rem;
   height: 19rem;
 }
-.wp_mainte_servi_sec_1 .inner_column_img_container h3{
-text-align: center;
+
+.wp_mainte_servi_sec_1 .inner_column_img_container h3 {
+  text-align: center;
 }
-.wp_mainte_servi_sec_1 .inner_column_img_container p{
+
+.wp_mainte_servi_sec_1 .inner_column_img_container p {
   font-size: .8rem;
   text-align: center;
 }
-.wp_mainte_servi_sec_1 .inner_column_img_container button{
-margin-top: 1rem;
+
+.wp_mainte_servi_sec_1 .inner_column_img_container button {
+  margin-top: 1rem;
 }
+
 /*---------------------------- END wp_maintenance_service Section-1  ---------------------------*/
 
 
@@ -2861,17 +2815,494 @@ margin-top: 1rem;
   gap: 5rem;
   position: relative;
 }
-.wp_mainte_servi_sec_2 .wp_steps_container .left_star{
-position: absolute;
-top: 8%;
-left: 17%;
+
+.wp_mainte_servi_sec_2 .wp_steps_container .left_star {
+  position: absolute;
+  top: 8%;
+  left: 17%;
 }
-.wp_mainte_servi_sec_2 .wp_step_heading h2{
-text-align: center;
+
+.wp_mainte_servi_sec_2 .wp_step_heading h2 {
+  text-align: center;
 }
-.wp_mainte_servi_sec_2 .wp_step_heading h2 > span{
+
+.wp_mainte_servi_sec_2 .wp_step_heading h2>span {
   background-color: var(--primary_clr);
   color: var(--primary_background-clr);
   padding-inline: 4px;
 }
+
 /*---------------------------- END wp_maintenance_service Section-2  ---------------------------*/
+
+/*-------------------------- START wp_maintenance_service Section-3 --------------------------*/
+.wp_mainte_servi_sec_3 {
+  background-color: var(--secondary_background-clr);
+  padding-block: 3rem;
+}
+
+.wp_mainte_servi_sec_3 .global_exp_wp_tools_container h4,
+.wp_mainte_servi_sec_3 .global_exp_wp_tools_container h2,
+.wp_mainte_servi_sec_3 .global_exp_wp_tools_container h5 {
+  text-align: center;
+}
+
+.wp_mainte_servi_sec_3 h4 {
+  color: var(--yellow_clr);
+}
+
+.wp_mainte_servi_sec_3 h2 {
+  color: #1E1E1E;
+}
+
+.wp_mainte_servi_sec_3 h5 {
+  color: #1E1E1E;
+  font-weight: normal;
+}
+
+/*-------------------------- END wp_maintenance_service Section-3 --------------------------*/
+
+
+/*-------------------------- START wp_maintenance_service Section-4 --------------------------*/
+.wp_mainte_servi_sec_4 {
+  background: none;
+}
+
+.wp_mainte_servi_sec_4 .global_service_card_container {
+  padding-block: .5rem;
+}
+
+.wp_mainte_servi_sec_4 .global_service_card_container .inner_top_heading_content_column h5 {
+  color: var(--light_gray_para_clr);
+  font-weight: normal;
+}
+
+.wp_mainte_servi_sec_4 .global_service_card_container .plan_card {
+  width: 28rem;
+  height: 5rem;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 3px solid var(--primary_clr);
+  border-radius: 6rem;
+  text-align: center;
+  color: var(--primary_clr);
+  margin: auto;
+}
+
+.wp_mainte_servi_sec_4 .global_service_card_container .plan_card .monthly_plan,
+.annually_plan>span {
+  font-weight: bold;
+}
+
+.wp_mainte_servi_sec_4 .bottom_card_keypoints .cross_text {
+  text-decoration-line: none;
+  color: var(--heading_black_clr);
+  margin-left: 0;
+}
+
+.wp_mainte_servi_sec_4 .inner_bottom_container .inner_card_container p {
+  color: var(--heading_black_clr);
+}
+
+.wp_mainte_servi_sec_4 .inner_bottom_container .inner_card_container h3 {
+  font-size: 2.5rem;
+}
+
+.wp_mainte_servi_sec_4 .inner_bottom_container .inner_card_container h3>span {
+  font-size: 1.875rem;
+}
+
+.wp_mainte_servi_sec_4 .inner_bottom_container .inner_card_container {
+  gap: .5rem;
+}
+
+.wp_mainte_servi_sec_4 .inner_bottom_container .inner_heading_price_container {
+  margin-block: 0.5rem;
+}
+/*-------------------------- END wp_maintenance_service Section-4 --------------------------*/
+
+/* --------------------- START WP Maintenance services SECTION-5-----------------------------*/
+.wp_mainte_servi_sec_5 .sub_container {
+  max-width: 1350px;
+  margin-inline: auto;
+  padding: 0.5rem 2rem;
+}
+
+.wp_mainte_servi_sec_5 .enterprise_card {
+  background-color: var(--primary_clr);
+  padding: 2.5rem 8rem;
+  gap: 2rem;
+  border: 1px solid var(--primary_background-clr);
+  align-items: center;
+}
+
+.wp_mainte_servi_sec_5 .enterprise_card h3 {
+  color: var(--yellow_clr);
+  text-align: center;
+}
+
+.wp_mainte_servi_sec_5 .enterprise_card p {
+  color: var(--primary_background-clr);
+  text-align: center;
+  font-weight: normal;
+}
+
+.wp_mainte_servi_sec_5 .enterprise_card .price_content {
+  text-align: center;
+  font-weight: bold;
+}
+
+.wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(1),
+.wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(5) {
+  color: var(--primary_background-clr);
+  font-size: 1.25rem;
+}
+
+.wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(2) {
+  color: #c2c2c2;
+  text-decoration: line-through;
+  font-size: 1.25rem;
+  padding-right: 0.5rem;
+}
+
+.wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(3) {
+  color: var(--global_btn_clr);
+  font-size: 2.188rem;
+}
+
+.wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(4) {
+  color: var(--global_btn_clr);
+  font-size: 1.25rem;
+}
+
+.wp_mainte_servi_sec_5 .enterprise_card button {
+  background: var(--solid_white_clr);
+  color: var(--primary_clr);
+  border: 1px solid var(--primary_clr);
+}
+
+.wp_mainte_servi_sec_5 .enterprise_card .price_btn {
+  width: 13.576rem;
+  height: 3.938rem;
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 1.11rem;
+  letter-spacing: 0.03rem;
+}
+/* ---------- END WP Maintenance services SECTION-5-------------- */
+
+
+/* ---------- START WP Maintenance services SECTION-6-------------- */
+.wp_mainte_servi_sec_6 .testimonial_container .lower_content{
+padding-bottom: 0;
+}
+/* ---------- END WP Maintenance services SECTION-6-------------- */
+
+/* ---------- START WP Maintenance services SECTION-7-------------- */
+.wp_mainte_servi_sec_7{
+background: var(--secondary_background-clr);
+}
+.wp_mainte_servi_sec_7 h5{
+  color: var(--primary_clr);
+}
+.wp_mainte_servi_sec_7 h1, .wp_mainte_servi_sec_7 .column:nth-of-type(2) .icon h3, .wp_mainte_servi_sec_7 p{
+  color: var(--heading_black_clr);
+}
+/* ---------- END WP Maintenance services SECTION-7-------------- */
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<< Another Page CSS >>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* ------START wp_speed_optimization Sec-1 --------------------- */
+.speed_optimiz_sec_1 {
+  padding: 4rem 0 1.5rem 0;
+}
+.speed_optimiz_sec_1 h4{
+color: var(--yellow_clr);
+}
+.speed_optimiz_sec_1 .hero_left_inner_section{
+  position: relative;
+}
+.speed_optimiz_sec_1 .homepage_hero_sec_star_3{
+top: 73%;
+left: -2%;
+}
+.speed_optimiz_sec_1 .homepage_hero_sec_star_top{
+  top: -9%;
+  left: -11%;
+}
+.speed_optimiz_sec_1 .black_str{
+  top: 8%;
+  left: 69%;
+}
+/* ------ EMD wp_speed_optimization Sec-1 --------------------- */
+
+/* ------ START wp_speed_optimization Sec-4 --------------------- */
+.speed_optimiz_sec_4 .sub_container {
+  max-width: 1350px;
+  margin-inline: auto;
+  padding: 0 2rem;
+}
+.speed_optimiz_sec_4 .speed_optimiz_servi_container{
+  gap: 5rem;
+}
+.speed_optimiz_sec_4 .inner_speed_optimiz_heading{
+  gap: 3.5rem;
+  padding-block: .5rem;
+  align-items: center;
+  text-align: center;
+}
+.speed_optimiz_sec_4 .inner_speed_optimiz_heading h2>span{
+  background-color: var(--primary_clr);
+  color: var(--primary_background-clr);
+  padding-inline: 4px;
+  transform: rotate(-0.45deg);
+}
+.speed_optimiz_sec_4 .inner_speed_optimiz_heading button,
+.speed_optimiz_sec_4 .left_col_content button{
+  width: 27rem;
+  height: 3.938rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border: 3px solid;
+  border-radius: 0.625rem;
+}
+.speed_optimiz_sec_4 .bottom_content_spd_optimiz{
+  padding-block: .5rem;
+  justify-content: space-between;
+}
+.speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content{
+  gap: 1.5rem;
+  width: 55%;
+}
+.speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content p{
+  font-size: 1.125rem;
+  color: var(--heading_black_clr);
+  font-weight: bold;
+}
+.speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content span{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content .your_orders{
+  gap: 1rem;
+}
+.speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content .your_orders > .upgrade_order{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content input[type="checkbox"] {
+  appearance: none;
+}
+
+.speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content input[type="checkbox"]::before {
+  content: '';
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-color: #D9D9D9;
+  border: 0;
+  border-radius: 4px;
+}
+
+.speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content input[type="checkbox"]:checked::before {
+  content: '✔';
+  color: blue;
+  font-size: 18px; 
+  line-height: 22px;
+  text-align: center;
+}
+.speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content .website_price{
+  color: var(--primary_clr);
+  font-size: 2.5rem;
+  margin-block: 1.5rem;
+}
+.speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content .website_price span{
+font-size: 1.5rem;
+}
+.speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content .pay_btn{
+  font-size: 1rem;
+  color: var(--primary_clr);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.speed_optimiz_sec_4 .bottom_content_spd_optimiz .right_col_content{
+  gap: 1.2rem;
+  width: 32%;
+}
+.speed_optimiz_sec_4 .bottom_content_spd_optimiz .right_col_content .check_point_text{
+  gap: 1rem;
+  align-items: center;
+}
+/* ------ END wp_speed_optimization Sec-4 --------------------- */
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Another Page CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* ------ START wp_emergency_service sec-1  --------------------- */
+.emergency_servi_sec_1 .hero_left_inner_section{
+  position: relative;
+}
+.emergency_servi_sec_1 .black_str {
+  top: 6%;
+  left: 45%;
+}
+/* ------ END wp_emergency_service sec-1  --------------------- */
+
+/* ------ START wp_emergency_service sec-3  --------------------- */
+.emergency_servi_sec_3 .inner_top_heading_content_column button{
+  width: 27rem;
+  height: 3rem;
+  border: 3px solid var(--primary_background-clr);
+  border-radius: 10px;
+}
+/* ------ END wp_emergency_service sec-3  --------------------- */
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Another Page CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* ------ Start WP_malware_removal sec-3  --------------------- */
+.on_demand_suprt_sec_3 .global_service_card_container .inner_top_heading_content_column h5{
+  color: var(--light_gray_para_clr);
+}
+.on_demand_suprt_sec_3 .inner_bottom_container .inner_card_container p{
+color: var(--heading_black_clr);
+}
+.on_demand_suprt_sec_3 .inner_bottom_container .inner_heading_price_container>span:nth-of-type(2){
+  color: var(--light_gray_para_clr);
+}
+.on_demand_suprt_sec_3 .explore_mainte_plan{
+  background-color: var(--primary_background-clr);
+  padding: 2.5rem 0 1.5rem 0;
+  align-items: center;
+  gap: 1rem;
+}
+.on_demand_suprt_sec_3 .explore_mainte_plan h5{
+  width: 100%;
+  text-align: center;
+}
+.on_demand_suprt_sec_3 .explore_mainte_plan button{
+  width: 33rem;
+  height: 3.125rem;
+  border: 3px solid var(--primary_background-clr);
+  border-radius: 0.625rem;
+}
+/* ------ Start WP_malware_removal sec-3  --------------------- */
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Another Page CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* ------ Start wp_on_demand_support sec-1  --------------------- */
+.wc_maint_serv_sec_1 .black_str{
+    top: 0%;
+    left: 57%;
+}
+/* ------ END wp_on_demand_support sec-1  --------------------- */
+
+/* ------ Start wp_on_demand_support sec-4  --------------------- */
+.wc_maint_serv_sec_4 .global_service_card_container .inner_top_heading_content_column h5{
+color: var(--primary_clr);
+}
+.wc_maint_serv_sec_4 .inner_heading_container{
+  gap: .8rem;
+}
+.wc_maint_serv_sec_4 .inner_bottom_container .inner_heading_container>p:nth-of-type(1){
+font-weight: bold;
+}
+/* ------ End wp_on_demand_support sec-4  --------------------- */
+
+/* ------ Start wc_maintenance_service sec-5 --------------------- */
+.wc_maint_serv_sec_5 .enterprise_card h3{
+  color: var(--primary_background-clr);
+}
+.wc_maint_serv_sec_5 .enterprise_card .price_content span:nth-of-type(3),
+.wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(4){
+color: var(--primary_background-clr);
+}
+/* ------ End wc_maintenance_service sec-5 --------------------- */
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Another Page CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* -------------Start  wp_retainer sec-1  --------------------- */
+.wp_retainer_sec_1 .homepage_hero_sec_star_3 {
+  top: 81%;
+  left: -2%;
+}
+.wp_retainer_sec_1 .text_container span:nth-child(1){
+  color: var(--heading_black_clr);
+}
+.wp_retainer_sec_1 .text_container span:nth-of-type(2){
+color: var(--yellow_clr);
+}
+.wp_retainer_sec_1 .text_container :nth-child(1){
+  color: var(--yellow_clr);
+}
+/* -------------End wp_retainer sec-1  --------------------- */
+
+/* -------------Start wp_retainer sec-4  --------------------- */
+.wp_retainer_sec_4 .bottom_content_spd_optimiz .left_col_content .your_orders{
+  grid-template-columns: repeat(2, 1fr);
+}
+/* -------------End wp_retainer sec-4  --------------------- */
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Another Page CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* -------------Start  wp_security_service sec-1  --------------------- */
+.wp_security_sec_1 .homepage_hero_sec_star_3 {
+  top: 73%;
+  left: -2%;
+}
+/* -------------End  wp_security_service sec-1  --------------------- */
+
+/* -------------Start wp_security_service sec-3  --------------------- */
+.wp_security_sec_3 .global_service_card_container .inner_top_heading_content_column h5{
+  color: var(--primary_clr);
+}
+.wp_security_sec_3 .inner_bottom_container .inner_heading_price_container>span:nth-child(1) {
+  text-align: center;
+  font-size: 1rem;
+  color: #92969F;
+  text-decoration: line-through;
+}
+.wp_security_sec_3 .inner_bottom_container .inner_heading_price_container>span:nth-of-type(2){
+  color: var(--primary_clr);
+}
+.wp_security_sec_3 .inner_bottom_container .inner_heading_price_container>span:nth-of-type(2)>strong{
+  font-size: 2rem;
+}
+.wp_security_sec_3 .inner_bottom_container .inner_heading_price_container p{
+  color: var(--primary_clr);
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.wp_security_sec_3 .inner_bottom_container .inner_heading_price_container>span.free_plan>strong{
+  font-size: 2rem;
+}
+.wp_security_sec_3 .inner_bottom_container .inner_heading_price_container>span.free_plan{
+  text-decoration: none;
+  color: var(--primary_clr);
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+.wp_security_sec_3 .inner_bottom_container .inner_heading_price_container{
+  margin-top: 2.5rem;
+}
+.wp_security_sec_3 .gap_keypoint{
+  gap: 1.4rem;
+}
+/* -------------End wp_security_service sec-3  --------------------- */
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Another Page CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* -------------Start  custom_wp_development sec-5  --------------------- */
+.custom_wp_dev_sec_5 .bottom_content_spd_optimiz .left_col_content .upgrade_order{
+  gap: .5rem;
+  align-items: center;
+}
+.custom_wp_dev_sec_5 .bottom_content_spd_optimiz .left_col_content .upgrade_order input[type="number"] {
+  width: 52px;
+  height: 32px;
+  background: #D9D9D9;
+  text-align: center;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+/* -------------Start  custom_wp_development sec-5  --------------------- */
