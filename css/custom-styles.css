@@ -5,7 +5,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* outline: 1px solid red; */
 }
 
 :root {
@@ -44,12 +43,9 @@
   font-style: normal;
   --webkit-font-smoothing: antialiased;
 }
-
 html {
   scroll-behavior: smooth;
-
 }
-
 body {
   font-family: "nexa";
   font-weight: normal;
@@ -57,7 +53,6 @@ body {
   background-color: var(--primary_background-clr);
   /* Add padding to the body to prevent content from being hidden behind the fixed header */
   padding-top: 80px;
-
 }
 
 img,
@@ -94,7 +89,6 @@ h1 {
   font-size: 4rem;
   font-weight: bold;
   line-height: 4.84rem;
-
 }
 
 h2 {
@@ -123,7 +117,6 @@ h5 {
 p {
   color: var(--light_gray_para_clr);
   font-size: 1.25rem;
-
 }
 
 ul {
@@ -410,7 +403,6 @@ textarea {
   top: 340px;
   right: 391px;
 }
-
 /*------------------- Header CSS End -------------------*/
 
 /*---------------------- Homepage CSS started ----------------------*/
@@ -545,7 +537,6 @@ textarea {
   top: 437px;
   left: 0rem;
 }
-
 /* star pattern ended */
 /*------------------Homepage_Section_1 CSS Ended-------------------*/
 
@@ -566,10 +557,6 @@ textarea {
   width: 25%;
 }
 
-/* .homepage_section_2 .inner_col_top .inner_container img {
-  width: 2.75rem;
-  height: 2.75rem;
-} */
 .homepage_section_2 .inner_col_top .inner_container h3 {
   color: var(--heading_black_clr);
   font-weight: bold;
@@ -662,7 +649,6 @@ textarea {
   top: 8%;
   right: 2%;
 }
-
 /*----star pattern ended----*/
 /*------------------Homepage_Section_2 CSS Ended-------------------*/
 
@@ -719,38 +705,11 @@ textarea {
   font-size: 1.25rem;
   font-weight: bold;
 }
-
 /*------------------Homepage_Section_3 CSS Ended-------------------*/
 
-/*------------------Homepage_Section_1 responsive CSS started-------------------*/
-@media (min-width: 768px) {
-  .shapedividers_com-3372::before {
-    background-size: 174% 102px;
-    background-position: 50% 100%;
-  }
-}
 
-@media (min-width: 1025px) {
-  .shapedividers_com-3372::before {
-    bottom: -0.1vw;
-    left: -0.1vw;
-    right: -0.1vw;
-    top: -0.1vw;
-    background-size: 113% 120px;
-    background-position: 50% 100%;
-  }
-}
-
-@media (min-width: 2100px) {
-  .shapedividers_com-3372::before {
-    background-size: 113% calc(2vw + 120px);
-  }
-}
-
-/*------------------Homepage_Section_1 responsive CSS Ended -------------------*/
 /*--------------------------Homepage CSS ended-----------------------------*/
-
-/* ---------------- START TESTIMONIAL SECTION-5 (Customer experience) ------------------ */
+/* ---------------- START Homepage SECTION-5 (TESTIMONIAL Customer experience) ------------------ */
 .homepage_section_5 .testimonial_container {
   width: 100%;
   height: auto;
@@ -852,7 +811,7 @@ textarea {
   line-height: normal;
 }
 
-/* Right content testimonial */
+/* Right content css */
 .homepage_section_5 .r_content {
   width: 43%;
   gap: 1.875rem;
@@ -955,7 +914,7 @@ textarea {
   line-height: normal;
 }
 
-/* BUTTON CSS CONTINUE HERE */
+/* BUTTON CSS  HERE */
 .homepage_section_5 .lower_content .customer_experience_btn {
   width: 16.25rem;
   height: 3.625rem;
@@ -964,10 +923,9 @@ textarea {
   font-size: 1rem;
   margin: 4rem 0 1rem;
 }
+/* ----------------End Homepage SECTION-5 (Customer experience) ------------------ */
 
-/* ----------------End TESTIMONIAL SECTION-5 (Customer experience) ------------------ */
-
-/* ---------------- START HOMEPAGE PLANS AND PRICING SECTION-6  ------------------ */
+/* ---------------- START Homepage PLANS AND PRICING Sec-6  ------------------ */
 .homepage_section_6 {
   background: var(--secondary_background-clr);
   padding-block: 9.38rem;
@@ -1044,7 +1002,6 @@ textarea {
 }
 
 .homepage_section_6 .inner_card_lower_content_container {
-  /* justify-content: space-between; */
   align-items: center;
   margin-top: 1rem;
   gap: 0.5rem;
@@ -1075,40 +1032,33 @@ textarea {
   line-height: 1.11rem;
   letter-spacing: 0.03rem;
 }
-
 /* START HOMEPAGE SECTION-6 CARD-2 CUSTOM CSS */
 .homepage_section_6 .plan_pricing .middle_card_blue {
   border: 3px solid var(--primary_background-clr);
   background: var(--primary_clr);
   transition: all 0.3s ease-in-out;
 }
-
 /* ADD HOVER EFFECT */
 .homepage_section_6 .middle_card_blue:hover {
   transform: translate(0px, -62px);
 }
-
 .homepage_section_6 .middle_card_blue h5,
 .homepage_section_6 .middle_card_blue h3,
 .homepage_section_6 .middle_card_blue p,
 .homepage_section_6 .middle_card_blue span {
   color: var(--solid_white_clr);
 }
-
 .homepage_section_6 .middle_card_blue button {
   background: var(--solid_white_clr);
   color: var(--primary_clr);
   border: 2px solid var(--primary_clr);
 }
-
 /* END SECTION-6 CARD-2 CUSTOM CSS */
-
 .homepage_section_6 .inner_lower_column {
   justify-content: space-between;
   align-items: center;
   padding-block: 0.5rem;
 }
-
 .homepage_section_6 .services_btn {
   width: 15.3125rem;
   height: 3.625rem;
@@ -1116,14 +1066,12 @@ textarea {
   font-size: 1.25rem;
   font-weight: bold;
 }
+/* ----------------END  PLANS AND PRICING Sec-6 ------------------ */
 
-/* ----------------END  PLANS AND PRICING SECTION-6 ------------------ */
-
-/*------------ START HOMEPAGE SECTION-7 ---------------*/
+/*------------ START Homepage Sec-7 ---------------*/
 .homepage_section_7 .homepage_container_7 {
   gap: 6.38rem;
 }
-
 .homepage_section_7 .inner_top_heading_content_column span,
 .homepage_section_7 .inner_heading_container span {
   background-color: var(--primary_clr);
@@ -1195,11 +1143,9 @@ textarea {
   gap: 0.62rem;
   align-items: center;
 }
+/*------------ END Homepage SECTION-7 ---------------*/
 
-/*------------ END HOMEPAGE SECTION-7 ---------------*/
-
-
-/* ---------------------- START section_08 CSS--------------------- */
+/* ---------------------- START Homepage section_08 CSS--------------------- */
 .homepage_section_8 .our_commit_servc {
   gap: 3rem;
   position: relative;
@@ -1236,309 +1182,99 @@ textarea {
   right: -4%;
   top: 12%;
 }
-
 /* ------------------- End faq_section_09 ends-------------------- */
 
-/* ---------------Start Blog_section-10 ----------------------- */
-
-
-/* ---------------Start Blog_section-10 ----------------------- */
-
-/* -------------------------------footer styling starts------------------------------------------------- */
-.homepage_footer .main_container {
-  position: relative;
+/* -------------Start Homepage sec-10   --------------------- */
+.homepage_section_10 .blog_container{
+  gap: 4.5rem;
+  padding-block: .5rem;
 }
-
-.homepage_footer .center_content {
-  justify-content: center;
-  align-items: center;
-  gap: 0.625rem;
-}
-
-.homepage_footer .white_container {
-  width: 100%;
-  height: 21.313rem;
-  margin-top: 5.625rem;
-}
-
-.homepage_footer .footer_description h3 {
-  line-height: 2.5rem;
-}
-
-.homepage_footer .black_container {
-  width: 100%;
-  background-color: black;
-  flex-direction: column;
-  gap: 4rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.homepage_footer .content_container {
-  position: absolute;
-  width: 100%;
-  height: 37.5rem;
-  top: 0px;
-  justify-content: center;
-}
-
-.homepage_footer .mini_container {
-  border-radius: 0.625rem;
-  width: 100%;
-  background-color: #1d5aff;
-  box-shadow: 9px 9px black;
-  border: 3px solid white;
-  justify-content: center;
-  align-items: center;
-}
-
-.homepage_footer .footerbutton {
-  width: 13.25rem;
-  height: 3.625rem;
-  background-color: var(--global_btn_clr);
-  /* -------------------bg-is-overlaaping-in-global------------ */
-  border: 1px solid black;
-  /* ----------------border-is-not-added-in-buttons----------- */
-  border-radius: 5px;
-  /* ----------------border-radius-is--also-wrong----------- */
-  font-weight: bold;
-  /* ----------------also add font-weight----------- */
-  cursor: pointer;
-  /* ----------------cursor-pointer is not added----------- */
-  font-size: 1.25rem;
-  /* ----------------fontsize is not  is not added----------- */
-}
-
-.homepage_footer .styling-text {
-  background: white;
-  color: #1d5aff;
-  margin-left: 0.625rem;
-  padding: 0px 0.625rem;
-}
-
-.homepage_footer .getstarted_color {
-  width: 13.25rem;
-  height: 3.625rem;
-  /* -------------------bg-is-overlaaping-in-global------------ */
-  border: 1px solid rgb(255, 255, 255);
-  /* ----------------border-is-not-added-in-buttons----------- */
-  border-radius: 5px;
-  /* ----------------border-radius-is--also-wrong----------- */
-  font-weight: bold;
-  /* ----------------also add font-weight----------- */
-  cursor: pointer;
-  /* ----------------cursor-pointer is not added----------- */
-  font-size: 1.25rem;
-}
-
-.homepage_footer .upper_buttons {
-  margin-top: 1.875rem;
-}
-
-.homepage_footer .mini_sub_container {
-  padding: 0px;
-  width: 71.438rem;
-  justify-content: center;
-  align-items: center;
-  color: var(--solid_white_clr);
-}
-
-.homepage_footer .links_container {
-  width: 100%;
-  justify-content: space-between;
-  margin-top: 18.75rem;
-  align-items: center;
-}
-
-.homepage_footer .links_container li {
-  font-size: 1.375rem;
-}
-
-.homepage_footer .links_container li:hover {
-  color: var(--primary_clr);
-  cursor: pointer;
-}
-
-.homepage_footer .links_container ul {
-  gap: 0.625rem;
-}
-
-.homepage_footer .mini_sub_container h4 {
-  font-size: 1.25rem;
+.homepage_section_10 .blog_container h1 {
   text-align: center;
-  font-weight: normal;
 }
-
-.homepage_footer .mini_sub_container {
-  gap: 1.875rem;
-}
-
-.homepage_footer .footer_description {
-  width: 20.313rem;
-  gap: 1.875rem;
+.homepage_section_10 .blog_container h1>span {
+  background: var(--primary_clr);
   color: var(--solid_white_clr);
+  padding-inline: 4px;
+  transform: rotate(-0.45deg);
 }
-
-.homepage_footer .footer_description span {
-  font-size: 2rem;
-}
-
-.homepage_footer .links_container ul li span {
-  margin-bottom: 1.25rem;
-  color: var(--global_btn_clr);
-  font-weight: bold;
-  font-size: 2.25rem;
-}
-
-.homepage_footer .links_container ul li {
-  color: var(--solid_white_clr);
-  font-weight: bold;
-}
-
-.homepage_footer .copywrite_container {
-  border-top: gray solid 2px;
-  width: 100%;
+.homepage_section_10 .blog_card_container {
+  padding-block: .5rem;
   justify-content: space-between;
-  padding-top: 2.063rem;
-}
-
-.homepage_footer .copywrite_links {
-  gap: 4.375rem;
-  margin-right: 3.75rem;
-  cursor: pointer;
-}
-
-.homepage_footer .copywrite_links li {
-  font-size: 0.938rem;
-  color: var(--solid_white_clr);
-}
-
-.homepage_footer .copywrite_text {
-  width: 31.25rem;
-  color: var(--solid_white_clr);
-}
-
-.homepage_footer .footer_description h3 {
-  font-size: 2.25rem;
-  font-weight: bold;
-}
-
-.homepage_footer .social_media {
-  width: 100%;
-  justify-content: start;
-  align-items: center;
-  gap: 0.938rem;
-}
-
-.homepage_footer .social_media svg:hover path {
-  fill: var(--primary_clr);
-  cursor: pointer;
-}
-
-.homepage_footer .social_media svg path {
-  fill: rgb(255, 255, 255);
-  cursor: pointer;
-}
-
-.homepage_footer .mini_sub_container .star_box {
-  width: 89%;
-  height: 37.5rem;
-  position: absolute;
-  top: 0;
-}
-
-.homepage_footer .star_box .image_first {
-  position: relative;
-  left: 6.25rem;
-  top: 3.125rem;
-}
-
-.homepage_footer .star_box .image_second {
-  position: relative;
-  left: 84.188rem;
-  top: 4.625rem;
-  width: 5.875rem;
-  height: 5.5rem;
-}
-
-.homepage_footer .star_box .image_third {
-  position: relative;
-  left: 75.375rem;
-  top: 15rem;
-  width: 2.5rem;
-  height: 2.5rem;
-}
-
-.homepage_footer .star_box .image_forth {
-  position: relative;
-  left: 11.875rem;
-  top: 22.5rem;
-  width: 2.688rem;
-  height: 2.688rem;
-}
-
-.homepage_footer .styling_text {
-  background: #ffffff;
-  color: #1d5aff;
-  transform: rotate(-0.5deg);
-  width: fit-content;
-  margin-left: 0.625rem;
-  padding: 0 0.938rem;
-}
-
-.homepage_footer .container_max {
-  width: 100%;
-  justify-content: center;
   align-items: center;
 }
-
-.homepage_footer .mini_box_text {
-  font-size: 3.125rem;
-  text-align: center;
-  font-weight: bold;
-  width: 90%;
-  justify-content: center;
-}
-
-.homepage_footer h3 span {
-  font-size: 2.25rem;
-  background-color: #1d5aff;
-  width: fit-content;
-  padding: 2px 5px;
-}
-
-.homepage_footer .upper_buttons {
-  position: relative;
-  gap: 2.5rem;
-  top: 22.5rem;
-  width: 100%;
-  justify-content: center;
-}
-
-.homepage_footer .container_links_footer {
-  width: 100%;
-}
-
-.homepage_footer .scrollup_container {
-  width: 100%;
-  justify-content: flex-end;
-}
-
-.homepage_footer .scrollup_container button {
-  width: 5.25rem;
-  height: 3.125rem;
-  margin: 1.25rem 0px;
+.homepage_section_10 .blog_card_container .wp_box>span {
   background-color: var(--primary_clr);
-  border: 3px solid var(--primary_background-clr);
-  box-shadow: 5px 5px #525252;
+  color: var(--solid_white_clr);
+  padding: .25rem 1.125rem;
+  border-radius: 4px;
 }
 
-.homepage_footer .scrollup_container button:hover {
-  cursor: pointer;
-  box-shadow: none;
+.homepage_section_10 .blog_card_container .blog_card_1 {
+  width: 22rem;
+  height: auto;
+  padding: 0.5rem 0.5rem;
+  gap: 2.5rem;
+  border: 1px solid var(--heading_black_clr);
+  border-radius: 1.25rem;
 }
+.homepage_section_10 .blog_card_container .blue_border{
+ border: 3px solid var(--primary_clr);
+}
+.homepage_section_10 .blog_card_container .blog_card_1> img{
+  width: 25.25rem;
+  height: 12rem;
+  max-width: 100%;
+}
+.homepage_section_10 .blog_card_container .blog_card_1:hover img{
+  filter: brightness(0.8);
+}
+.homepage_section_10 .blog_card_container .blog_card_1:hover h4{
+color: var(--primary_clr);
+}
+.homepage_section_10 .blog_card_container .bottom_col {
+  margin-left: 1.2rem;
+  gap: 1.5rem;
+}
+.homepage_section_10 .author_row {
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 1.5rem;
+}
+.homepage_section_10 .author_row img {
+  width: 35px;
+  height: 35px;
+}
+.homepage_section_10 .author_row .left_content {
+  width: 53%;
+  gap: 1rem;
+  align-items: center;
+}
+.homepage_section_10 .author_row .left_content .author_nam p,
+.homepage_section_10 .blog_card_container .blog_card_1 .bottom_col p{
+font-size: 1rem;
+}
+.homepage_section_10 .author_row .read_post {
+  width: 38%;
+  align-items: center;
+  justify-content: space-between;
+}
+.homepage_section_10 .author_row .read_post h5{
+  color: var(--primary_clr);
+}
+.homepage_section_10 .blog_container a > button{
+margin-inline: auto;
+}
+.homepage_section_10 .blog_container button{
+  width: 16.25rem;
+  height: 3.625rem;
+  font-size: 1.25rem;
+  display: block;
+  align-items: center;
+}
+/* ------------- End Homepage sec-10   --------------------- */
 
-/* ------------------------------------------------footer section ends --------------------------------------------- */
+
 
 /* <<<<<<<<<<<<<<<<<<ANOTHER PAGE SECTION CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*------------ START WP MIGRATION SERVICE SECTION-3 (service card) ---------------*/
@@ -1658,20 +1394,18 @@ textarea {
 .global_price_service_card .inner_bottom_container .Middle_card_container {
   box-shadow: var(--btn_box_shadow);
 }
-
 /* -- END MIDDLE CARD CONTAINER SECTION-3 (SERVICE CARD) --*/
 /*------------ END WP MIGRATION SERVICE SECTION-3 (service card) ---------------*/
+
 
 /* -------- START WP MIGRATION SERVICE SECTION-4 (consistent service card) ----------- */
 .WP_Migra_Service_section_4 {
   background: var(--primary_clr);
 }
-
 .WP_Migra_Service_section_4 .global_consistent_service_container {
   padding-block: 3.94rem;
   gap: 3.69rem;
 }
-
 .WP_Migra_Service_section_4 h1,
 .WP_Migra_Service_section_4 h3,
 .WP_Migra_Service_section_4 h5,
@@ -1720,33 +1454,28 @@ textarea {
   font-style: normal;
   font-weight: normal;
 }
-
 /* -------- END WP MIGRATION SERVICE SECTION-4 (consistent service card) ----------- */
 
 /* -------- START WP MIGRATION SERVICE SECTION-5 (global_exp_wp_tools) ----------- */
 .global_exp_wp_tools {
   background: var(--primary_background-clr);
 }
-
 .global_exp_wp_tools .global_exp_wp_tools_container {
   gap: 2.5rem;
 }
-
 .global_exp_wp_tools .global_exp_wp_tools_container h3 {
   font-size: 2.1875rem;
   text-align: center;
 }
-
 .global_exp_wp_tools .global_svg_wp_tools {
   justify-content: space-between;
   width: 100%;
 }
-
 .global_exp_wp_tools .global_svg_wp_tools img {
   width: 13%;
 }
-
 /* -------- END WP MIGRATION SERVICE SECTION-5 (global_exp_wp_tools) ----------- */
+
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ABOUT US PAGE CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /* ------------- START CSS About_Us SECTION-1 -------------- */
@@ -1845,7 +1574,6 @@ textarea {
   right: 257px;
   bottom: 182px;
 }
-
 /* ------------- END CSS About_Us SECTION-1 -------------- */
 
 /* ------------- START CSS About_Us SECTION-2 -------------- */
@@ -1962,11 +1690,9 @@ textarea {
   top: 1.5rem;
   cursor: pointer;
 }
-
 /* ------------- END CSS About_Us SECTION-2 -------------- */
 
 /* ------------- START CSS About_Us SECTION-3 -------------- */
-
 .maintenance_section_3 .maintenance_container {
   gap: 4rem;
 }
@@ -2014,15 +1740,14 @@ textarea {
   display: flex;
   align-items: center;
 }
-
 /* ------------- END CSS About_Us SECTION-3 -------------- */
+
 
 /*------------------------- Another page CSS--------------------------------- */
 /* ---------- START WooCOMMERCE Maintenance services Sec-8-------------- */
 .woocom_mainte_service_sec_8 .global_wpslider_container {
   gap: 5rem;
 }
-
 .woocom_mainte_service_sec_8 .global_wpslider_container .main_heading {
   font-size: 3.125rem;
   font-weight: bold;
@@ -2092,7 +1817,6 @@ textarea {
 .woocom_mainte_service_sec_8 .inner_detail_content .price_arrow svg {
   margin-right: 2.5rem;
 }
-
 /* ---------- END WooCOMMERCE Maintenance services SECTION-8-------------- */
 
 
@@ -2147,7 +1871,6 @@ textarea {
   top: 6%;
   right: 2%;
 }
-
 /*------------------------ END REVIEWS PAGE CSS SECTION-1 --------------------------*/
 
 /*------------------------ START REVIEWS PAGE CSS SECTION-2 --------------------------*/
@@ -2181,12 +1904,11 @@ textarea {
   bottom: 62%;
   left: 15%;
 }
-
 /*------------------------ END REVIEWS PAGE CSS SECTION-2 --------------------------*/
+
 
 /*-------------------------- ANOTHER PAGE CSS --------------------------*/
 /*------------------------ START SERVICES PAGE CSS SECTION-1 --------------------------*/
-
 .services_cards_sec_1 p {
   text-align: center;
 }
@@ -2252,7 +1974,6 @@ textarea {
   justify-content: center;
   gap: 0.5rem
 }
-
 /*------------------------ END SERVICES PAGE CSS SECTION-1 --------------------------*/
 
 
@@ -2261,7 +1982,6 @@ textarea {
   /* align-items: center; */
   gap: 6.75rem;
 }
-
 .services_cards_sec_2 .service_card_container h2 {
   font-size: 3.125rem;
   text-align: center;
@@ -2331,9 +2051,7 @@ textarea {
   line-height: 1.11rem;
   letter-spacing: 0.03rem;
 }
-
 /*------------------------ END SERVICES PAGE CSS SECTION-2 --------------------------*/
-
 
 /*------------------------ START SERVICES PAGE CSS SECTION-3 --------------------------*/
 .services_cards_sec_3 .l_content .blue_str {
@@ -2382,15 +2100,12 @@ textarea {
 .services_cards_sec_3 .testimonial_container .lower_content span {
   color: var(--medium_light_gray_para_clr);
 }
-
 /*------------------------ END SERVICES PAGE CSS SECTION-3 --------------------------*/
-
 
 /*------------------------ START SERVICES PAGE CSS SECTION-4 --------------------------*/
 .services_cards_sec_4 .servic_main_container {
   gap: 4rem;
 }
-
 .services_cards_sec_4 .our_commit_servc {
   align-items: center;
   justify-content: space-between;
@@ -2416,9 +2131,7 @@ textarea {
   color: var(--heading_black_clr);
   font-size: 1.125rem;
 }
-
 /*------------------------ END SERVICES PAGE CSS SECTION-4 --------------------------*/
-
 
 /*------------------------  START Services page CSS section-5 --------------------------*/
 .services_contactus_sec_5 .inner_heading_container {
@@ -2477,7 +2190,6 @@ textarea {
   margin-top: 1rem;
   border: 1px solid var(--primary_clr);
 }
-
 /*------------------------  END Services page CSS section-5  --------------------------*/
 
 
@@ -2510,7 +2222,6 @@ textarea {
   color: var(--primary_background-clr);
   border: 1px solid var(--primary_background-clr);
 }
-
 /*------------------------  END contact page CSS section-1  --------------------------*/
 
 
@@ -2564,14 +2275,13 @@ textarea {
   height: 3.625rem;
   margin-top: 1rem;
 }
-
 /*------------------------  End My Account page CSS section-1  --------------------------*/
 
 
 /* ---------------------- Pricing Page CSS ---------------------------------------*/
 /*----------------------- START PRICING_PAGE SECTION-1  ------------------*/
 .price_pag_sec_1 {
-  background-color: var(--medium_light_gray_para_clr);
+  background-color: var(--secondary_background-clr);
   background-image: none;
 }
 
@@ -2606,14 +2316,11 @@ textarea {
   justify-content: center;
   gap: 0.5rem;
 }
-
 .price_pag_sec_1 .homepage_hero_sec_star_4 {
   top: 10%;
-  right: 8%;
+  right: 7%;
 }
-
 /*----------------------- END PRICING_PAGE  SECTION-1  ------------------*/
-
 
 /*----------------------- START PRICING_PAGE SECTION-2  ------------------*/
 .price_pag_sec_2 {
@@ -2631,9 +2338,7 @@ textarea {
   top: 20%;
   left: 74%;
 }
-
 /*----------------------- END PRICING_PAGE SECTION-2  ------------------*/
-
 
 /*----------------------- START PRICING_PAGE SECTION-3  ------------------*/
 .price_pag_sec_3 {
@@ -2646,12 +2351,9 @@ textarea {
   background: var(--primary_clr);
   text-align: center;
   padding: 3rem 0 12rem 0;
-
 }
-
 .price_pag_sec_3 .inner_top_heading_content_column h4 {
   color: var(--secondary_background-clr);
-
 }
 
 .price_pag_sec_3 .inner_top_heading_content_column h1 {
@@ -2680,22 +2382,17 @@ textarea {
   top: 17%;
   left: 1%;
 }
-
 /*----------------------- END PRICING_PAGE  SECTION-3  ------------------*/
-
 
 /*----------------------- START PRICING_PAGE TESTIMONIAL SECTION-4  ------------------*/
 .price_pag_sec_4 .lower_content .r-content-sun {
   top: 76%;
   left: 58%;
 }
-
 .price_pag_sec_4 .testimonial_container .lower_content {
   padding-bottom: 5rem;
 }
-
 /*----------------------- END PRICING_PAGE TESTIMONIAL SECTION-4  ------------------*/
-
 
 /*----------------------- START PRICING_PAGE SECTION-5  ------------------*/
 .price_pag_sec_5 .our_commit_servc {
@@ -2710,47 +2407,37 @@ textarea {
   bottom: 77%;
   left: 2%;
 }
-
 .price_pag_sec_5 .our_commit_servc .blue_str {
   right: 6%;
   bottom: 53%;
 }
-
 /*----------------------- END PRICING_PAGE SECTION-5  ------------------*/
-
 
 /*----------------------- START PRICING_PAGE  SECTION-6  ------------------*/
 .price_pag_sec_6 .inner_bottom_container {
   padding-top: 0;
 }
-
 /*----------------------- END PRICING_PAGE SECTION-6  ------------------*/
-
 
 /*----------------------- START PRICING_PAGE SECTION-7  ------------------*/
 .price_pag_sec_7 {
   background-color: var(--secondary_background-clr);
 }
-
 .price_pag_sec_7 .faq_container {
   justify-content: space-between;
   padding-block: 5rem;
 }
-
 .price_pag_sec_7 .faq_container .inner_col_1 {
   width: 30%;
   gap: 1rem;
 }
-
 .price_pag_sec_7 .inner_col_1 p {
   color: var(--medium_light_gray_para_clr);
 }
-
 .price_pag_sec_7 .faq_container .inner_col_2 {
   width: 65%;
   gap: 1rem;
 }
-
 .price_pag_sec_7 .faq_container .faq_accordions {
   background-color: var(--primary_background-clr);
   border-radius: 10px;
@@ -2759,19 +2446,16 @@ textarea {
   align-items: center;
   justify-content: space-between;
 }
-
 .price_pag_sec_7 .faq_container .faq_accordions svg {
   margin-right: 2rem;
   cursor: pointer;
 }
-
 .price_pag_sec_7 .faq_container .inner_col_2 button {
   width: 13.25rem;
   height: 3.625rem;
   font-size: 1.25rem;
   margin-top: 1rem;
 }
-
 /*----------------------- END PRICING_PAGE SECTION-7  ------------------*/
 
 
@@ -2780,87 +2464,69 @@ textarea {
 .wp_mainte_servi_sec_1 {
   background: none;
 }
-
 .wp_mainte_servi_sec_1 h4 {
   color: var(--primary_clr);
 }
-
 .wp_mainte_servi_sec_1 h1 {
   color: var(--heading_black_clr);
 }
-
 .wp_mainte_servi_sec_1 .inner_column_btn-container button {
   width: 13.25rem;
   height: 3.625rem;
 }
-
 .wp_mainte_servi_sec_1 .Homepage_container_1 {
   position: relative;
 }
-
 .wp_mainte_servi_sec_1 .homepage_hero_sec_star_5 {
   top: 58%;
   right: 36%;
 }
-
 .wp_mainte_servi_sec_1 .homepage_hero_sec_star_4 {
   top: -3%;
   right: -1%;
 }
-
 .wp_mainte_servi_sec_1 .homepage_hero_sec_star_3 {
   top: 96%;
   left: 3%;
 }
-
 .wp_mainte_servi_sec_1 .inner_column_img_container {
   gap: 1rem;
   align-items: center;
 }
-
 .wp_mainte_servi_sec_1 .inner_column_img_container img {
   width: 22rem;
   height: 19rem;
 }
-
 .wp_mainte_servi_sec_1 .inner_column_img_container h3 {
   text-align: center;
 }
-
 .wp_mainte_servi_sec_1 .inner_column_img_container p {
   font-size: .8rem;
   text-align: center;
 }
-
 .wp_mainte_servi_sec_1 .inner_column_img_container button {
   margin-top: 1rem;
 }
-
 /*---------------------------- END wp_maintenance_service Section-1  ---------------------------*/
-
 
 /*---------------------------- START wp_maintenance_service Section-2  ---------------------------*/
 .wp_mainte_servi_sec_2 .wp_steps_container {
   gap: 5rem;
   position: relative;
 }
-
 .wp_mainte_servi_sec_2 .wp_steps_container .left_star {
   position: absolute;
   top: 8%;
   left: 17%;
 }
-
 .wp_mainte_servi_sec_2 .wp_step_heading h2 {
   text-align: center;
 }
-
 .wp_mainte_servi_sec_2 .wp_step_heading h2>span {
   background-color: var(--primary_clr);
   color: var(--primary_background-clr);
   padding-inline: 4px;
 }
-
 /*---------------------------- END wp_maintenance_service Section-2  ---------------------------*/
 
 /*-------------------------- START wp_maintenance_service Section-3 --------------------------*/
@@ -2868,43 +2534,33 @@ textarea {
   background-color: var(--secondary_background-clr);
   padding-block: 3rem;
 }
-
 .wp_mainte_servi_sec_3 .global_exp_wp_tools_container h4,
 .wp_mainte_servi_sec_3 .global_exp_wp_tools_container h2,
 .wp_mainte_servi_sec_3 .global_exp_wp_tools_container h5 {
   text-align: center;
 }
-
 .wp_mainte_servi_sec_3 h4 {
   color: var(--yellow_clr);
 }
-
 .wp_mainte_servi_sec_3 h2 {
   color: #1E1E1E;
 }
-
 .wp_mainte_servi_sec_3 h5 {
   color: #1E1E1E;
   font-weight: normal;
 }
-
 /*-------------------------- END wp_maintenance_service Section-3 --------------------------*/
-
 
 /*-------------------------- START wp_maintenance_service Section-4 --------------------------*/
 .wp_mainte_servi_sec_4 {
   background: none;
 }
-
 .wp_mainte_servi_sec_4 .global_service_card_container {
   padding-block: .5rem;
 }
-
 .wp_mainte_servi_sec_4 .global_service_card_container .inner_top_heading_content_column h5 {
   color: var(--light_gray_para_clr);
-
 }
-
 .wp_mainte_servi_sec_4 .global_service_card_container .plan_card {
   width: 28rem;
   height: 5rem;
@@ -2916,38 +2572,30 @@ textarea {
   color: var(--primary_clr);
   margin: auto;
 }
-
 .wp_mainte_servi_sec_4 .global_service_card_container .plan_card .monthly_plan,
 .annually_plan>span {
   font-weight: bold;
 }
-
 .wp_mainte_servi_sec_4 .bottom_card_keypoints .cross_text {
   text-decoration-line: none;
   color: var(--heading_black_clr);
   margin-left: 0;
 }
-
 .wp_mainte_servi_sec_4 .inner_bottom_container .inner_card_container p {
   color: var(--heading_black_clr);
 }
-
 .wp_mainte_servi_sec_4 .inner_bottom_container .inner_card_container h3 {
   font-size: 2.5rem;
 }
-
 .wp_mainte_servi_sec_4 .inner_bottom_container .inner_card_container h3>span {
   font-size: 1.875rem;
 }
-
 .wp_mainte_servi_sec_4 .inner_bottom_container .inner_card_container {
   gap: .5rem;
 }
-
 .wp_mainte_servi_sec_4 .inner_bottom_container .inner_heading_price_container {
   margin-block: 0.5rem;
 }
-
 /*-------------------------- END wp_maintenance_service Section-4 --------------------------*/
 
 /* --------------------- START WP Maintenance services SECTION-5-----------------------------*/
@@ -2956,7 +2604,6 @@ textarea {
   margin-inline: auto;
   padding: 0.5rem 2rem;
 }
-
 .wp_mainte_servi_sec_5 .enterprise_card {
   background-color: var(--primary_clr);
   padding: 2.5rem 8rem;
@@ -2964,52 +2611,43 @@ textarea {
   border: 1px solid var(--primary_background-clr);
   align-items: center;
 }
-
 .wp_mainte_servi_sec_5 .enterprise_card h3 {
   color: var(--yellow_clr);
   text-align: center;
 }
-
 .wp_mainte_servi_sec_5 .enterprise_card p {
   color: var(--primary_background-clr);
   text-align: center;
   font-weight: normal;
 }
-
 .wp_mainte_servi_sec_5 .enterprise_card .price_content {
   text-align: center;
   font-weight: bold;
 }
-
 .wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(1),
 .wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(5) {
   color: var(--primary_background-clr);
   font-size: 1.25rem;
 }
-
 .wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(2) {
   color: #c2c2c2;
   text-decoration: line-through;
   font-size: 1.25rem;
   padding-right: 0.5rem;
 }
-
 .wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(3) {
   color: var(--global_btn_clr);
   font-size: 2.188rem;
 }
-
 .wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(4) {
   color: var(--global_btn_clr);
   font-size: 1.25rem;
 }
-
 .wp_mainte_servi_sec_5 .enterprise_card button {
   background: var(--solid_white_clr);
   color: var(--primary_clr);
   border: 1px solid var(--primary_clr);
 }
-
 .wp_mainte_servi_sec_5 .enterprise_card .price_btn {
   width: 13.576rem;
   height: 3.938rem;
@@ -3018,32 +2656,26 @@ textarea {
   line-height: 1.11rem;
   letter-spacing: 0.03rem;
 }
-
 /* ---------- END WP Maintenance services SECTION-5-------------- */
-
 
 /* ---------- START WP Maintenance services SECTION-6-------------- */
 .wp_mainte_servi_sec_6 .testimonial_container .lower_content {
   padding-bottom: 0;
 }
-
 /* ---------- END WP Maintenance services SECTION-6-------------- */
 
 /* ---------- START WP Maintenance services SECTION-7-------------- */
 .wp_mainte_servi_sec_7 {
   background: var(--secondary_background-clr);
 }
-
 .wp_mainte_servi_sec_7 h5 {
   color: var(--primary_clr);
 }
-
 .wp_mainte_servi_sec_7 h1,
 .wp_mainte_servi_sec_7 .column:nth-of-type(2) .icon h3,
 .wp_mainte_servi_sec_7 p {
   color: var(--heading_black_clr);
 }
-
 /* ---------- END WP Maintenance services SECTION-7-------------- */
 
 
@@ -3052,30 +2684,24 @@ textarea {
 .speed_optimiz_sec_1 {
   padding: 4rem 0 1.5rem 0;
 }
-
 .speed_optimiz_sec_1 h4 {
   color: var(--yellow_clr);
 }
-
 .speed_optimiz_sec_1 .hero_left_inner_section {
   position: relative;
 }
-
 .speed_optimiz_sec_1 .homepage_hero_sec_star_3 {
   top: 73%;
   left: -2%;
 }
-
 .speed_optimiz_sec_1 .homepage_hero_sec_star_top {
   top: -9%;
   left: -11%;
 }
-
 .speed_optimiz_sec_1 .black_str {
   top: 8%;
   left: 69%;
 }
-
 /* ------ EMD wp_speed_optimization Sec-1 --------------------- */
 
 /* ------ START wp_speed_optimization Sec-4 --------------------- */
@@ -3084,25 +2710,21 @@ textarea {
   margin-inline: auto;
   padding: 0 2rem;
 }
-
 .speed_optimiz_sec_4 .speed_optimiz_servi_container {
   gap: 5rem;
 }
-
 .speed_optimiz_sec_4 .inner_speed_optimiz_heading {
   gap: 3.5rem;
   padding-block: .5rem;
   align-items: center;
   text-align: center;
 }
-
 .speed_optimiz_sec_4 .inner_speed_optimiz_heading h2>span {
   background-color: var(--primary_clr);
   color: var(--primary_background-clr);
   padding-inline: 4px;
   transform: rotate(-0.45deg);
 }
-
 .speed_optimiz_sec_4 .inner_speed_optimiz_heading button,
 .speed_optimiz_sec_4 .left_col_content button {
   width: 27rem;
@@ -3112,42 +2734,34 @@ textarea {
   border: 3px solid;
   border-radius: 0.625rem;
 }
-
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz {
   padding-block: .5rem;
   justify-content: space-between;
 }
-
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content {
   gap: 1.5rem;
   width: 55%;
 }
-
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content p {
   font-size: 1.125rem;
   color: var(--heading_black_clr);
   font-weight: bold;
 }
-
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content span {
   font-size: 1.25rem;
   font-weight: bold;
 }
-
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content .your_orders {
   gap: 1rem;
 }
-
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content .your_orders>.upgrade_order {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content input[type="checkbox"] {
   appearance: none;
 }
-
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content input[type="checkbox"]::before {
   content: '';
   display: inline-block;
@@ -3157,7 +2771,6 @@ textarea {
   border: 0;
   border-radius: 4px;
 }
-
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content input[type="checkbox"]:checked::before {
   content: '✔';
   color: blue;
@@ -3165,17 +2778,14 @@ textarea {
   line-height: 22px;
   text-align: center;
 }
-
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content .website_price {
   color: var(--primary_clr);
   font-size: 2.5rem;
   margin-block: 1.5rem;
 }
-
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content .website_price span {
   font-size: 1.5rem;
 }
-
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content .pay_btn {
   font-size: 1rem;
   color: var(--primary_clr);
@@ -3184,17 +2794,14 @@ textarea {
   justify-content: center;
   gap: 0.5rem;
 }
-
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .right_col_content {
   gap: 1.2rem;
   width: 32%;
 }
-
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .right_col_content .check_point_text {
   gap: 1rem;
   align-items: center;
 }
-
 /* ------ END wp_speed_optimization Sec-4 --------------------- */
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Another Page CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -3202,12 +2809,10 @@ textarea {
 .emergency_servi_sec_1 .hero_left_inner_section {
   position: relative;
 }
-
 .emergency_servi_sec_1 .black_str {
   top: 6%;
   left: 45%;
 }
-
 /* ------ END wp_emergency_service sec-1  --------------------- */
 
 /* ------ START wp_emergency_service sec-3  --------------------- */
@@ -3217,12 +2822,11 @@ textarea {
   border: 3px solid var(--primary_background-clr);
   border-radius: 10px;
 }
-
 /* ------ END wp_emergency_service sec-3  --------------------- */
 
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Another Page CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-/* ------ Start WP_malware_removal sec-3  --------------------- */
+/* ------ Start wp_on_demand_support sec-3  --------------------- */
 .on_demand_suprt_sec_3 .global_service_card_container .inner_top_heading_content_column h5 {
   color: var(--light_gray_para_clr);
 }
@@ -3253,20 +2857,18 @@ textarea {
   border: 3px solid var(--primary_background-clr);
   border-radius: 0.625rem;
 }
-
-/* ------ Start WP_malware_removal sec-3  --------------------- */
+/* ------ Start wp_on_demand_support sec-3  --------------------- */
 
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Another Page CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-/* ------ Start wp_on_demand_support sec-1  --------------------- */
+/* ------ Start wc_maintenance_service sec-1  --------------------- */
 .wc_maint_serv_sec_1 .black_str {
   top: 0%;
   left: 57%;
 }
+/* ------ END wc_maintenance_service sec-1  --------------------- */
 
-/* ------ END wp_on_demand_support sec-1  --------------------- */
-
-/* ------ Start wp_on_demand_support sec-4  --------------------- */
+/* ------ Start wc_maintenance_service sec-4  --------------------- */
 .wc_maint_serv_sec_4 .global_service_card_container .inner_top_heading_content_column h5 {
   color: var(--primary_clr);
 }
@@ -3278,19 +2880,17 @@ textarea {
 .wc_maint_serv_sec_4 .inner_bottom_container .inner_heading_container>p:nth-of-type(1) {
   font-weight: bold;
 }
+/* ------ End wc_maintenance_service sec-4  --------------------- */
 
-/* ------ End wp_on_demand_support sec-4  --------------------- */
 
 /* ------ Start wc_maintenance_service sec-5 --------------------- */
 .wc_maint_serv_sec_5 .enterprise_card h3 {
   color: var(--primary_background-clr);
 }
-
 .wc_maint_serv_sec_5 .enterprise_card .price_content span:nth-of-type(3),
 .wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(4) {
   color: var(--primary_background-clr);
 }
-
 /* ------ End wc_maintenance_service sec-5 --------------------- */
 
 
@@ -3312,14 +2912,12 @@ textarea {
 .wp_retainer_sec_1 .text_container :nth-child(1) {
   color: var(--yellow_clr);
 }
-
 /* -------------End wp_retainer sec-1  --------------------- */
 
 /* -------------Start wp_retainer sec-4  --------------------- */
 .wp_retainer_sec_4 .bottom_content_spd_optimiz .left_col_content .your_orders {
   grid-template-columns: repeat(2, 1fr);
 }
-
 /* -------------End wp_retainer sec-4  --------------------- */
 
 
@@ -3329,7 +2927,6 @@ textarea {
   top: 73%;
   left: -2%;
 }
-
 /* -------------End  wp_security_service sec-1  --------------------- */
 
 /* -------------Start wp_security_service sec-3  --------------------- */
@@ -3376,7 +2973,6 @@ textarea {
 .wp_security_sec_3 .gap_keypoint {
   gap: 1.4rem;
 }
-
 /* -------------End wp_security_service sec-3  --------------------- */
 
 
@@ -3396,7 +2992,6 @@ textarea {
   box-shadow: none;
   border-radius: 0;
 }
-
 /* -------------Start  custom_wp_development sec-5  --------------------- */
 
 
@@ -3419,95 +3014,8 @@ textarea {
 .wp_seo_sec_4 .inner_bottom_container .inner_heading_price_container>span:nth-of-type(2) {
   font-size: 1.25rem;
 }
-
 /* -------------End wp_seo_service sec-4  --------------------- */
 
-/* -------------Start Homepage sec-10   --------------------- */
-.homepage_section_10 .blog_container{
-  gap: 4.5rem;
-  padding-block: .5rem;
-}
-.homepage_section_10 .blog_container h1 {
-  text-align: center;
-}
-.homepage_section_10 .blog_container h1>span {
-  background: var(--primary_clr);
-  color: var(--solid_white_clr);
-  padding-inline: 4px;
-  transform: rotate(-0.45deg);
-}
-.homepage_section_10 .blog_card_container {
-  padding-block: .5rem;
-  justify-content: space-between;
-  align-items: center;
-}
-.homepage_section_10 .blog_card_container .wp_box>span {
-  background-color: var(--primary_clr);
-  color: var(--solid_white_clr);
-  padding: .25rem 1.125rem;
-  border-radius: 4px;
-}
-
-.homepage_section_10 .blog_card_container .blog_card_1 {
-  width: 22rem;
-  height: auto;
-  padding: 0.5rem 0.5rem;
-  gap: 2.5rem;
-  border: 3px solid var(--primary_clr);
-  border-radius: 1.25rem;
-}
-.homepage_section_10 .blog_card_container .blog_card_1> img{
-  width: 25.25rem;
-  height: 13.5rem;
-  max-width: 100%;
-}
-.homepage_section_10 .blog_card_container .blog_card_1:hover img{
-  filter: brightness(0.8);
-}
-.homepage_section_10 .blog_card_container .blog_card_1:hover h4{
-color: var(--primary_clr);
-}
-.homepage_section_10 .blog_card_container .bottom_col {
-  margin-left: 1.2rem;
-  gap: 1.5rem;
-}
-.homepage_section_10 .author_row {
-  justify-content: space-between;
-  align-items: center;
-  margin-block: 1.5rem;
-}
-.homepage_section_10 .author_row img {
-  width: 35px;
-  height: 35px;
-}
-.homepage_section_10 .author_row .left_content {
-  width: 53%;
-  gap: 1rem;
-  align-items: center;
-}
-.homepage_section_10 .author_row .left_content .author_nam p,
-.homepage_section_10 .blog_card_container .blog_card_1 .bottom_col p{
-font-size: 1rem;
-}
-.homepage_section_10 .author_row .read_post {
-  width: 38%;
-  align-items: center;
-  justify-content: space-between;
-}
-.homepage_section_10 .author_row .read_post h5{
-  color: var(--primary_clr);
-}
-.homepage_section_10 .blog_container a > button{
-margin-inline: auto;
-}
-.homepage_section_10 .blog_container button{
-  width: 16.25rem;
-  height: 3.625rem;
-  font-size: 1.25rem;
-  display: block;
-  align-items: center;
-}
-/* ------------- End Homepage sec-10   --------------------- */
 
 /*------------------------------------- START FOOTER CSS -----------------------------------*/
 /* footer new desig custom css */
@@ -3655,8 +3163,7 @@ footer>.column:nth-of-type(2) .social_icons {
   width: 100%;
   align-items: center;
   gap: 1rem;
-  padding: 1rem 2rem;
-
+  padding: 1rem 2rem 3rem 2rem;
 }
 
 footer>.column:nth-of-type(2) .copyright_sec {
@@ -3696,5 +3203,5 @@ footer .divider hr {
   width: 100%;
   border: none;
 }
-
 /*-------------------------------------END FOOTER CSS -----------------------------------*/
+
