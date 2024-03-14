@@ -43,9 +43,11 @@
   font-style: normal;
   --webkit-font-smoothing: antialiased;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "nexa";
   font-weight: normal;
@@ -178,7 +180,6 @@ textarea {
 
 .chkbox_text {
   gap: 1rem;
-
 }
 
 .chkbox_text input {
@@ -403,6 +404,7 @@ textarea {
   top: 340px;
   right: 391px;
 }
+
 /*------------------- Header CSS End -------------------*/
 
 /*---------------------- Homepage CSS started ----------------------*/
@@ -537,6 +539,7 @@ textarea {
   top: 437px;
   left: 0rem;
 }
+
 /* star pattern ended */
 /*------------------Homepage_Section_1 CSS Ended-------------------*/
 
@@ -566,6 +569,7 @@ textarea {
   gap: 1.75rem;
   align-items: center;
   padding-bottom: .5rem;
+  padding-inline: .5rem;
 }
 
 .homepage_section_2 .inner_col_bottom {
@@ -649,13 +653,14 @@ textarea {
   top: 8%;
   right: 2%;
 }
+
 /*----star pattern ended----*/
 /*------------------Homepage_Section_2 CSS Ended-------------------*/
 
 /*------------------Homepage_Section_3 CSS Started-------------------*/
 .Homepage_section_3 {
   background-color: var(--secondary_background-clr);
-  padding: 9.375rem 0rem;
+  padding: 9.375rem 0;
 }
 
 .Homepage_section_3 .Homepage_container_3 {
@@ -705,6 +710,7 @@ textarea {
   font-size: 1.25rem;
   font-weight: bold;
 }
+
 /*------------------Homepage_Section_3 CSS Ended-------------------*/
 
 
@@ -923,6 +929,7 @@ textarea {
   font-size: 1rem;
   margin: 4rem 0 1rem;
 }
+
 /* ----------------End Homepage SECTION-5 (Customer experience) ------------------ */
 
 /* ---------------- START Homepage PLANS AND PRICING Sec-6  ------------------ */
@@ -1025,40 +1032,50 @@ textarea {
 }
 
 .homepage_section_6 .price_btn_content {
-  width: 18.375rem;
+  width: 100%;
   height: 3.88225rem;
   font-size: 1rem;
   font-style: normal;
   line-height: 1.11rem;
   letter-spacing: 0.03rem;
 }
+
+.homepage_section_6 .inner_card_lower_content_container a {
+  width: 100%;
+}
+
 /* START HOMEPAGE SECTION-6 CARD-2 CUSTOM CSS */
 .homepage_section_6 .plan_pricing .middle_card_blue {
   border: 3px solid var(--primary_background-clr);
   background: var(--primary_clr);
   transition: all 0.3s ease-in-out;
 }
+
 /* ADD HOVER EFFECT */
 .homepage_section_6 .middle_card_blue:hover {
   transform: translate(0px, -62px);
 }
+
 .homepage_section_6 .middle_card_blue h5,
 .homepage_section_6 .middle_card_blue h3,
 .homepage_section_6 .middle_card_blue p,
 .homepage_section_6 .middle_card_blue span {
   color: var(--solid_white_clr);
 }
+
 .homepage_section_6 .middle_card_blue button {
   background: var(--solid_white_clr);
   color: var(--primary_clr);
   border: 2px solid var(--primary_clr);
 }
+
 /* END SECTION-6 CARD-2 CUSTOM CSS */
 .homepage_section_6 .inner_lower_column {
   justify-content: space-between;
   align-items: center;
   padding-block: 0.5rem;
 }
+
 .homepage_section_6 .services_btn {
   width: 15.3125rem;
   height: 3.625rem;
@@ -1066,12 +1083,14 @@ textarea {
   font-size: 1.25rem;
   font-weight: bold;
 }
+
 /* ----------------END  PLANS AND PRICING Sec-6 ------------------ */
 
 /*------------ START Homepage Sec-7 ---------------*/
 .homepage_section_7 .homepage_container_7 {
   gap: 6.38rem;
 }
+
 .homepage_section_7 .inner_top_heading_content_column span,
 .homepage_section_7 .inner_heading_container span {
   background-color: var(--primary_clr);
@@ -1143,6 +1162,7 @@ textarea {
   gap: 0.62rem;
   align-items: center;
 }
+
 /*------------ END Homepage SECTION-7 ---------------*/
 
 /* ---------------------- START Homepage section_08 CSS--------------------- */
@@ -1182,27 +1202,32 @@ textarea {
   right: -4%;
   top: 12%;
 }
+
 /* ------------------- End faq_section_09 ends-------------------- */
 
 /* -------------Start Homepage sec-10   --------------------- */
-.homepage_section_10 .blog_container{
+.homepage_section_10 .blog_container {
   gap: 4.5rem;
   padding-block: .5rem;
 }
+
 .homepage_section_10 .blog_container h1 {
   text-align: center;
 }
+
 .homepage_section_10 .blog_container h1>span {
   background: var(--primary_clr);
   color: var(--solid_white_clr);
   padding-inline: 4px;
   transform: rotate(-0.45deg);
 }
+
 .homepage_section_10 .blog_card_container {
   padding-block: .5rem;
   justify-content: space-between;
   align-items: center;
 }
+
 .homepage_section_10 .blog_card_container .wp_box>span {
   background-color: var(--primary_clr);
   color: var(--solid_white_clr);
@@ -1218,60 +1243,74 @@ textarea {
   border: 1px solid var(--heading_black_clr);
   border-radius: 1.25rem;
 }
-.homepage_section_10 .blog_card_container .blue_border{
- border: 3px solid var(--primary_clr);
+
+.homepage_section_10 .blog_card_container .blue_border {
+  border: 3px solid var(--primary_clr);
 }
-.homepage_section_10 .blog_card_container .blog_card_1> img{
-  width: 25.25rem;
+
+.homepage_section_10 .blog_card_container .blog_card_1>img {
+  max-width: 25.25rem;
   height: 12rem;
-  max-width: 100%;
+  width: 100%;
 }
-.homepage_section_10 .blog_card_container .blog_card_1:hover img{
+
+.homepage_section_10 .blog_card_container .blog_card_1:hover img {
   filter: brightness(0.8);
 }
-.homepage_section_10 .blog_card_container .blog_card_1:hover h4{
-color: var(--primary_clr);
+
+.homepage_section_10 .blog_card_container .blog_card_1:hover h4 {
+  color: var(--primary_clr);
 }
+
 .homepage_section_10 .blog_card_container .bottom_col {
   margin-left: 1.2rem;
   gap: 1.5rem;
 }
+
 .homepage_section_10 .author_row {
   justify-content: space-between;
   align-items: center;
   margin-block: 1.5rem;
 }
+
 .homepage_section_10 .author_row img {
-  width: 35px;
-  height: 35px;
+  width: 2.188rem;
+  height: 2.188rem;
 }
+
 .homepage_section_10 .author_row .left_content {
-  width: 53%;
+  width: 54%;
   gap: 1rem;
   align-items: center;
 }
+
 .homepage_section_10 .author_row .left_content .author_nam p,
-.homepage_section_10 .blog_card_container .blog_card_1 .bottom_col p{
-font-size: 1rem;
+.homepage_section_10 .blog_card_container .blog_card_1 .bottom_col p {
+  font-size: 1rem;
 }
+
 .homepage_section_10 .author_row .read_post {
   width: 38%;
   align-items: center;
   justify-content: space-between;
 }
-.homepage_section_10 .author_row .read_post h5{
+
+.homepage_section_10 .author_row .read_post h5 {
   color: var(--primary_clr);
 }
-.homepage_section_10 .blog_container a > button{
-margin-inline: auto;
+
+.homepage_section_10 .blog_container a>button {
+  margin-inline: auto;
 }
-.homepage_section_10 .blog_container button{
+
+.homepage_section_10 .blog_container button {
   width: 16.25rem;
   height: 3.625rem;
   font-size: 1.25rem;
   display: block;
   align-items: center;
 }
+
 /* ------------- End Homepage sec-10   --------------------- */
 
 
@@ -1394,6 +1433,7 @@ margin-inline: auto;
 .global_price_service_card .inner_bottom_container .Middle_card_container {
   box-shadow: var(--btn_box_shadow);
 }
+
 /* -- END MIDDLE CARD CONTAINER SECTION-3 (SERVICE CARD) --*/
 /*------------ END WP MIGRATION SERVICE SECTION-3 (service card) ---------------*/
 
@@ -1402,10 +1442,12 @@ margin-inline: auto;
 .WP_Migra_Service_section_4 {
   background: var(--primary_clr);
 }
+
 .WP_Migra_Service_section_4 .global_consistent_service_container {
   padding-block: 3.94rem;
   gap: 3.69rem;
 }
+
 .WP_Migra_Service_section_4 h1,
 .WP_Migra_Service_section_4 h3,
 .WP_Migra_Service_section_4 h5,
@@ -1454,26 +1496,32 @@ margin-inline: auto;
   font-style: normal;
   font-weight: normal;
 }
+
 /* -------- END WP MIGRATION SERVICE SECTION-4 (consistent service card) ----------- */
 
 /* -------- START WP MIGRATION SERVICE SECTION-5 (global_exp_wp_tools) ----------- */
 .global_exp_wp_tools {
   background: var(--primary_background-clr);
 }
+
 .global_exp_wp_tools .global_exp_wp_tools_container {
   gap: 2.5rem;
 }
+
 .global_exp_wp_tools .global_exp_wp_tools_container h3 {
   font-size: 2.1875rem;
   text-align: center;
 }
+
 .global_exp_wp_tools .global_svg_wp_tools {
   justify-content: space-between;
   width: 100%;
 }
+
 .global_exp_wp_tools .global_svg_wp_tools img {
   width: 13%;
 }
+
 /* -------- END WP MIGRATION SERVICE SECTION-5 (global_exp_wp_tools) ----------- */
 
 
@@ -1574,6 +1622,7 @@ margin-inline: auto;
   right: 257px;
   bottom: 182px;
 }
+
 /* ------------- END CSS About_Us SECTION-1 -------------- */
 
 /* ------------- START CSS About_Us SECTION-2 -------------- */
@@ -1661,6 +1710,7 @@ margin-inline: auto;
   height: auto;
   border: 2px solid var(--primary_clr);
   position: relative;
+  overflow: auto;
 }
 
 .about_us_section_2 .define_heading .fst_heading .team_leaders {
@@ -1690,6 +1740,7 @@ margin-inline: auto;
   top: 1.5rem;
   cursor: pointer;
 }
+
 /* ------------- END CSS About_Us SECTION-2 -------------- */
 
 /* ------------- START CSS About_Us SECTION-3 -------------- */
@@ -1740,6 +1791,7 @@ margin-inline: auto;
   display: flex;
   align-items: center;
 }
+
 /* ------------- END CSS About_Us SECTION-3 -------------- */
 
 
@@ -1748,6 +1800,7 @@ margin-inline: auto;
 .woocom_mainte_service_sec_8 .global_wpslider_container {
   gap: 5rem;
 }
+
 .woocom_mainte_service_sec_8 .global_wpslider_container .main_heading {
   font-size: 3.125rem;
   font-weight: bold;
@@ -1817,6 +1870,7 @@ margin-inline: auto;
 .woocom_mainte_service_sec_8 .inner_detail_content .price_arrow svg {
   margin-right: 2.5rem;
 }
+
 /* ---------- END WooCOMMERCE Maintenance services SECTION-8-------------- */
 
 
@@ -1871,6 +1925,7 @@ margin-inline: auto;
   top: 6%;
   right: 2%;
 }
+
 /*------------------------ END REVIEWS PAGE CSS SECTION-1 --------------------------*/
 
 /*------------------------ START REVIEWS PAGE CSS SECTION-2 --------------------------*/
@@ -1904,6 +1959,7 @@ margin-inline: auto;
   bottom: 62%;
   left: 15%;
 }
+
 /*------------------------ END REVIEWS PAGE CSS SECTION-2 --------------------------*/
 
 
@@ -1974,6 +2030,7 @@ margin-inline: auto;
   justify-content: center;
   gap: 0.5rem
 }
+
 /*------------------------ END SERVICES PAGE CSS SECTION-1 --------------------------*/
 
 
@@ -1982,6 +2039,7 @@ margin-inline: auto;
   /* align-items: center; */
   gap: 6.75rem;
 }
+
 .services_cards_sec_2 .service_card_container h2 {
   font-size: 3.125rem;
   text-align: center;
@@ -2051,6 +2109,7 @@ margin-inline: auto;
   line-height: 1.11rem;
   letter-spacing: 0.03rem;
 }
+
 /*------------------------ END SERVICES PAGE CSS SECTION-2 --------------------------*/
 
 /*------------------------ START SERVICES PAGE CSS SECTION-3 --------------------------*/
@@ -2100,12 +2159,14 @@ margin-inline: auto;
 .services_cards_sec_3 .testimonial_container .lower_content span {
   color: var(--medium_light_gray_para_clr);
 }
+
 /*------------------------ END SERVICES PAGE CSS SECTION-3 --------------------------*/
 
 /*------------------------ START SERVICES PAGE CSS SECTION-4 --------------------------*/
 .services_cards_sec_4 .servic_main_container {
   gap: 4rem;
 }
+
 .services_cards_sec_4 .our_commit_servc {
   align-items: center;
   justify-content: space-between;
@@ -2131,6 +2192,7 @@ margin-inline: auto;
   color: var(--heading_black_clr);
   font-size: 1.125rem;
 }
+
 /*------------------------ END SERVICES PAGE CSS SECTION-4 --------------------------*/
 
 /*------------------------  START Services page CSS section-5 --------------------------*/
@@ -2190,6 +2252,7 @@ margin-inline: auto;
   margin-top: 1rem;
   border: 1px solid var(--primary_clr);
 }
+
 /*------------------------  END Services page CSS section-5  --------------------------*/
 
 
@@ -2222,6 +2285,7 @@ margin-inline: auto;
   color: var(--primary_background-clr);
   border: 1px solid var(--primary_background-clr);
 }
+
 /*------------------------  END contact page CSS section-1  --------------------------*/
 
 
@@ -2275,6 +2339,7 @@ margin-inline: auto;
   height: 3.625rem;
   margin-top: 1rem;
 }
+
 /*------------------------  End My Account page CSS section-1  --------------------------*/
 
 
@@ -2316,10 +2381,12 @@ margin-inline: auto;
   justify-content: center;
   gap: 0.5rem;
 }
+
 .price_pag_sec_1 .homepage_hero_sec_star_4 {
   top: 10%;
   right: 7%;
 }
+
 /*----------------------- END PRICING_PAGE  SECTION-1  ------------------*/
 
 /*----------------------- START PRICING_PAGE SECTION-2  ------------------*/
@@ -2338,6 +2405,7 @@ margin-inline: auto;
   top: 20%;
   left: 74%;
 }
+
 /*----------------------- END PRICING_PAGE SECTION-2  ------------------*/
 
 /*----------------------- START PRICING_PAGE SECTION-3  ------------------*/
@@ -2352,6 +2420,7 @@ margin-inline: auto;
   text-align: center;
   padding: 3rem 0 12rem 0;
 }
+
 .price_pag_sec_3 .inner_top_heading_content_column h4 {
   color: var(--secondary_background-clr);
 }
@@ -2382,6 +2451,7 @@ margin-inline: auto;
   top: 17%;
   left: 1%;
 }
+
 /*----------------------- END PRICING_PAGE  SECTION-3  ------------------*/
 
 /*----------------------- START PRICING_PAGE TESTIMONIAL SECTION-4  ------------------*/
@@ -2389,9 +2459,11 @@ margin-inline: auto;
   top: 76%;
   left: 58%;
 }
+
 .price_pag_sec_4 .testimonial_container .lower_content {
   padding-bottom: 5rem;
 }
+
 /*----------------------- END PRICING_PAGE TESTIMONIAL SECTION-4  ------------------*/
 
 /*----------------------- START PRICING_PAGE SECTION-5  ------------------*/
@@ -2407,37 +2479,45 @@ margin-inline: auto;
   bottom: 77%;
   left: 2%;
 }
+
 .price_pag_sec_5 .our_commit_servc .blue_str {
   right: 6%;
   bottom: 53%;
 }
+
 /*----------------------- END PRICING_PAGE SECTION-5  ------------------*/
 
 /*----------------------- START PRICING_PAGE  SECTION-6  ------------------*/
 .price_pag_sec_6 .inner_bottom_container {
   padding-top: 0;
 }
+
 /*----------------------- END PRICING_PAGE SECTION-6  ------------------*/
 
 /*----------------------- START PRICING_PAGE SECTION-7  ------------------*/
 .price_pag_sec_7 {
   background-color: var(--secondary_background-clr);
 }
+
 .price_pag_sec_7 .faq_container {
   justify-content: space-between;
   padding-block: 5rem;
 }
+
 .price_pag_sec_7 .faq_container .inner_col_1 {
   width: 30%;
   gap: 1rem;
 }
+
 .price_pag_sec_7 .inner_col_1 p {
   color: var(--medium_light_gray_para_clr);
 }
+
 .price_pag_sec_7 .faq_container .inner_col_2 {
   width: 65%;
   gap: 1rem;
 }
+
 .price_pag_sec_7 .faq_container .faq_accordions {
   background-color: var(--primary_background-clr);
   border-radius: 10px;
@@ -2446,16 +2526,19 @@ margin-inline: auto;
   align-items: center;
   justify-content: space-between;
 }
+
 .price_pag_sec_7 .faq_container .faq_accordions svg {
   margin-right: 2rem;
   cursor: pointer;
 }
+
 .price_pag_sec_7 .faq_container .inner_col_2 button {
   width: 13.25rem;
   height: 3.625rem;
   font-size: 1.25rem;
   margin-top: 1rem;
 }
+
 /*----------------------- END PRICING_PAGE SECTION-7  ------------------*/
 
 
@@ -2464,49 +2547,62 @@ margin-inline: auto;
 .wp_mainte_servi_sec_1 {
   background: none;
 }
+
 .wp_mainte_servi_sec_1 h4 {
   color: var(--primary_clr);
 }
+
 .wp_mainte_servi_sec_1 h1 {
   color: var(--heading_black_clr);
 }
+
 .wp_mainte_servi_sec_1 .inner_column_btn-container button {
   width: 13.25rem;
   height: 3.625rem;
 }
+
 .wp_mainte_servi_sec_1 .Homepage_container_1 {
   position: relative;
 }
+
 .wp_mainte_servi_sec_1 .homepage_hero_sec_star_5 {
   top: 58%;
   right: 36%;
 }
+
 .wp_mainte_servi_sec_1 .homepage_hero_sec_star_4 {
   top: -3%;
   right: -1%;
 }
+
 .wp_mainte_servi_sec_1 .homepage_hero_sec_star_3 {
   top: 96%;
   left: 3%;
 }
+
 .wp_mainte_servi_sec_1 .inner_column_img_container {
   gap: 1rem;
   align-items: center;
 }
+
 .wp_mainte_servi_sec_1 .inner_column_img_container img {
   width: 22rem;
   height: 19rem;
 }
+
 .wp_mainte_servi_sec_1 .inner_column_img_container h3 {
   text-align: center;
 }
+
 .wp_mainte_servi_sec_1 .inner_column_img_container p {
   font-size: .8rem;
   text-align: center;
 }
+
 .wp_mainte_servi_sec_1 .inner_column_img_container button {
   margin-top: 1rem;
 }
+
 /*---------------------------- END wp_maintenance_service Section-1  ---------------------------*/
 
 /*---------------------------- START wp_maintenance_service Section-2  ---------------------------*/
@@ -2514,19 +2610,23 @@ margin-inline: auto;
   gap: 5rem;
   position: relative;
 }
+
 .wp_mainte_servi_sec_2 .wp_steps_container .left_star {
   position: absolute;
   top: 8%;
   left: 17%;
 }
+
 .wp_mainte_servi_sec_2 .wp_step_heading h2 {
   text-align: center;
 }
+
 .wp_mainte_servi_sec_2 .wp_step_heading h2>span {
   background-color: var(--primary_clr);
   color: var(--primary_background-clr);
   padding-inline: 4px;
 }
+
 /*---------------------------- END wp_maintenance_service Section-2  ---------------------------*/
 
 /*-------------------------- START wp_maintenance_service Section-3 --------------------------*/
@@ -2534,33 +2634,41 @@ margin-inline: auto;
   background-color: var(--secondary_background-clr);
   padding-block: 3rem;
 }
+
 .wp_mainte_servi_sec_3 .global_exp_wp_tools_container h4,
 .wp_mainte_servi_sec_3 .global_exp_wp_tools_container h2,
 .wp_mainte_servi_sec_3 .global_exp_wp_tools_container h5 {
   text-align: center;
 }
+
 .wp_mainte_servi_sec_3 h4 {
   color: var(--yellow_clr);
 }
+
 .wp_mainte_servi_sec_3 h2 {
   color: #1E1E1E;
 }
+
 .wp_mainte_servi_sec_3 h5 {
   color: #1E1E1E;
   font-weight: normal;
 }
+
 /*-------------------------- END wp_maintenance_service Section-3 --------------------------*/
 
 /*-------------------------- START wp_maintenance_service Section-4 --------------------------*/
 .wp_mainte_servi_sec_4 {
   background: none;
 }
+
 .wp_mainte_servi_sec_4 .global_service_card_container {
   padding-block: .5rem;
 }
+
 .wp_mainte_servi_sec_4 .global_service_card_container .inner_top_heading_content_column h5 {
   color: var(--light_gray_para_clr);
 }
+
 .wp_mainte_servi_sec_4 .global_service_card_container .plan_card {
   width: 28rem;
   height: 5rem;
@@ -2572,30 +2680,38 @@ margin-inline: auto;
   color: var(--primary_clr);
   margin: auto;
 }
+
 .wp_mainte_servi_sec_4 .global_service_card_container .plan_card .monthly_plan,
 .annually_plan>span {
   font-weight: bold;
 }
+
 .wp_mainte_servi_sec_4 .bottom_card_keypoints .cross_text {
   text-decoration-line: none;
   color: var(--heading_black_clr);
   margin-left: 0;
 }
+
 .wp_mainte_servi_sec_4 .inner_bottom_container .inner_card_container p {
   color: var(--heading_black_clr);
 }
+
 .wp_mainte_servi_sec_4 .inner_bottom_container .inner_card_container h3 {
   font-size: 2.5rem;
 }
+
 .wp_mainte_servi_sec_4 .inner_bottom_container .inner_card_container h3>span {
   font-size: 1.875rem;
 }
+
 .wp_mainte_servi_sec_4 .inner_bottom_container .inner_card_container {
   gap: .5rem;
 }
+
 .wp_mainte_servi_sec_4 .inner_bottom_container .inner_heading_price_container {
   margin-block: 0.5rem;
 }
+
 /*-------------------------- END wp_maintenance_service Section-4 --------------------------*/
 
 /* --------------------- START WP Maintenance services SECTION-5-----------------------------*/
@@ -2604,6 +2720,7 @@ margin-inline: auto;
   margin-inline: auto;
   padding: 0.5rem 2rem;
 }
+
 .wp_mainte_servi_sec_5 .enterprise_card {
   background-color: var(--primary_clr);
   padding: 2.5rem 8rem;
@@ -2611,43 +2728,52 @@ margin-inline: auto;
   border: 1px solid var(--primary_background-clr);
   align-items: center;
 }
+
 .wp_mainte_servi_sec_5 .enterprise_card h3 {
   color: var(--yellow_clr);
   text-align: center;
 }
+
 .wp_mainte_servi_sec_5 .enterprise_card p {
   color: var(--primary_background-clr);
   text-align: center;
   font-weight: normal;
 }
+
 .wp_mainte_servi_sec_5 .enterprise_card .price_content {
   text-align: center;
   font-weight: bold;
 }
+
 .wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(1),
 .wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(5) {
   color: var(--primary_background-clr);
   font-size: 1.25rem;
 }
+
 .wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(2) {
   color: #c2c2c2;
   text-decoration: line-through;
   font-size: 1.25rem;
   padding-right: 0.5rem;
 }
+
 .wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(3) {
   color: var(--global_btn_clr);
   font-size: 2.188rem;
 }
+
 .wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(4) {
   color: var(--global_btn_clr);
   font-size: 1.25rem;
 }
+
 .wp_mainte_servi_sec_5 .enterprise_card button {
   background: var(--solid_white_clr);
   color: var(--primary_clr);
   border: 1px solid var(--primary_clr);
 }
+
 .wp_mainte_servi_sec_5 .enterprise_card .price_btn {
   width: 13.576rem;
   height: 3.938rem;
@@ -2656,26 +2782,31 @@ margin-inline: auto;
   line-height: 1.11rem;
   letter-spacing: 0.03rem;
 }
+
 /* ---------- END WP Maintenance services SECTION-5-------------- */
 
 /* ---------- START WP Maintenance services SECTION-6-------------- */
 .wp_mainte_servi_sec_6 .testimonial_container .lower_content {
   padding-bottom: 0;
 }
+
 /* ---------- END WP Maintenance services SECTION-6-------------- */
 
 /* ---------- START WP Maintenance services SECTION-7-------------- */
 .wp_mainte_servi_sec_7 {
   background: var(--secondary_background-clr);
 }
+
 .wp_mainte_servi_sec_7 h5 {
   color: var(--primary_clr);
 }
+
 .wp_mainte_servi_sec_7 h1,
 .wp_mainte_servi_sec_7 .column:nth-of-type(2) .icon h3,
 .wp_mainte_servi_sec_7 p {
   color: var(--heading_black_clr);
 }
+
 /* ---------- END WP Maintenance services SECTION-7-------------- */
 
 
@@ -2684,24 +2815,30 @@ margin-inline: auto;
 .speed_optimiz_sec_1 {
   padding: 4rem 0 1.5rem 0;
 }
+
 .speed_optimiz_sec_1 h4 {
   color: var(--yellow_clr);
 }
+
 .speed_optimiz_sec_1 .hero_left_inner_section {
   position: relative;
 }
+
 .speed_optimiz_sec_1 .homepage_hero_sec_star_3 {
   top: 73%;
   left: -2%;
 }
+
 .speed_optimiz_sec_1 .homepage_hero_sec_star_top {
   top: -9%;
   left: -11%;
 }
+
 .speed_optimiz_sec_1 .black_str {
   top: 8%;
   left: 69%;
 }
+
 /* ------ EMD wp_speed_optimization Sec-1 --------------------- */
 
 /* ------ START wp_speed_optimization Sec-4 --------------------- */
@@ -2710,21 +2847,25 @@ margin-inline: auto;
   margin-inline: auto;
   padding: 0 2rem;
 }
+
 .speed_optimiz_sec_4 .speed_optimiz_servi_container {
   gap: 5rem;
 }
+
 .speed_optimiz_sec_4 .inner_speed_optimiz_heading {
   gap: 3.5rem;
   padding-block: .5rem;
   align-items: center;
   text-align: center;
 }
+
 .speed_optimiz_sec_4 .inner_speed_optimiz_heading h2>span {
   background-color: var(--primary_clr);
   color: var(--primary_background-clr);
   padding-inline: 4px;
   transform: rotate(-0.45deg);
 }
+
 .speed_optimiz_sec_4 .inner_speed_optimiz_heading button,
 .speed_optimiz_sec_4 .left_col_content button {
   width: 27rem;
@@ -2734,34 +2875,42 @@ margin-inline: auto;
   border: 3px solid;
   border-radius: 0.625rem;
 }
+
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz {
   padding-block: .5rem;
   justify-content: space-between;
 }
+
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content {
   gap: 1.5rem;
   width: 55%;
 }
+
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content p {
   font-size: 1.125rem;
   color: var(--heading_black_clr);
   font-weight: bold;
 }
+
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content span {
   font-size: 1.25rem;
   font-weight: bold;
 }
+
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content .your_orders {
   gap: 1rem;
 }
+
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content .your_orders>.upgrade_order {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
+
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content input[type="checkbox"] {
   appearance: none;
 }
+
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content input[type="checkbox"]::before {
   content: '';
   display: inline-block;
@@ -2771,6 +2920,7 @@ margin-inline: auto;
   border: 0;
   border-radius: 4px;
 }
+
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content input[type="checkbox"]:checked::before {
   content: '✔';
   color: blue;
@@ -2778,14 +2928,17 @@ margin-inline: auto;
   line-height: 22px;
   text-align: center;
 }
+
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content .website_price {
   color: var(--primary_clr);
   font-size: 2.5rem;
   margin-block: 1.5rem;
 }
+
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content .website_price span {
   font-size: 1.5rem;
 }
+
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content .pay_btn {
   font-size: 1rem;
   color: var(--primary_clr);
@@ -2794,14 +2947,17 @@ margin-inline: auto;
   justify-content: center;
   gap: 0.5rem;
 }
+
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .right_col_content {
   gap: 1.2rem;
   width: 32%;
 }
+
 .speed_optimiz_sec_4 .bottom_content_spd_optimiz .right_col_content .check_point_text {
   gap: 1rem;
   align-items: center;
 }
+
 /* ------ END wp_speed_optimization Sec-4 --------------------- */
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Another Page CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -2809,10 +2965,12 @@ margin-inline: auto;
 .emergency_servi_sec_1 .hero_left_inner_section {
   position: relative;
 }
+
 .emergency_servi_sec_1 .black_str {
   top: 6%;
   left: 45%;
 }
+
 /* ------ END wp_emergency_service sec-1  --------------------- */
 
 /* ------ START wp_emergency_service sec-3  --------------------- */
@@ -2822,6 +2980,7 @@ margin-inline: auto;
   border: 3px solid var(--primary_background-clr);
   border-radius: 10px;
 }
+
 /* ------ END wp_emergency_service sec-3  --------------------- */
 
 
@@ -2857,6 +3016,7 @@ margin-inline: auto;
   border: 3px solid var(--primary_background-clr);
   border-radius: 0.625rem;
 }
+
 /* ------ Start wp_on_demand_support sec-3  --------------------- */
 
 
@@ -2866,6 +3026,7 @@ margin-inline: auto;
   top: 0%;
   left: 57%;
 }
+
 /* ------ END wc_maintenance_service sec-1  --------------------- */
 
 /* ------ Start wc_maintenance_service sec-4  --------------------- */
@@ -2880,6 +3041,7 @@ margin-inline: auto;
 .wc_maint_serv_sec_4 .inner_bottom_container .inner_heading_container>p:nth-of-type(1) {
   font-weight: bold;
 }
+
 /* ------ End wc_maintenance_service sec-4  --------------------- */
 
 
@@ -2887,10 +3049,12 @@ margin-inline: auto;
 .wc_maint_serv_sec_5 .enterprise_card h3 {
   color: var(--primary_background-clr);
 }
+
 .wc_maint_serv_sec_5 .enterprise_card .price_content span:nth-of-type(3),
 .wp_mainte_servi_sec_5 .enterprise_card .price_content span:nth-of-type(4) {
   color: var(--primary_background-clr);
 }
+
 /* ------ End wc_maintenance_service sec-5 --------------------- */
 
 
@@ -2912,12 +3076,14 @@ margin-inline: auto;
 .wp_retainer_sec_1 .text_container :nth-child(1) {
   color: var(--yellow_clr);
 }
+
 /* -------------End wp_retainer sec-1  --------------------- */
 
 /* -------------Start wp_retainer sec-4  --------------------- */
 .wp_retainer_sec_4 .bottom_content_spd_optimiz .left_col_content .your_orders {
   grid-template-columns: repeat(2, 1fr);
 }
+
 /* -------------End wp_retainer sec-4  --------------------- */
 
 
@@ -2927,6 +3093,7 @@ margin-inline: auto;
   top: 73%;
   left: -2%;
 }
+
 /* -------------End  wp_security_service sec-1  --------------------- */
 
 /* -------------Start wp_security_service sec-3  --------------------- */
@@ -2973,6 +3140,7 @@ margin-inline: auto;
 .wp_security_sec_3 .gap_keypoint {
   gap: 1.4rem;
 }
+
 /* -------------End wp_security_service sec-3  --------------------- */
 
 
@@ -2992,6 +3160,7 @@ margin-inline: auto;
   box-shadow: none;
   border-radius: 0;
 }
+
 /* -------------Start  custom_wp_development sec-5  --------------------- */
 
 
@@ -3014,6 +3183,7 @@ margin-inline: auto;
 .wp_seo_sec_4 .inner_bottom_container .inner_heading_price_container>span:nth-of-type(2) {
   font-size: 1.25rem;
 }
+
 /* -------------End wp_seo_service sec-4  --------------------- */
 
 
@@ -3106,7 +3276,7 @@ footer>.column:nth-of-type(2) {
 
 footer>.column:nth-of-type(2) li {
   list-style: none;
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 footer>.column:nth-of-type(2) a {
@@ -3196,6 +3366,7 @@ footer>.column:nth-of-type(2) .social_icons.container a:hover svg path {
 footer .divider {
   width: 100%;
 }
+
 footer .divider hr {
   background-color: #FFFFFF4D;
   display: block;
@@ -3203,5 +3374,546 @@ footer .divider hr {
   width: 100%;
   border: none;
 }
+
 /*-------------------------------------END FOOTER CSS -----------------------------------*/
 
+
+/*<<<<<<<<<<<<<<<<<<<<<< Media Query Small Screen Laptop >>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*---------------------- Start Homepage ------------------*/
+@media screen and (min-width:1225px) and (max-width:1610px) {
+  .Homepage_section_1 .text_container :nth-child(3) {
+    font-size: 1rem;
+  }
+
+  .Homepage_section_1 .inner_column_btn-container .btn_yellow {
+    width: 15rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width:1025px) and (max-width:1225px) {
+  .Homepage_section_1 h1 {
+    font-size: 2rem;
+  }
+
+  .Homepage_section_1 p {
+    font-size: 1rem;
+  }
+
+  .Homepage_section_1 .inner_column_btn-container .btn_yellow {
+    width: 12.5rem;
+    font-size: 1rem;
+  }
+
+  .Homepage_section_1 .inner_column_btn-container svg {
+    width: 14rem;
+  }
+
+  .Homepage_section_1 .text_container :nth-child(3) {
+    font-size: 1rem;
+  }
+
+  .Homepage_section_1 .text_container strong {
+    font-size: 1.5rem;
+  }
+
+  .homepage_section_2 .inner_col_top .inner_container h3 {
+    font-size: 1.5rem;
+  }
+
+  .homepage_section_2 .inner_container p {
+    font-size: 1.125rem;
+  }
+}
+
+
+@media screen and (min-width:1280px) and (max-width:1540px) {
+  .Homepage_section_1 h1 {
+    font-size: 3rem;
+    line-height: 1em;
+  }
+  .header .l_container {
+    width: 60%;
+  }
+  .Homepage_section_1 .inner_image_section{
+    width: 65%;
+  }
+  .Homepage_section_1 .text_container strong {
+    font-size: 1.5rem;
+}
+  .header .container .r_container button{
+    width: 12rem;
+  }
+  .homepage_section_2 .inner_col_bottom h2 {
+    font-size: 2.188rem;
+  }
+  .homepage_section_2 .inner_col_top{
+    margin-bottom: 6rem;
+  }
+  .Homepage_section_3 .inner_top_heading_content_column h1 {
+    font-size: 3.65rem;
+  }
+
+  .Homepage_section_3 .inner_top_heading_content_column p,
+  .Homepage_section_3 .inner_middle_planning_content p {
+    font-size: 1rem;
+  }
+
+  .Homepage_section_3 .inner_middle_planning_content h3 {
+    font-size: 1.60rem;
+  }
+
+  .Homepage_section_3 .inner_middle_planning_content img {
+    height: 130px;
+    width: 130px;
+  }
+
+  .Homepage_section_3 .Homepage_container_3 {
+    gap: 5.25rem;
+  }
+
+  .Homepage_section_3 {
+    padding: 2rem 0;
+  }
+
+  .homepage_section_5 .testimonial_heading {
+    font-size: 2.188rem;
+  }
+
+  .homepage_section_6 {
+    padding-block: 2rem;
+  }
+
+  .homepage_section_6 .inner_top_heading_content_column h1 {
+    font-size: 3.75rem;
+  }
+
+  .homepage_section_6 .inner_card_top_content h3 {
+    font-size: 1.5rem;
+  }
+
+  .homepage_section_6 .homepage_6_card p {
+    font-size: 0.875rem;
+  }
+
+  .inner_card_middle_content h5 {
+    font-size: 1rem;
+  }
+
+  .homepage_section_5 .testimonial_container .testimonial {
+    gap: 5.27rem;
+  }
+
+  .homepage_section_5 .upper-content h3 {
+    font-size: 1.75rem;
+  }
+
+  .homepage_section_5 .upper-content p,
+  .homepage_section_5 .lower_content p {
+    font-size: 1rem;
+  }
+  .homepage_section_5 .lower_content .r-content-sun {
+  width: 7rem;
+  }
+  .homepage_section_6 .price_content_container>span:nth-child(1) {
+    font-size: 1.5rem;
+  }
+
+  .homepage_section_6 .price_btn_content {
+    width: 85%;
+    font-size: 0.75rem;
+  }
+
+  .homepage_section_6 .homepage_6_card .inner_card {
+    padding: 3rem 1.5rem;
+  }
+
+  .homepage_section_6 .homepage_6_card .inner_card {
+    gap: 1rem;
+  }
+
+  .homepage_section_7 .homepage_container_7 h1 {
+    font-size: 3.75rem;
+  }
+
+  .homepage_section_7 .homepage_container_7 p {
+    font-size: 1rem;
+  }
+
+  .homepage_section_7 .homepage_container_7 h2 {
+    font-size: 2.375rem;
+    line-height: 1.4em;
+  }
+
+  .homepage_section_7 .inner_left_container {
+    gap: 2.12rem;
+  }
+
+  .homepage_section_7 .inner_right_container {
+    gap: 2.12rem;
+    padding: 4.15rem 2.15rem;
+  }
+
+  .homepage_section_7 .inner_chat_btn {
+    font-size: 1rem;
+  }
+
+  /* global reuse component */
+  .woocom_mainte_service_sec_8 .our_commit_servc h1 {
+    font-size: 3.75rem;
+  }
+
+  .woocom_mainte_service_sec_8 .servic_main_container .our_commit_servc p {
+    font-size: 0.875rem;
+  }
+
+  .woocom_mainte_service_sec_8 .inner_detail_content h4 {
+    font-size: 1.5rem;
+  }
+
+  .woocom_mainte_service_sec_8 .inner_detail_content p {
+    font-size: 0.875rem;
+  }
+
+  .woocom_mainte_service_sec_8 .inner_detail_content .price_arrow h3 {
+    font-size: 1.875rem;
+  }
+
+  .woocom_mainte_service_sec_8 .inner_detail_content .price_arrow svg {
+    margin-right: 0;
+    width: 3.5rem;
+  }
+
+  .woocom_mainte_service_sec_8 .our_commit_servc .l_star {
+    width: 5rem;
+  }
+
+  .woocom_mainte_service_sec_8 .our_commit_servc .r_star {
+    width: 4rem;
+  }
+  .woocom_mainte_service_sec_8 .wpslider_cards .slider_card_content{
+    width: 26%;
+  }
+  .woocom_mainte_service_sec_8 .wpslider_cards{
+    gap: .5rem;
+  }
+
+  .price_pag_sec_7 .faq_container {
+    padding-block: 4rem;
+  }
+
+  .price_pag_sec_7 .faq_container h1 {
+    font-size: 60px;
+  }
+
+  .price_pag_sec_7 .inner_col_1 p {
+    font-size: 1rem;
+  }
+
+  .price_pag_sec_7 .faq_container .inner_col_1 .sun_svg {
+    width: 6rem;
+  }
+
+  .price_pag_sec_7 .faq_container h4 {
+    font-size: 1rem;
+  }
+
+  .price_pag_sec_7 .faq_container .faq_accordions {
+    padding: 1rem;
+  }
+
+  .price_pag_sec_7 .faq_container .inner_col_2 button {
+    font-size: 1.125rem;
+  }
+
+  .price_pag_sec_7 .faq_container .faq_accordions svg {
+    width: 1rem;
+  }
+
+  /* global reuse component end*/
+  .homepage_section_10 .blog_container h1 {
+    font-size: 3.75rem;
+  }
+
+  .homepage_section_10 .blog_container {
+    gap: 3.5rem;
+  }
+
+  .homepage_section_10 .blog_card_container .blog_card_1 {
+    gap: 1.5rem;
+  }
+
+  .homepage_section_10 .blog_card_container .blog_card_1>img {
+    height: 100%;
+    max-height: 9.313rem;
+  }
+  .homepage_section_10 .blog_card_container{
+    gap: .5rem;
+  }
+  .homepage_section_10 .blog_card_container h4 {
+    font-size: 1.3rem;
+    line-height: 1.2em;
+  }
+
+  .homepage_section_10 .author_row .left_content {
+    gap: .5rem;
+  }
+
+  .homepage_section_10 .blog_card_container h5 {
+    font-size: .875rem;
+  }
+
+  .homepage_section_10 .blog_card_container .blog_card_1 .bottom_col p {
+    font-size: .75rem;
+  }
+
+  .homepage_section_10 .author_row {
+    margin-block: .5rem;
+  }
+
+  .homepage_section_10 .author_row .left_content {
+    display: block;
+  }
+
+  .homepage_section_10 .blog_container button {
+    font-size: 1.125rem;
+  }
+  footer  .inner_col h2{
+    font-size: 2.375rem;
+  }
+  footer>.column:nth-of-type(1) p{
+    font-size: 1rem;
+  }
+  footer>.column:nth-of-type(1) .footer_star1 {
+    width: 5rem;
+}
+footer>.column:nth-of-type(1) .footer_star2 {
+  width: 4rem;
+}
+footer  .inner_col_1 h3{
+  font-size: 1.5rem;
+}
+footer>.column:nth-of-type(2) .inner_col .inner_col_1 label{
+  font-size: 1.5rem;
+}
+footer>.column:nth-of-type(2) a{  
+  font-size: 1.125rem;
+}
+footer>.column:nth-of-type(2) .copyright_sec .column:nth-of-type(1) p{
+  font-size: .8rem;
+}
+footer>.column:nth-of-type(2) .copyright_sec ul li a{
+  font-size: .8rem;
+}
+/* pricing page Responsive start */
+.price_pag_sec_2 .inner_middle_planning_content .hr_line {
+  left: 80%;
+  width: 11rem;
+}
+/* Review page responsive start */
+.review_hero_section_1 .review_hero_container h1 {
+font-size: 3.75rem;
+}
+.review_hero_section_1 .review_hero_container .right_top_str {
+  width: 6rem;
+}
+.review_hero_section_1 .review_hero_container .left_top_str{
+width: 5rem;
+}
+.review_hero_section_1 .review_hero_container .sun_str{
+  width: 7rem;
+}
+.review_hero_section_1 .review_hero_container .left_bottom_str {
+width: 5rem;
+}
+/* Review page responsive End */
+
+/* Service Page Responsive Start */
+.provid_solu_tech_sec_1 h1{
+  font-size: 3.275rem;
+  line-height: 1.1em;
+}
+.provid_solu_tech_sec_1 .inner_column_image_container {
+width: 55%;
+}
+.services_cards_sec_1 p{
+  font-size: 1rem;
+}
+.services_cards_sec_1 .servi_sec_1_btn .l_btn{
+  width: 22rem;
+}
+.services_cards_sec_1 .servi_sec_1_btn .r_btn{
+  width: 12rem;
+}
+.services_cards_sec_1 .provid_solu_tech_container .sun_star {
+width: 7rem;
+}
+.provid_solu_tech_sec_1 .provid_solu_tech_container .right_top_star{
+  width: 6rem;
+}
+.services_cards_sec_1 .provid_solu_tech_container .left_botm_star{
+  width: 5rem;
+  left: 1%;
+}
+.services_cards_sec_2 .service_card_container h2 {
+  font-size: 2.5rem;
+}
+.services_cards_sec_2 .services_cards .servc_card h3{
+  font-size: 2rem;
+}
+.services_cards_sec_2 .services_cards .servc_card p{
+  font-size: 1rem;
+}
+.services_cards_sec_2 .services_cards .servc_card svg {
+  height: 70px;
+  width: 70px;
+}
+.services_cards_sec_2 .services_cards .servc_card .servc_card_btn{
+  width: 12rem;
+}
+.homepage_section_7 .inner_bottom_container h1{
+  font-size: 3rem;
+}
+.services_contactus_sec_5 .inner_bottom_container .inner_left_container p{
+  font-size: 1rem;
+}
+/* Service Page Responsive End */
+
+/* About us page Responsive start */
+.provid_solu_tech_sec_1 p{
+  font-size: 1rem;
+}
+.provid_solu_tech_sec_1 .text_container :nth-child(2){
+  font-size: 1.5rem;
+}
+.provid_solu_tech_sec_1 .provid_solu_tech_container .sun_star {
+  right: 240px;
+  bottom: 92px;
+  width: 7rem;
+}
+.provid_solu_tech_sec_1 .provid_solu_tech_container .left_botm_star {
+width: 5rem;
+}
+.about_us_section_2 .define_heading{
+  gap: 7rem;
+}
+.about_us_section_2 .define_heading .inner_row h2{
+  font-size: 3rem;
+}
+.about_us_section_2 .define_heading .fst_heading p{
+  font-size: 1.125rem;
+}
+.maintenance_section_3 .maintenance_container h2{
+  font-size: 3rem;
+}
+.about_us_section_2 .heading_column .purple_star{
+  width: 3rem;
+}
+
+/* wp_Development page Responsive start */
+.price_pag_sec_1 p{
+  font-size: 1rem;
+}
+.wp_security_sec_1 .homepage_hero_sec_star_3,
+.speed_optimiz_sec_1 .homepage_hero_sec_star_3 {
+top: 70%;
+}
+.wp_mainte_servi_sec_1 .inner_column_img_container h3{
+  font-size: 1.6rem;
+}
+.Homepage_section_1 .inner_column_btn-container svg{
+  width: 12rem;
+}
+.wp_mainte_servi_sec_1 .homepage_hero_sec_star_5 {
+  right: 37%;
+  width: 6rem;
+}
+.WP_Migra_Service_section_4 .column:nth-of-type(1) h1{
+  font-size: 3rem;
+  line-height: 1.2em;
+}
+.WP_Migra_Service_section_4 .column:nth-of-type(1) h5{
+  font-size: 0.875rem;
+}
+.WP_Migra_Service_section_4 .column:nth-of-type(2) .icon h3{
+  font-size: 2rem;
+}
+.WP_Migra_Service_section_4 p{
+  font-size: 1rem;
+}
+.speed_optimiz_sec_4 .inner_speed_optimiz_heading button, .speed_optimiz_sec_4 .left_col_content button{
+  width: 23rem;
+}
+.speed_optimiz_sec_4 .bottom_content_spd_optimiz .left_col_content .website_price{
+  font-size: 2rem
+}
+/* wp_Development page Responsive end */
+
+/* wc_maintenance page Responsive start */
+.wp_mainte_servi_sec_3 .global_exp_wp_tools_container  h2,
+.wc_maint_serv_sec_4 .global_service_card_container .inner_top_heading_content_column h2{
+  font-size: 2.375rem;
+}
+.global_exp_wp_tools .global_exp_wp_tools_container{
+  gap: 1.5rem;
+}
+.wc_maint_serv_sec_4 .global_service_card_container .inner_top_heading_content_column h5{
+  font-size: 1rem;
+}
+.global_price_service_card .global_service_card_container{
+  gap: 4rem;
+}
+.wp_mainte_servi_sec_4 .inner_bottom_container .inner_card_container p{
+  font-size: 0.875rem;
+}
+.global_price_service_card .inner_bottom_container .inner_heading_price_container>span:nth-child(1){
+  font-size: 2rem;
+}
+.global_price_service_card .inner_bottom_container .inner_card_container{
+  width: 31%;
+}
+/* wc_maintenance page Responsive end */
+
+/* wp_emergency page Responsive start */
+.global_price_service_card .global_service_card_container .inner_top_heading_content_column h2{
+  font-size: 2.375rem;
+}
+.global_price_service_card .global_service_card_container .inner_top_heading_content_column h5{
+font-size: 1rem;
+}
+.emergency_servi_sec_3 .inner_top_heading_content_column button {
+width: 23rem;
+}
+/* wp_emergency page Responsive end */
+
+/* wp_maintenance page Responsive start */
+.wp_mainte_servi_sec_4 .inner_bottom_container .inner_card_container h3{
+  font-size: 2rem;
+}
+.wp_mainte_servi_sec_4 .inner_bottom_container .inner_card_container h3>span{
+  font-size: 1.5rem;
+}
+/* wp_maintenance page Responsive end */
+
+/* wp_migration page Responsive start */
+.global_price_service_card .inner_bottom_container .inner_card_container h3{
+  font-size: 1.5rem;
+}
+.global_price_service_card .global_service_card_container{
+  padding-block: 4.15rem;
+}
+/* wp_migration page Responsive end */
+
+/* wp_retainer page Responsive start */
+.wp_retainer_sec_1  .homepage_hero_sec_star_3, .speed_optimiz_sec_1 .homepage_hero_sec_star_3 {
+top: 77%;
+}
+/* wp_retainer page Responsive end */
+
+/* wp_speed optimization page Responsive start */
+.speed_optimiz_sec_4 .inner_speed_optimiz_heading h2{
+  font-size: 2.375rem;
+}
+/* wp_speed optimization page Responsive start */
+
+}
